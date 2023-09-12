@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .branding-background{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../../components/branding/Brand-Img/elona\ sationaries\ brand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative;
+    color: #f0f0f0;
+  }
+
+  .branding-text-container{
+    padding: 10rem;
+  }
+  
+  .branding-text{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700 ;
+  }
+
+  .text-container1{
+    display: flex;
+    margin: 4rem 8rem;
+
+  }
+  span{
+    color: red;
+  }
+
+  @media(max-width:768px) {
+    .branding-text{
+      
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700 ;
+      }
+
+      .branding-text-container{
+        padding: 1rem;
+        padding-top: 8rem;
+      }
+
+      .branding-background{
+        min-height: 50vh;
+      }
+      
+  }
+
+  /* .text-2{
+    font-size: large;
+  }
+
+  .text-margin{
+    margin-top: 5rem;
+  } */
+
+  .cup-img{
+    width: 400px;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+  }
+
+  @media(max-width:768px) {
+    .cup-img{
+        width: 300px;
+        margin-left:0;
+        margin-bottom:0;
+      }
+  }
