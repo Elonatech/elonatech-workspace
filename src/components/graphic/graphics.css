@@ -7,7 +7,7 @@ body {
   }
   
   .background{
-    background-image: url('../../components/img/footerBg.png');
+    background-image: url('../../components/img/ui-ux-index-page-1_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
@@ -55,7 +55,7 @@ body {
   
   .services__item__icon{
     border: 5px solid #2b5592;
-    width: 100px;
+    width: 150px;
     padding: 14px;
     margin: 1rem 0 ;
   }

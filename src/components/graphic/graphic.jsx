@@ -1,8 +1,8 @@
 import React from 'react';
-import ICON1 from '../img/ci-1.png';
-import ICON2 from '../img/ci-2.png';
-import ICON3 from '../img/ci-3.png';
-import ICON4 from '../img/ci-4.png';
+import ICON1 from '../img/logo.png.png';
+import ICON2 from '../img/Brand.png (2).png';
+import ICON3 from '../img/brand-2.png';
+import ICON4 from '../img/video.png';
 import IMAGE1 from '../img/image.jpg.jpg';
 import IMAGE2 from '../img/project-14-850x540-(1).jpg';
 import IMAGE3 from '../img/project-14-850x540-(3.jpg';
@@ -42,28 +42,28 @@ const Graphic = () => {
              <div className="row">
               <div className="col-md-6 mt-4"><div >
                <div class="services__item__icon">
-                 <img src={ICON1} alt="" className='icon'/>
+                 <img src={ICON1} style={{width:"100px"}} alt="" className='icon'/>
                 </div>
                 <h3>Logo Variations</h3>
                 <p>A primary logo, which is identifying mark of your brand, and another logo variation that can be used as a substitute.</p>
                 </div></div>
               <div className="col-md-6 mt-4"><div >
               <div class="services__item__icon">
-                 <img src={ICON2} alt=""/>
+                 <img src={ICON2} style={{width:"100px"}} alt=""/>
                 </div>
                 <h3>Brand Manual</h3>
                 <p>A detailed pdf material containing information about the new brand identity development, usage guidelines, and reasons behind everything.</p>
                 </div></div>
               <div className="col-md-6 mt-4"><div >
               <div class="services__item__icon">
-                 <img src={ICON3} alt=""/>
+                 <img src={ICON3} style={{width:"100px"}} alt=""/>
                 </div>
                 <h3>Brand collaterals</h3>
                 <p>All the collection of brand material needed for your brand promotion as well as sales & marketing support materials.</p>
                 </div></div>
               <div className="col-md-6 mt-4"><div >
               <div class="services__item__icon">
-                 <img src={ICON4} alt="" className='icon'/>
+                 <img src={ICON4}  style={{width:"80px"}} alt="" className='icon'/>
                 </div>
               <h3>Video hosting</h3>
                 <p>Whether you’re halfway through the editing process, or you haven’t even started, our post production services can put the finishing touches.</p>
