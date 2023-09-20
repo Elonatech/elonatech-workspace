@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundImage from './img/5048207.jpg';
+import BackgroundImage from './img/5048200.png';
 import Photo from './img/pexels-ron-lach-8102677.jpg';
 
 const Video = () => {
