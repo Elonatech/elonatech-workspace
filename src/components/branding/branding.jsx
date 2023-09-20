@@ -3,6 +3,12 @@ import './branding.css';
 import ELONA from './Brand-Img/elona jersey.jpg';
 import CUP from './Brand-Img/cup.png';
 import { Accordion } from 'react-bootstrap';
+import BACKGROUND from './Brand-Img/image_720.png';
+import IMAGE1 from '../img/project-14-850x540-(1).jpg';
+import IMAGE2 from '../img/project-14-850x540-(3.jpg';
+import IMAGE3 from '../img/project-14-850x540-4.jpg';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const branding = () => {
   return (
@@ -14,7 +20,7 @@ const branding = () => {
         </div>
 
       
-        <div class="container overflow-hidden">
+        {/* <div class="container overflow-hidden">
             <div class="row gy-5 mt-5">
                 <div class="col-md-6">
                     <div class=" pl-6">
@@ -45,13 +51,109 @@ const branding = () => {
                  </div>
                 </div>
             </div>
+        </div> */}
+
+
+        {/* BRAND IDENTITY */}
+        <div className="container ">
+          <div className="" style={{margin:"2rem 0"}}>
+            <h1 class="d-flex justify-content-center" style={{fontWeight:"bolder", color:"red"}}>BRAND IDENTITY</h1>
+            <p> Brand identity is not limited to a specific mark or name. Branding can  incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services. Any means by which the general public comes into contact with a specific brand  constitutes a touch point that can affect perceptions of the corporate brand.
+            Elonatech Nigeria Limited, in a bid to serve you better, has included  Corporate branding in their services; Which includes: logo design, complimentary card, and ID card design, E-invoice & letterhead design, uniform social media handles, web design and development, unique domain  names and hosting, and a wide array of services to keep you ahead of the  competition. 
+
+            It’s much more than a logo, Elonatech brand identity development service is  actually at the intersection of strategy and design. Our development process includes defining your business goals and objectives, conducting and analyzing primary research, and launching a full visual exploration of how  you see yourselves and your place in the market. 
+
+            Elonatech brand professionals can manage the end-to-end process from  corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.
+            </p>
+          </div>
         </div>
 
-          <div className="container-fluid d-flex  align-items-center justify-content-center mb-4 mt-4 discuss" style={{padding:"50px", backgroundColor:"#2b5592"}}>
-              <h4 style={{color:"white",fontWeight:"700"}} className='pr-4'>Ready to discuss your project ?</h4>
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-danger" style={{fontWeight:"700"}}>Inbox Us</button>
-               </div>
+
+          {/* SLIDER */}
+        {/* <div id="carouselExampleDark" class="carousel container d-flex align-item-center carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+           <img src={IMAGE1} class="d-block" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+          <img src={IMAGE2} class="d-block" alt=""  style={{width:"50rem", height:"50vh"}}/>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img src={IMAGE3} class="d-block" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> */}
+
+      <Carousel className='container align-item-center'>
+            <Carousel.Item className='slider'>
+             <img 
+             className='d-block w-100 slider' 
+             src={IMAGE1}
+            
+             alt=""  
+             />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className='slider'>
+            <img 
+             className='d-block w-100 slider' 
+             src={IMAGE2}
+             
+             alt=""  
+             />
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className='slider'>
+            <img 
+             className='d-block w-100 slider' 
+             src={IMAGE3}
+          
+             alt=""  
+             />
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+
+
+
+          <div className="container " style={{ margin:"2rem"}}>
+              <img  src={BACKGROUND} className='img-bg' alt="" srcset="" style={{border:"2px solid blue"}}/>
           </div>
 
           {/* FREQUENTLY ASKED QUESTION */}  
