@@ -12,8 +12,8 @@ function App() {
   {/* <Graphic /> */}
     {/* <Branding/> */}
     {/* <Animation/> */}
-    <Video/>
-    {/* <Motion/> */}
+    {/* <Video/> */}
+    <Motion/>
     </div>
   );
 }

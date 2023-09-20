@@ -1,5 +1,5 @@
 import React from 'react'
-import Motion from './img/7953423.jpg'
+import Motion from './img/5179988.png'
 
 const motion = () => {
   return (
