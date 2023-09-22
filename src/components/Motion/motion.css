@@ -4,12 +4,23 @@
     
   }
 
+  .motion-img{
+    width: 550px;
+    height: 45vh;
+  }
+
 /* class="col-md-6 float-md-end mb-3 ms-md-3" */
 
 @media(max-width:768px){
     .motion-video{
-      width: 320px;
-      height: 25vh;
-      margin-left: 35px;
+      width: 380px;
+      height: 35vh;
+      margin-left: 40px;
+    }
+
+    .motion-img{
+      width: 390px;
+      height: 30vh;
+      margin-left: 38px;
     }
   }

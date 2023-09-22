@@ -160,10 +160,10 @@ const Video = () => {
          </div>
          </div> */}
          <div className=""  style={{ backgroundImage: `url(${BackgroundImage2})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'300px', color:'white'}}>
-        <div className="text-start pl-4">
-        <p class=" fw-bolder fs-2 pl-4 pt-5" style={{color:"black"}}>Engage in a conversation with a specialist <br /> regarding your upcoming video <br /> editing endeavor..</p>
-         <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
-        </div>
+            <div className="text-start pl-4">
+            <p class=" fw-bolder fs-2 pl-4 pt-5" style={{color:"black"}}>Engage in a conversation with a specialist <br /> regarding your upcoming video <br /> editing endeavor..</p>
+            <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
+            </div>
          </div>
     
     </>
