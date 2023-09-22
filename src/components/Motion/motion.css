@@ -5,8 +5,13 @@
   }
 
   .motion-img{
-    width: 500px;
+    width: 450px;
     height: 35vh;
+   
+  }
+
+  .sample-img{
+    margin-left: 50px;
   }
 
 /* class="col-md-6 float-md-end mb-3 ms-md-3" */
@@ -17,6 +22,11 @@
       height: 35vh;
       margin-left: 40px;
     }
+
+    
+  .sample-img{
+    margin-left: 60px;
+  }
 
     .motion-img{
       width: 350px;

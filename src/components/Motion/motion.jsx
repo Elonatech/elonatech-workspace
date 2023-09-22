@@ -1,8 +1,8 @@
 import React from 'react'
 import Motion from './img/7953428.jpg'
 import IMAGE from "./img/my_motion-removebg-preview (1).png";
-import IMAGE2 from "./img/john_sample-removebg-preview.png";
-import IMAGE3 from "./img/john_sample4-removebg-preview.png";
+import IMAGE2 from "./img/john_sample_720.jpg";
+import IMAGE3 from "./img/motion-1.jpg";
 import './motion.css';
 
 const motion = () => {
@@ -22,7 +22,7 @@ const motion = () => {
 
         <div class="row justify-content-around mt-5 align-items-center">
           <div class="col-md-6">
-          <img src={IMAGE2} alt="" className='motion-img' />
+          <img src={IMAGE2} alt="" className='motion-img sample-img' />
         
           </div>
           <div class="col-md-6 pt-4">
@@ -52,7 +52,7 @@ const motion = () => {
           </ul>
           </div>
           <div class="col-md-6">
-          <img src={IMAGE3} alt="" className='motion-img' />
+          <img src={IMAGE3} alt="" className='motion-img sample-img' />
           </div>
         </div>
 
