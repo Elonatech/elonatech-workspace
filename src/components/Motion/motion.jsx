@@ -18,7 +18,10 @@ const motion = () => {
 
       <div className="container">
    
-      <div class="clearfix mt-5">
+      {/* <div class="clearfix mt-5">
+      
+      <iframe class="col-md-4 float-md-end mb-3 ms-md-3" src="https://www.youtube.com/embed/7p6FQeZEPNQ" title="Computer repairs   Elonatech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             
            <img src={MOTION1} alt="" class="col-md-6 float-md-end mb-3 ms-md-3" />
 
            <h3 className='fw-bold'>Our Motion Graphics Services</h3>
@@ -30,14 +33,30 @@ const motion = () => {
             <li className='fs-5'> <b>Data Visualization: </b>  Make data more accessible and compelling.</li>
             <li className='fs-5'> <b>Interactive Experiences: </b>  Engage your audience with interactive motion graphics.</li>
           </ul>
+        </div> */}
+
+        <div class="row justify-content-around mt-5 align-items-center">
+          <div class="col-md-6">
+          <iframe className='motion-video' src="https://www.youtube.com/embed/7p6FQeZEPNQ" title="Computer repairs   Elonatech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+          </div>
+          <div class="col-md-6 pt-4">
+          <h3 className='fw-bold'>Our Motion Graphics Services</h3>
+          <p className='fs-5'>At Elonatech, we specialize in creating stunning motion graphics tailored to your unique needs. Our team of skilled artists and animators collaborates closely with you to bring your vision to life. Our services include:</p>
+          <ul>
+            <li className='fs-5'> <b>Explainer Videos: </b>  Simplify complex ideas and engage your audience.</li>
+            <li className='fs-5'> <b>Brand Promotion: </b>  Elevate your brand with visually appealing content.</li>
+            <li className='fs-5'> <b>Product Showcase: </b>  Highlight your products with dynamic animations.</li>
+            <li className='fs-5'> <b>Data Visualization: </b>  Make data more accessible and compelling.</li>
+            <li className='fs-5'> <b>Interactive Experiences: </b>  Engage your audience with interactive motion graphics.</li>
+          </ul>
+          </div>
         </div>
 
 
-        <div class="clearfix mt-5">
-
-        <img src={MOTION2} alt=""  class="col-md-6 float-md-start mb-3 ms-md-3 mr-4"/>
-
-        <h3 className='fw-bold'>Why Choose Us</h3>
+        <div class="row justify-content-around mt-5 align-items-center mb-5">
+          <div class="col-md-6">
+          <h3 className='fw-bold'>Why Choose Us</h3>
           <p className='fs-5 b-4'>Choosing the right partner for your motion graphics project is crucial. At Elonatech, we offer:</p>
           <ul>
             <li className='fs-5'> <b>Creative Excellence: </b> Our team of talented artists and animators ensures your content is visually stunning and impactful.</li>
@@ -46,13 +65,27 @@ const motion = () => {
             <li className='fs-5'> <b>Collaborative Approach: </b>   We work closely with you throughout the process to ensure your vision is realized.</li>
             <li className='fs-5'> <b>Competitive Pricing: </b>  High-quality motion graphics don't have to break the bank. We offer cost-effective solutions.</li>
           </ul>
+          </div>
+          <div class="col-md-6">
+          <iframe
+            className='motion-video'
+            src="https://www.youtube.com/embed/jE_-CUX0QOI"
+            frameborder="0"
+            allowfullscreen
+            title="YouTube Video"
+          ></iframe>
+          </div>
+        </div>
 
-       <div className=" pt-5">
+        <div className=" pt-5">
             <h4 className='text-center fw-bold'>Get Started</h4>
             <h1 className='text-center mb-4' style={{color:"rgb(52,84,140)"}}>Let's Create Something Extraordinary Together</h1>
             <p className='text-center fs-5 pb-5'>Motion graphics have the power to turn your content into a visual masterpiece that resonates with your audience. Whether you're looking to educate, entertain, or inspire, motion graphics can help you achieve your goals. Contact us today to start your journey toward visual excellence.</p>
        </div>
-        </div>
+
+
+       
+        
       </div>
 
       <div class="p-5 mb-2 text-white" style={{background:"rgb(52,84,140)"}}>

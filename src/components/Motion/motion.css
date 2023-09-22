@@ -1,13 +1,15 @@
-.motion-img{
-    width: 400px;
-    height: 45vh;
+.motion-video{
+    width: 560px;
+    height: 415px;
+    
   }
 
 /* class="col-md-6 float-md-end mb-3 ms-md-3" */
 
 @media(max-width:768px){
-    .motion-img{
+    .motion-video{
       width: 320px;
       height: 25vh;
+      margin-left: 35px;
     }
   }

@@ -1,7 +1,8 @@
 import React from 'react'
 import BackgroundImage from './img/5048200.png';
+import BackgroundImage2 from './img/banner3.png';
 import Photo from './img/pexels-ron-lach-8102677.jpg';
-import photo2 from './img/5048203.jpg';
+import photo2 from './img/417-4173625_video-editing-editing-png-hd-camera_480.png';
 import './video.css';
 import ICON1 from './img/png-transparent-board-clapper-cut-director-making-movie-take-the-movies-icon.png';
 import ICON2 from './img/download (1).png';
@@ -9,7 +10,7 @@ import ICON3 from './img/974485.png';
 import ICON4 from './img/7602189.png';
 import ICON5 from './img/convert-video-icon-design-isolated-260nw-2179748723.jpg';
 import ICON6 from './img/png-transparent-volume-icon-volume-computer-icons-sound-icon-volume-miscellaneous-text-hand-thumbnail.png';
-import CAMERA from './img/cam_sample3-removebg-preview.png'
+import CAMERA from './img/for_emeka_720.png'
 
 
 const Video = () => {
@@ -26,7 +27,7 @@ const Video = () => {
         
           <div className="container">
 
-          <div class="container px-4">
+          <div class="container px-4 align-items-center">
             <div class="row gx-5 mt-5">
               <div class="col">
               <div class="p-3 "> <img src={photo2} alt=""  className="video-img" /></div>
@@ -42,7 +43,7 @@ const Video = () => {
             </div>
           </div>
 
-          <div class="clearfix">
+          <div class="clearfix align-items-center">
           <div class=" "> <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " /></div>
 
             <p className='mt-2 fs-5 text-justify'>    The goal of editing is to manipulate these events to bring the communication closer to the original goal or target. It is a visual art. Aside the video coverage, there is a major aspect of the video production, which we handle perfectly at Elonatech, and its known as <span className='fs-5 fw-bold'>VIDEO EDITING.</span> Editing is usually considered to be one part of the post production process. Other post-production tasks include titling, color correction, sound mixing, etc.</p>
@@ -146,7 +147,7 @@ const Video = () => {
         
          </div>
 
-         <div class="p-3 mb-2 bg-primary text-white">
+         {/* <div class="p-3 mb-2 bg-primary text-white">
          <div className="container">
          <div class="row pt-5 pb-5">
             <div class="col-md-8 ">
@@ -157,6 +158,12 @@ const Video = () => {
             </div>
           </div>
          </div>
+         </div> */}
+         <div className=""  style={{ backgroundImage: `url(${BackgroundImage2})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'300px', color:'white'}}>
+        <div className="text-start pl-4">
+        <p class=" fw-bolder fs-2 pl-4 pt-5" style={{color:"black"}}>Engage in a conversation with a specialist <br /> regarding your upcoming video <br /> editing endeavor..</p>
+         <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
+        </div>
          </div>
     
     </>
