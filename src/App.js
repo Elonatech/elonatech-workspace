@@ -10,10 +10,10 @@ function App() {
     <div className="App">
 
   {/* <Graphic /> */}
-    {/* <Branding/> */}
+    <Branding/>
     {/* <Animation/> */}
     {/* <Video/> */}
-    <Motion/>
+    {/* <Motion/> */}
     </div>
   );
 }

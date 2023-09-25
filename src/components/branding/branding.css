@@ -25,6 +25,11 @@ body {
     font-weight: 700 ; */
   }
 
+  .elo-img{
+    width: 550px;
+    height: 45vh;
+  }
+
   .text-container1{
     display: flex;
     margin: 4rem 8rem;
@@ -47,7 +52,7 @@ body {
       }
 
       .slider  img{
-        height: 100vh!important;
+        height: 80vh!important;
       }
 
       .branding-text-container{
@@ -57,6 +62,16 @@ body {
 
       .branding-background{
         min-height: 50vh;
+      }
+
+      .elo-img{
+        width: 320px;
+        height: 25vh;
+      margin: 20px 0;
+      }
+
+      .elona{
+        margin-left: 30px;
       }
  
       

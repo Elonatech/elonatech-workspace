@@ -8,6 +8,8 @@ import IMAGE1 from '../img/project-14-850x540-(1).jpg';
 import IMAGE2 from '../img/project-14-850x540-(3.jpg';
 import IMAGE3 from '../img/project-14-850x540-4.jpg';
 import Carousel from 'react-bootstrap/Carousel';
+import ELONATECH1 from './Brand-Img/elona kit.jpg'
+import ELONATECH2 from './Brand-Img/elona sationaries brand.jpg'
 
 
 const branding = () => {
@@ -58,13 +60,34 @@ const branding = () => {
         <div className="container ">
           <div className="" style={{margin:"2rem 0"}}>
             <h1 class="d-flex justify-content-center" style={{fontWeight:"bolder", color:"red"}}>BRAND IDENTITY</h1>
-            <p> Brand identity is not limited to a specific mark or name. Branding can  incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services. Any means by which the general public comes into contact with a specific brand  constitutes a touch point that can affect perceptions of the corporate brand.
-            Elonatech Nigeria Limited, in a bid to serve you better, has included  Corporate branding in their services; Which includes: logo design, complimentary card, and ID card design, E-invoice & letterhead design, uniform social media handles, web design and development, unique domain  names and hosting, and a wide array of services to keep you ahead of the  competition. 
+            <p>  
 
-            It’s much more than a logo, Elonatech brand identity development service is  actually at the intersection of strategy and design. Our development process includes defining your business goals and objectives, conducting and analyzing primary research, and launching a full visual exploration of how  you see yourselves and your place in the market. 
-
-            Elonatech brand professionals can manage the end-to-end process from  corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.
+           
             </p>
+
+
+         
+          <div class="row">
+            <div className="row  mt-3">
+            <div class="col-md-6 col-sm-3 fs-5 text-justify">
+            Brand identity is not limited to a specific mark or name. Branding can  incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services. Any means by which the general public comes into contact with a specific brand  constitutes a touch point that can affect perceptions of the corporate brand.
+            Elonatech Nigeria Limited, in a bid to serve you better, has included  Corporate branding in their services; Which includes: logo design, complimentary card, and ID card design, E-invoice & letterhead design, uniform social media handles, web design and development, unique domain  names and hosting, and a wide array of services to keep you ahead of the  competition.
+            </div>
+            <div class="col-md-6 col-sm-3 pl-5"> <img src={ELONATECH1} class="elo-img" alt="" /></div>
+
+            </div>
+
+          <div className="row flex-column-reverse flex-lg-row mb-5  mt-5">
+          <div class="col-md-6 col-sm-3 "><img src={ELONATECH2} class="elo-img  elona" alt="" /></div>
+            <div class="col-md-6 col-sm-3 fs-5 text-justify"> It’s much more than a logo, Elonatech brand identity development service is  actually at the intersection of strategy and design. Our development process includes defining your business goals and objectives, conducting and analyzing primary research, and launching a full visual exploration of how  you see yourselves and your place in the market. 
+            Elonatech brand professionals can manage the end-to-end process from  corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.</div>
+          </div>
+
+        
+          </div>
+
+        
+
           </div>
         </div>
 
@@ -108,6 +131,8 @@ const branding = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div> */}
+
+
 
       <Carousel className='container align-item-center'>
             <Carousel.Item className='slider'>
@@ -153,19 +178,21 @@ const branding = () => {
 
 
           <div className="container " style={{ margin:"2rem"}}>
-              <img  src={BACKGROUND} className='img-bg' alt="" srcset="" style={{border:"2px solid blue"}}/>
+              <img  src={BACKGROUND} className='img-bg mt-4' alt="" srcset="" style={{border:"2px solid blue"}}/>
           </div>
 
           {/* FREQUENTLY ASKED QUESTION */}  
-        <div class="container">
+        <div class="container ">
 
-            <div className=" text-center">
+        <div class="row">
+          <div class="col-md-4 mt-5">
+          <div className=" text-center">
                 <h1 className='FAQ' style={{color:"#2b5592", fontWeight:"800"}}>FREQUENTLY ASKED QUESTIONS</h1>
                 <div className="line" style={{margin:"auto", color:"red"}}></div>
             </div>
-         {/* ACCORDIAN */}
-            
-            <div class="container frequent-container mt-5">
+          </div>
+          <div class="col-md-8">
+          <div class="container frequent-container mt-5">
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item mb-2 border">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -263,56 +290,17 @@ const branding = () => {
                 </div>
             </div>
             </div>
+          </div>
+        </div>
+
+            
+         {/* ACCORDIAN */}
+            
+           
          
 
             
-            {/* <Accordion>
-              <Accordion.Item className='item' eventKey='0'>
-                <Accordion.Header> <h1>1. WHAT IS A BRAND?</h1> </Accordion.Header>
-                <Accordion.Body> <p>A brand is essentially the personality and identity of your business. It is what forms the first impression of your business for potential customers and encompasses how it looks and sounds. It is how the market identifies your business compared to your competitors and will hopefully make you stand out. Components of a brand can include:</p> 
-                <ul>
-                  <li>Name</li>
-                  <li>Logo</li>
-                  <li>Tagline</li>
-                  <li>Tone of voice</li>
-                  <li>Fonts & typography</li>
-                  <li>Symbols</li>
-                  <li>Features</li>
-                </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item className='item' eventKey='1'>
-                <Accordion.Header> <h1>1. WHAT IS A BRAND?</h1> </Accordion.Header>
-                <Accordion.Body> <p>A brand is essentially the personality and identity of your business. It is what forms the first impression of your business for potential customers and encompasses how it looks and sounds. It is how the market identifies your business compared to your competitors and will hopefully make you stand out. Components of a brand can include:</p> 
-                <ul>
-                  <li>Name</li>
-                  <li>Logo</li>
-                  <li>Tagline</li>
-                  <li>Tone of voice</li>
-                  <li>Fonts & typography</li>
-                  <li>Symbols</li>
-                  <li>Features</li>
-                </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item className='item' eventKey='2'>
-                <Accordion.Header> <h1>1. WHAT IS A BRAND?</h1> </Accordion.Header>
-                <Accordion.Body> <p>A brand is essentially the personality and identity of your business. It is what forms the first impression of your business for potential customers and encompasses how it looks and sounds. It is how the market identifies your business compared to your competitors and will hopefully make you stand out. Components of a brand can include:</p> 
-                <ul>
-                  <li>Name</li>
-                  <li>Logo</li>
-                  <li>Tagline</li>
-                  <li>Tone of voice</li>
-                  <li>Fonts & typography</li>
-                  <li>Symbols</li>
-                  <li>Features</li>
-                </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>  */}
-
+           
         </div>
 
         
