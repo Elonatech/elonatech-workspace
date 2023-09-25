@@ -10,6 +10,12 @@ import IMAGE3 from '../img/project-14-850x540-4.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import ELONATECH1 from './Brand-Img/elona kit.jpg'
 import ELONATECH2 from './Brand-Img/elona sationaries brand.jpg'
+import Client1 from './Brand-Img/Safebrooks-Logo-png.png'
+import Client2 from './Brand-Img/Jigirinty_sewage-energy.png'
+import Client3 from './Brand-Img/MTMSD-logo_3d.png'
+import Client4 from './Brand-Img/PineheightSystems-logo.png'
+import Client5 from './Brand-Img/Remaben_Logo-removebg-preview.png'
+import Client6 from './Brand-Img/Universal-Peace-Chaplains.png'
 
 
 const branding = () => {
@@ -142,10 +148,13 @@ const branding = () => {
             
              alt=""  
              />
-              <Carousel.Caption>
+             <div className="overlay">
+             <Carousel.Caption className='content'>
                 <h3>First slide label</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
+             </div>
+             
             </Carousel.Item>
             <Carousel.Item className='slider'>
             <img 
@@ -154,10 +163,12 @@ const branding = () => {
              
              alt=""  
              />
-              <Carousel.Caption>
+             <div className="overlay">
+             <Carousel.Caption  className='content'>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
+             </div>
             </Carousel.Item>
             <Carousel.Item className='slider'>
             <img 
@@ -166,19 +177,29 @@ const branding = () => {
           
              alt=""  
              />
-              <Carousel.Caption>
+             <div className="overlay">
+             <Carousel.Caption  className='content'>
                 <h3>Third slide label</h3>
                 <p>
                   Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                 </p>
               </Carousel.Caption>
+             </div>
             </Carousel.Item>
           </Carousel>
 
 
-
-          <div className="container " style={{ margin:"2rem"}}>
-              <img  src={BACKGROUND} className='img-bg mt-4' alt="" srcset="" style={{border:"2px solid blue"}}/>
+          {/* CLIENT */}
+          <div class="container mt-5 mb-5 ">
+            <h5 className="text-center FAQ pb-5" style={{color:"#2b5592", fontWeight:"800"}}> Some Of Our Clients</h5>
+            <div class="row row-cols-2 row-cols-lg-3 ml-3">
+              <div class="col-4 col-lg-2"><img src={Client1} alt=""  className='clients'/></div>
+              <div class="col-4 col-lg-2"><img src={Client2} alt=""  className='clients'/></div>
+              <div class="col-4 col-lg-2"><img src={Client3} alt="" className='clients'/></div>
+              <div class="col-4 col-lg-2"><img src={Client4} alt="" className='clients'/></div>
+              <div class="col-4 col-lg-2"><img src={Client5} alt="" className='clients'/></div>
+              <div class="col-4 col-lg-2"><img src={Client6} alt="" className='clients'/></div>
+            </div>
           </div>
 
           {/* FREQUENTLY ASKED QUESTION */}  

@@ -43,6 +43,32 @@ body {
     width: 50%;
   }
 
+  .clients{
+    width: 100px;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+  }
+
+  .content{
+    color: white;
+  }
+
+  .slider:hover .overlay{
+    opacity: 0.8;
+  }
+
+ 
+
   @media(max-width:768px) {
     .branding-text{
       
