@@ -1,5 +1,9 @@
 import React from 'react';
 import './branding.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import ELONA from './Brand-Img/elona jersey.jpg';
 import CUP from './Brand-Img/cup.png';
 import { Accordion } from 'react-bootstrap';
@@ -13,12 +17,28 @@ import ELONATECH2 from './Brand-Img/elona sationaries brand.jpg'
 import Client1 from './Brand-Img/Safebrooks-Logo-png.png'
 import Client2 from './Brand-Img/Jigirinty_sewage-energy.png'
 import Client3 from './Brand-Img/MTMSD-logo_3d.png'
-import Client4 from './Brand-Img/PineheightSystems-logo.png'
+import Client4 from './Brand-Img/PFN-Logo.png'
 import Client5 from './Brand-Img/Remaben_Logo-removebg-preview.png'
 import Client6 from './Brand-Img/Universal-Peace-Chaplains.png'
+import Client7 from './Brand-Img/okhma_360.jpg'
+import Client8 from './Brand-Img/ozone_cinemas_logo-removebg-preview_360.png'
 
 
 const branding = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
+
+  const sliderStyle = {
+    padding: "10px", // Adjust this value to control the margin
+  };
   return (
    <section>
         <div className="branding-background">
@@ -139,7 +159,7 @@ const branding = () => {
       </div> */}
 
 
-
+          {/* CAROUSEL */}
       <Carousel className='container align-item-center'>
             <Carousel.Item className='slider'>
              <img 
@@ -192,14 +212,66 @@ const branding = () => {
           {/* CLIENT */}
           <div class="container mt-5 mb-5 ">
             <h5 className="text-center FAQ pb-5" style={{color:"#2b5592", fontWeight:"800"}}> Some Of Our Clients</h5>
-            <div class="row row-cols-2 row-cols-lg-3 ml-3">
-              <div class="col-4 col-lg-2"><img src={Client1} alt=""  className='clients'/></div>
-              <div class="col-4 col-lg-2"><img src={Client2} alt=""  className='clients'/></div>
-              <div class="col-4 col-lg-2"><img src={Client3} alt="" className='clients'/></div>
-              <div class="col-4 col-lg-2"><img src={Client4} alt="" className='clients'/></div>
-              <div class="col-4 col-lg-2"><img src={Client5} alt="" className='clients'/></div>
-              <div class="col-4 col-lg-2"><img src={Client6} alt="" className='clients'/></div>
-            </div>
+      
+
+            <div>
+                <Slider {...settings} style={sliderStyle}>
+                  <div>
+                    <h3><img src={Client1} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client2} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client3} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client4} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client5} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client6} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client7} alt=""  className='clients'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={Client8} alt=""  className='clients'/></h3>
+                  </div>
+                </Slider>
+              </div>
+
+            {/* <div class="slider">
+              <div class="slide-track">
+                <div class="slide">
+                    <img src={Client1} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client2} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client3} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client4} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client5} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client6} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client7} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                <div class="slide">
+                    <img src={Client8} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
+                </div>
+                
+              </div>
+            </div> */}
           </div>
 
           {/* FREQUENTLY ASKED QUESTION */}  

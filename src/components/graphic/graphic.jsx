@@ -73,9 +73,61 @@ const Graphic = () => {
             
             </div></div>
        </div>
+       <div className="mt-5 ">
+        <div className="text"> <h1 className='text-center'>TITLE</h1></div>
+       <div class="row d-flex justify-content-center ml-5 ">
+          <div class="col">
+          <div class="card-border"  style={{width:"18rem"}}>
+        <div class="p-3 mb-2  text-white"> <img src={ICON2} style={{width:"100px"}} alt=""/></div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
         </div>
+          </div>
+          <div class="col">
+          <div class="card-border"  style={{width:"18rem"}}>
+        <div class="p-3 mb-2  text-white"> <img src={ICON2} style={{width:"100px"}} alt=""/></div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+        </div>
+          </div>
+          <div class="col">
+          <div class="card-border"  style={{width:"18rem"}}>
+        <div class="p-3 mb-2  text-white"> <img src={ICON2} style={{width:"100px"}} alt=""/></div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+        </div>
+          </div>
+        </div>
+       </div>
+
+        </div>
+        <div className=" mt-5 pt-4 pb-5" style={{background:"#014b72"}}>
+          <h2 className='text-center'>Latest Projects</h2>
+        <div className=" container img-card ">
+        <img src={IMAGE1} class="elona-img" alt="..."/>
+        <img src={IMAGE2} class="elona-img" alt="..."/>
+        <img src={IMAGE3} class="elona-img" alt="..."/>
+        <img src={IMAGE4} class="elona-img" alt="..."/>
+        <img src={IMAGE5} class="elona-img" alt="..."/>
+        <img src={IMAGE6} class="elona-img" alt="..."/>
+        </div>
+        </div>
+        
+
+      
+        
+
     
-        <div className="our-latest-project" >
+        {/* <div className="our-latest-project" >
           <div className="text-content-2"  >
             <h1 className='project' >Our Latest Projects</h1>
             <div className="line"></div>
@@ -163,7 +215,7 @@ const Graphic = () => {
           </div>
     
           </div>
-        </div>
+        </div> */}
       </section>
     );
 }

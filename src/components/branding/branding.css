@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+
   .branding-background{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../../components/branding/Brand-Img/elona\ sationaries\ brand.jpg');
     background-size: cover;
@@ -18,7 +18,7 @@ body {
   .branding-text-container{
     padding: 10rem;
   }
-  
+
   .branding-text{
     text-align: center;
     /* font-size: 40px;
@@ -54,7 +54,7 @@ body {
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
     background: black;
     cursor: pointer;
   }
@@ -64,14 +64,25 @@ body {
   }
 
   .slider:hover .overlay{
-    opacity: 0.8;
+    opacity: 0.6;
   }
-
  
+
+
+  
+  /* .clients{
+    height: 10px;
+    width: 250px;
+    margin: 0 40px;
+  } */
+
+
+
+
 
   @media(max-width:768px) {
     .branding-text{
-      
+
         text-align: center;
         font-size: 15px;
         font-weight: 600 ;
@@ -99,8 +110,8 @@ body {
       .elona{
         margin-left: 30px;
       }
- 
-      
+
+
   }
 
   .cup-img{
@@ -112,11 +123,11 @@ body {
   .img-bg{
     margin-left: 25rem;
   }
-  
+
  .slider  img{
     height: 500px !important;
   }
- 
+
 
   @media(max-width:768px) {
     .cup-img{
@@ -136,5 +147,5 @@ body {
         width:18rem;
       }
 
-   
+
   }
