@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
 
-  {/* <Graphic /> */}
-    <Branding/>
+  <Graphic />
+    {/* <Branding/> */}
     {/* <Animation/> */}
     {/* <Video/> */}
     {/* <Motion/> */}

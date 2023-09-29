@@ -7,13 +7,60 @@ body {
   }
   
   .background{
-    background-image: url('../../components/img/ui-ux-index-page-1_720.jpg');
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../../components/graphic/img/elonatech-graphics4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    min-height: 60vh;
     position: relative;
     color: #f0f0f0;
   }
+
+  .projects-img{
+    background-image: url('../../components/graphic/img/colorful-266993_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+    color: #f0f0f0;
+    
+  }
+
+  /* card */
+  .container-card{
+    width: 100%;
+    /* min-height: 50vh; */
+    /* background-color: F9F8F3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+  }
+
+  .content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+  .content-section .card-body{
+    flex: 1;
+    margin: 20px 20px;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2); */
+  }
+   .content-section .card-body h5{
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #000;
+  }
+@media screen and (max-width:768px) {
+  .content-section{
+    flex-direction: column;
+  }
+}
+
+
   
   .text-container{
     position: absolute;
