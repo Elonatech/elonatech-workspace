@@ -10,7 +10,7 @@ body {
     background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../components/graphic/img/elonatech-graphics4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 60vh;
+    min-height: 80vh;
     position: relative;
     color: #f0f0f0;
   }
