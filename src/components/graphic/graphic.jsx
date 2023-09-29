@@ -103,7 +103,7 @@ const Graphic = () => {
        </div>
       
 
-        <div className="  pt-5 pb-5 projects-img">
+        <div className="  pt-5 pb-3 projects-img">
           <h2 className='text-center fs-1'>Latest Projects</h2>
         <div className=" container img-card pt-3 ">
         <img src={IMAGE1} class="elona-img" alt="..."/>
