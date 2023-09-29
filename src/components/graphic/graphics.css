@@ -5,9 +5,9 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+
   .background{
-    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../../components/graphic/img/elonatech-graphics4.jpg');
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../components/graphic/img/elonatech-graphics4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 60vh;
@@ -22,7 +22,7 @@ body {
     min-height: 90vh;
     position: relative;
     color: #f0f0f0;
-    
+
   }
 
   /* card */
@@ -61,26 +61,26 @@ body {
 }
 
 
-  
+/* 
   .text-container{
     position: absolute;
     margin-top: 8rem ;
     margin-left: 12rem;
-  }
-  
-  .text{
+  } */
+
+  /* .text{
     text-align: start;
    font-weight: bolder;
     font-size: 3rem;
     margin-bottom: 20px;
-  
-  }
+
+  } */
 
   .bg-primary{
     width: 35%;
     border-radius: 50%;
     margin: 0 auto;
-   
+
    }
 
    .card-border{
@@ -102,7 +102,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 20px;
     justify-content: center;
-    
+
    }
 
    .elona-img{
@@ -111,7 +111,7 @@ body {
     padding: 5px;
 
   }
-  
+
   @media(max-width:768px) {
     .background{
       min-height: 40vh;
@@ -126,73 +126,83 @@ body {
       margin-left: 0;
       padding: 20px;
     }
-    
+
     .elona-img{
       width: 300px;
       height: 200px;
       padding: 5px;
-  
+
     }
-  
-    
+
+
   }
-  
-  
+
+
   /* WHAT WE DO */
   .text-1{
     font-weight: bolder;
     font-size: 2rem;
-  
+
   }
-  
+
   .services__item__icon{
     border: 5px solid #2b5592;
-    width: 150px;
-    padding: 14px;
+    width: 70px;
+    padding: 5px;
     margin: 1rem 0 ;
   }
+  .logo-icon1{
+    padding-right: 7px;
+  }
+  .logo-icon2{
+    padding-left: 8px;
+  }
+  .logo-icon3{
+    padding-left: 8px;
+   
+  }
+
   .row-1{
     margin: 2rem 0;
   }
   .icon{
-   margin-left:8px;
+   margin-left:2px;
   }
-  
+
   .our-latest-project{
     /* padding: 6rem 4rem; */
     background-color: #2b5592;
   }
-  
+
   .text-content-2{
     text-align: start;
     padding: 3rem 6rem;
   }
-  
-  
+
+
   .project{
   font-weight: 800;
     font-style: normal;
     font-size: 2.5rem;
     color: #020202;
   }
-  
+
   .line{
     border-top: 2px solid #000; /* Adjust the thickness and color */
      width: 100px;
     margin: 20px 0;
   }
 
-  
-  
+
+
   @media(max-width:768px) {
     .text-content-2{
-  
+
       padding: 0;
     }
-  
+
     .row{
       margin: 0;
     }
   }
-  
-  
+
