@@ -75,12 +75,12 @@ const product = () => {
         <div className="container mb-5 mt-5">
           <div className="row g-0">
             <div className="col-md-6">
-              <div className="card  border-2 rounded-0"  style={{borderColor:"#016193"}}>
+              <div className="card  border-2  rounded-0"  style={{borderColor:"#016193"}}>
               <img src={ProductImg2} alt="img-fluid rounded" style={{height:"25.9rem",  }} />
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card pb-2 border-2 rounded-0" style={{borderColor:"#016193"}}>
+              <div className="card pb-2 border-2  rounded-0" style={{borderColor:"#016193"}}>
               <h2 class="font-weight-bold heading p-2 pt-3  pl-2">Why Choose Us?</h2>
               <p class="text-black pr-4 " style={{textAlign:"justify"}}>
                 <ul>
