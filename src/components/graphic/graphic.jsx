@@ -10,6 +10,8 @@ import IMAGE4 from '../img/project-14-850x540-4.jpg';
 import IMAGE5 from '../img/project-14-850x540-5.jpg';
 import IMAGE6 from '../img/project-14-850x540-6.jpg';
 import ELONATECH from '../graphic/img/elonatech-graphics3.jpg'
+import ELONATECH1 from '../graphic/img/elonatech-graphics2.jpg'
+import ELONATECH2 from '../graphic/img/Graphics_1-removebg-preview (1).png'
 import ELONADESIGN1 from '../graphic/img/business-card3.png'
 import ELONADESIGN2 from '../graphic/img/flyer2.png'
 import ELONADESIGN3 from '../graphic/img/stationery1.png'
@@ -30,54 +32,66 @@ const Graphic = () => {
           <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p>
         </div>
         </div>
-    
-        
-    
+
+
+
         <div className="container">
-        <div class="row row-1">
-           <div class="col-sm-4 mt-4"><div >
-             <h2 className='text-1'>Our Offering</h2>
-      
-             <p className="text-justify pr-3">
+          <div class=" offering row flex-column-reverse flex-lg-row">
+            <div class="col">
+            <h2 className='text-1 text-center fw-bold'>Our Offering</h2>
+            <p className=" fs-4 fw-normal text-justify">
              Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve your goals.
              </p>
-            </div></div>
-           <div class="col-sm-8"><div >
-             <div className="row">
-              <div className="col-md-6 mt-4"><div >
-               <div class="services__item__icon">
+            </div>
+            <div class="col">
+            <img src={ELONATECH2} alt="img-fluid rounded" className='elona-img-2'/>
+            {/* style={{height:"20rem", width:"620px"}} */}
+            </div>
+          </div>
+
+        <div class="row justify-content-center  mt-5 mb-5">
+          <div class="col-md-6 col-sm-3">
+          <img src={ELONATECH1} alt="img-fluid rounded"  className='elona-img-1'/>
+          </div>
+          <div class="col-md-6 col-sm-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-3">
+                <div class="services__item__icon">
                  <img src={ICON1} style={{width:"50px"}} alt="" className='icon logo-icon1' />
                 </div>
                 <h3> Corporate design</h3>
                 <p>Logo design, Business cards, Stationery, Business newsletters</p>
-                </div></div>
-              <div className="col-md-6 mt-4"><div >
-              <div class="services__item__icon">
+                </div>
+              <div class="col-md-6 col-sm-3">
+               <div class="services__item__icon">
                  <img src={ICON2} style={{width:"40px"}} alt="" className='logo-icon2'/>
                 </div>
                 <h3>Advertising design</h3>
-                <p></p>
-                </div>Brochure design, Newspaper and magazine advertisements, Social media graphics, Digital advertisements, Email marketing templates,Infographic design</div>
-              <div className="col-md-6 mt-4"><div >
+                <p>Brochure design, Newspaper and magazine advertisements, Social media graphics, Digital advertisements, Email marketing templates,Infographic design</p>
+              </div>
+              <div class="col-md-6 col-sm-3">
               <div class="services__item__icon">
                  <img src={ICON3} style={{width:"40px"}} alt="" className='logo-icon3'/>
                 </div>
                 <h3> Publication design</h3>
                 <p>Books, Magazines, Newsletters, Catalogs, Newspapers, eBooks</p>
-                </div></div>
-              <div className="col-md-6 mt-4"><div >
-              <div class="services__item__icon">
+              </div>
+              <div class="col-md-6 col-sm-3">
+                   <div class="services__item__icon">
                  <img src={ICON4}  style={{width:"40px"}} alt="" className='icon'/>
                 </div>
               <h3>Packaging design</h3>
                 <p>Cereal boxes, Makeup package, containers, Other food and item boxes, packages, etc.</p>
-                
-                </div></div>
-             </div>
-            
-            </div></div>
-       </div>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
+        </div>
+
+
+
        <div className="" style={{background:"#F9F6EE"}} >
         <div className="text pt-5"> <h1 className='text-center'>PRINT DESIGN</h1></div>
         <div className="container-card">
@@ -99,9 +113,9 @@ const Graphic = () => {
             </div>
           </div>
         </div>
-       
+
        </div>
-      
+
 
         <div className="  pt-5 pb-5 projects-img">
           <h2 className='text-center fs-1'>Latest Projects</h2>
@@ -114,7 +128,7 @@ const Graphic = () => {
         <img src={IMAGE6} class="elona-img" alt="..."/>
         </div>
         </div>
-        
+
         <div className="container mb-5 mt-5">
           <div className="row g-0">
             <div className="col-md-6">
@@ -138,17 +152,17 @@ const Graphic = () => {
             </div>
           </div>
         </div>
-      
-        
 
-    
+
+
+
          {/* <div className="our-latest-project" >
           <div className="text-content-2"  >
             <h1 className='project' >Our Latest Projects</h1>
             <div className="line"></div>
             <p>Nullam varius porttitor augue id rutrum. Duis vehicula magna at magna tempus rhoncus. Maecenas quis lobortis elit, nec faucibus augue., <br /> Nullam varius porttitor augue id rutrum. Duis vehicula magna at magna tempus</p>
           </div>
-    
+
           <div className="">
           <div class="container">
             <div class="row row-cols-1 row-cols-lg-3  md-4">
@@ -202,7 +216,7 @@ const Graphic = () => {
               </div>
               <div class="col">
                 <div class="p-3">
-    
+
                 <div class="card" style={divStyle}>
                 <img src={IMAGE5} class="card-img-top" alt="..."/>
                 <div class="card-body">
@@ -215,7 +229,7 @@ const Graphic = () => {
               </div>
               <div class="col">
                 <div class="p-3">
-    
+
                 <div class="card" style={divStyle}>
                 <img src={IMAGE6} class="card-img-top" alt="..."/>
                 <div class="card-body">
@@ -228,7 +242,7 @@ const Graphic = () => {
               </div>
             </div>
           </div>
-    
+
           </div>
         </div>  */}
       </section>

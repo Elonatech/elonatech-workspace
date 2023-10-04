@@ -86,12 +86,6 @@ const branding = () => {
         <div className="container ">
           <div className="" style={{margin:"2rem 0"}}>
             <h1 class="d-flex justify-content-center" style={{fontWeight:"bolder", color:"red"}}>BRAND IDENTITY</h1>
-            <p>  
-
-           
-            </p>
-
-
          
           <div class="row">
             <div className="row  mt-3">
