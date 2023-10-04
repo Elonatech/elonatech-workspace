@@ -14,7 +14,7 @@ const product = () => {
 <section>
         <div className="product-background">
             <div class="py-5 ">
-                <h2 class=" mt-5 text-white text-center">UI/UX</h2>
+                <h2 class=" mt-5 text-white text-center">User Interface and User Experience</h2>
                 <h5 class=" mt-4 text-white text-center">Elevate Your Digital Experience: Unleash the Power of UI/UX</h5>
                 <p class="lead text-white text-center"> We believe in the transformative power of User Interface (UI) and User Experience (UX) design. Our UI/UX services are crafted to elevate your digital presence, <br /> captivate your audience, and drive exceptional user engagement.</p>
             </div>
