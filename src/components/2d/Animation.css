@@ -18,3 +18,10 @@
  .rounded{
   border-radius: 2em;
  } */
+
+ .background-animation{
+  background-image:  url('../../components/2d/img/3d_for_emeka_720.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+ }

@@ -12,10 +12,10 @@ function App() {
 
   {/* <Graphic /> */}
     {/* <Branding/> */}
-    {/* <Animation/> */}
+    <Animation/>
     {/* <Video/> */}
     {/* <Motion/> */}
-    <Product/>
+    {/* <Product/> */}
    
 
     </div>

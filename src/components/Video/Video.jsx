@@ -20,7 +20,7 @@ const Video = () => {
     {/* HEADER */}
         <div style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
             <div className="container pt-5 ">
-                <h1 className='text-center pt-5 text-danger fw-bolder'>VIDEO EDITING</h1>
+                <h1 className='text-center pt-5 text-white fw-bolder'>VIDEO EDITING</h1>
             <p className='text-center fs-5'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p>
             </div>
         </div>
