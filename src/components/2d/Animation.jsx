@@ -3,31 +3,22 @@ import './Animation.css';
 import ReactPlayer from 'react-player';
 import Animation1 from '../2d/img/animation.jpg'
 import BackgroundImage2 from './img/banner3.png';
+import BackgroundImage3 from './img/animation_111_720.png';
 
 
 function Animation() {
   return (
-    <section>
+    <>
         <div className="branding-background">
         <div class="container " >
-          <div class="row justify-content-md-center pt-5">
-            <div class="col-md-6 col-sm-3 pt-5 ">
-              <h2 className='pb-4 fw-bold text-white fw-bold'>2D/3D ANIMATION</h2>
-              <p className='text-justify fw-normal fs-4 p2' >
-                Creating engaging and immersive 2D/3D animations is a dynamic and captivating way to bring your ideas to life. Whether you're crafting a multimedia presentation, a web experience, or a game, animations have the power to convey complex concepts, evoke emotions, and leave a lasting impression on your audience.</p>
+        <div class="py-5 ">
+                <h2 class=" mt-5 text-white text-center">2D/3D ANIMATION</h2>
+                {/* <h5 class=" mt-4 text-white text-center">Elevate Your Digital Experience: Unleash the Power of UI/UX</h5> */}
+                <p class="lead text-white text-center">  Creating engaging and immersive 2D/3D animations is a dynamic and captivating way to bring your ideas to life. Whether you're crafting a multimedia presentation, a web experience, or a game, animations have the power to convey complex concepts, evoke emotions, and leave a lasting impression on your audience.</p>
             </div>
-
-
-            <div class="col-md-6 col-sm-3 pt-5 mb-5 rounded">
-              <div class="ratio ratio-16x9 ">
-                  <iframe  src="https://www.youtube.com/embed/nbMtGm-b9Kg" title="5 Reasons why your Business needs Animated Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-            </div>
-            
-          </div>
         </div>
         </div>
-           
+          
            {/* VIDEO CARD */}
         <div className=" container pt-5 pb-5 mb-5 ">
           <div className="header">
@@ -40,10 +31,10 @@ function Animation() {
                <div class="card h-100" style={{width:"20rem"}}>
                     <div class="ratio ratio-4x3">
                       {/* <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe> */}
-                      <iframe  src="https://www.youtube.com/embed/slmJOd2pXVc" title="3D Explainer Video Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <iframe  src="https://www.youtube.com/embed/nbMtGm-b9Kg" title="5 Reasons why your Business needs Animated Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
-                      <h4 class="card-text  fw-bold">3D Explainer Video Toolkit</h4>
+                      <h4 class="card-text  fw-bold">3D Animation Video </h4>
                       <p className='text-justify'>3D animations is essential for providing context and engaging your audience also give viewers an idea of what to expect with a story</p>
                     </div>
                 </div>
@@ -55,7 +46,7 @@ function Animation() {
                     <iframe width="360" height="270" src="https://www.youtube.com/embed/v-XT2EWLQgA" title="White board Animations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
-                      <h4 class="card-text fw-bold">Whiteboard Animation Toolkit</h4>
+                      <h4 class="card-text fw-bold">Whiteboard Animation </h4>
                       <p className='text-justify'>"White animation" typically refers to animations with a predominant use of white or light-colored backgrounds and elements.</p>
                     </div>
                 </div>
@@ -67,7 +58,7 @@ function Animation() {
                     <iframe src="https://www.youtube.com/embed/PQUKvazhunY" title="Trendy Explainer Video Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
-                      <h4 class="card-text fw-bolder">Trendy Explainer Toolkit.</h4>
+                      <h4 class="card-text fw-bolder"> Explainer Animation.</h4>
                       <p className='text-justify'>A "Trendy Explainer Toolkit" is a versatile resource used for creating modern and stylish explainer videos.</p>
                     </div>
                 </div>
@@ -78,9 +69,16 @@ function Animation() {
             </div>
         </div>
 
+     
         {/* WE HAVE ALL YOUR NEEDS */}
-        <div className="background-animation ">
-          <div className=" mx-auto float-end">
+
+        <div className="container-fluid" style={{backgroundColor:"#34548c", height:"500px"}}>
+
+        <div class="row">
+          <div class="col-md-6">
+          <img src={BackgroundImage3}  alt="" style={{marginBottom:'100px'}}  className='mb-2'/>
+          </div>
+          <div class="col-md-6">
           <div class="card rounded-0 border-0" style={{marginTop:"5rem", padding:'5rem'}} >
             <div class="card-body">
               <h5 class="card-title fs-1">We Have All You Need  For <br /> Your Animation.....</h5>
@@ -88,7 +86,18 @@ function Animation() {
             
             </div>
         </div>
-      </div>
+          </div>
+        </div>
+        
+          {/* <div className=" mx-auto float-end">
+          <div class="card rounded-0 border-0" style={{marginTop:"5rem", padding:'5rem'}} >
+            <div class="card-body">
+              <h5 class="card-title fs-1">We Have All You Need  For <br /> Your Animation.....</h5>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, facilis asperiores sit quibusdam <br /> fuga eum veniam corrupti placeat iste. Corporis. </p>
+            
+            </div>
+        </div>
+      </div> */}
         </div>   
                {/* CUSTOMERS SAY */}
         <div class="p-3 mb-2  text-white" style={{background:"#F5FFFA"}}>
@@ -136,15 +145,15 @@ function Animation() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className=" text-dark align-items-center" style={{padding:'2.3rem 5px', backgroundColor:'#01fff6'}}>
+              <div className=" text-black align-items-center" style={{height:"35rem", backgroundColor:'#34548c' }}>
               <h2 class="font-weight-bold heading p-2 pt-3  pl-2">FAQs</h2>
-              <p class="text-black pr-4 " style={{textAlign:"justify"}}>
+              <p class="text-black fs-6 pr-4 " style={{textAlign:"justify"}}>
                 <ul>
-                  <li className='pb-2'> <span className='fw-bold'>What types of animation services do you offer?:</span> We offer a wide range of animation services, including 2D animation, 3D animation, motion graphics, character animation, and more. We cater to various industries and project requirements.</li>
-                  <li className='pb-2'> <span className='fw-bold'>How much does animation production cost?:</span> The cost of animation varies depending on the complexity of the project, the duration, and specific client requirements. Please contact us for a customized quote.</li>
-                  <li className='pb-2'> <span className='fw-bold'>What is the typical timeline for an animation project?:</span> Project timelines can vary significantly. Small animations may take a few weeks, while more complex projects may require several months. We'll provide you with a detailed timeline during the project planning phase.</li>
-                  <li className='pb-2'> <span className='fw-bold'>Do you work with international clients?:</span> Absolutely! We work with clients from all over the world. Our team can communicate effectively in English and other languages, ensuring a smooth collaboration.</li>
-                  <li className='pb-2'> <span className='fw-bold'>What is the process for creating an animation with your studio?:</span> Our animation production process includes concept development, scriptwriting, storyboarding, design, animation, sound design, and final revisions. We collaborate closely with clients throughout each step.</li>
+                  <li className='pb-2'> <span className='fw-bold fs-5' style={{color:'black'}}>What types of animation services do you offer?</span>: We offer a wide range of animation services, including 2D animation, 3D animation, motion graphics, character animation, and more. We cater to various industries and project requirements.</li>
+                  <li className='pb-2'> <span className='fw-bold fs-5' style={{color:'black'}}>How much does animation production cost?:</span> The cost of animation varies depending on the complexity of the project, the duration, and specific client requirements. Please contact us for a customized quote.</li>
+                  <li className='pb-2'> <span className='fw-bold fs-5' style={{color:'black'}}>What is the typical timeline for an animation project?:</span> Project timelines can vary significantly. Small animations may take a few weeks, while more complex projects may require several months. We'll provide you with a detailed timeline during the project planning phase.</li>
+                  <li className='pb-2'> <span className='fw-bold fs-5' style={{color:'black'}}>Do you work with international clients?:</span> Absolutely! We work with clients from all over the world. Our team can communicate effectively in English and other languages, ensuring a smooth collaboration.</li>
+                  <li className='pb-2'> <span className='fw-bold fs-5' style={{color:'black'}}>What is the process for creating an animation with your studio?:</span> Our animation production process includes concept development, scriptwriting, storyboarding, design, animation, sound design, and final revisions. We collaborate closely with clients throughout each step.</li>
                 </ul>
               </p>
               </div>
@@ -153,14 +162,14 @@ function Animation() {
 
           <div className=""  style={{ backgroundImage: `url(${BackgroundImage2})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'300px', color:'white'}}>
             <div className="text-start pl-4">
-            <p class=" fw-bold fs-1 pl-4 pt-5 text-danger" >Engage in a conversation with a specialist <br /> regarding your upcoming animation <br /> editing video</p>
+            <p class=" fw-bold fs-1 pl-4 pt-5 text-black" >Engage in a conversation with a specialist <br /> regarding your upcoming animation <br /> editing video</p>
             <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
             </div>
          </div> 
 
-
+      
         
-    </section>
+    </>
   )
 }
 
