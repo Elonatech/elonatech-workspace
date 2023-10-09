@@ -43,7 +43,8 @@ const branding = () => {
    <section>
         <div className="branding-background">
           <div className="branding-text-container">
-            <h3 className='branding-text'>“A BRAND IS NO LONGER WHAT WE TELL THE <br /> CONSUMER IT IS — IT IS WHAT CONSUMERS TELL EACH <br /> OTHER IT IS.” – <span>SCOTT COOK</span></h3>
+          <h1 class="d-flex justify-content-center" style={{color:"white"}}>Brand Identity</h1>
+            <h3 className='branding-text text-capitalize'>“A Brand Is No Longer What We Tell The  <br /> Consumer It Is - It Is What  Consumers Tell Each <br /> Other It Is.” – <span>SCOTT COOK</span></h3>
           </div>
         </div>
 
@@ -85,14 +86,14 @@ const branding = () => {
         {/* BRAND IDENTITY */}
         <div className="container ">
           <div className="" style={{margin:"2rem 0"}}>
-            <h1 class="d-flex justify-content-center" style={{fontWeight:"bolder", color:"red"}}>BRAND IDENTITY</h1>
+
          
           <div class="row">
             <div className="row  mt-3">
-            <div class="col-md-6 col-sm-3 fs-5 text-justify">
+            <div class="col-md-6 col-sm-3 fs-6 text-justify">
             Brand identity is not limited to a specific mark or name. Branding can incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services.
             Any means by which the general public comes into contact with a specific brand constitutes a touch point that can affect perceptions of the corporate brand.
-            Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds. Brand identity is distinct from brand image. It corresponds to the intent behind the branding and the way a company does it, all to cultivate a certain image in consumers' minds.
+             <br /><br /> Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds. Brand identity is distinct from brand image. It corresponds to the intent behind the branding and the way a company does it, all to cultivate a certain image in consumers' minds.
             It’s much more than a logo, Elonatech brand identity development service is actually at the intersection of strategy and design.
                         </div>
             <div class="col-md-6 col-sm-3 pl-5"> <img src={ELONATECH1} class="elo-img" alt="" /></div>
@@ -101,12 +102,12 @@ const branding = () => {
 
           <div className="row flex-column-reverse flex-lg-row mb-5  mt-5">
           <div class="col-md-6 col-sm-3 "><img src={ELONATECH2} class="elo-img  elona" alt="" /></div>
-            <div class="col-md-6 col-sm-3 fs-5 text-justify"> <span><b> Why Does Brand Identity Matter?</b></span> Brand identity matters because without it, customers are not able to recognize a brand easily. A strong brand may helps sell a company to consumers. <br />
-               <span> <b>What Makes a Good Brand? </b></span>
+            <div class="col-md-6 col-sm-3 fs-6 text-justify"> <span><b> Why Does Brand Identity Matter?</b></span> Brand identity matters because without it, customers are not able to recognize a brand easily. A strong brand may helps sell a company to consumers. <br />
+              <br /> <span> <b>What Makes a Good Brand? </b></span>
               A good brand has a clear focus, strong visuals, is familiar with its target audience (family versus mature audience, for example) and is easily recognizable in a sea of similar brands.
               Our Brand Development Process Includes:
               Defining your business goals and objectives, conducting and analyzing primary research, and launching a full visual exploration of how you see yourselves and your place in the market.
-              Elonatech brand professionals can manage the end-to-end process from corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.</div>
+             <br />  Elonatech brand professionals can manage the end-to-end process from corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.</div>
           </div>
 
         
