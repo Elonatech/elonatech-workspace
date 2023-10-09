@@ -46,8 +46,8 @@ const router = createBrowserRouter([
         element: <Motion/>
       },
       {
-        path:'/graphic',
-        element: <Graphic/>
+        path:'/product',
+        element: <Product/>
       },
     ]
   },
