@@ -72,11 +72,11 @@ function Animation() {
      
         {/* WE HAVE ALL YOUR NEEDS */}
 
-        <div className="container-fluid" style={{backgroundColor:"#34548c", height:"500px"}}>
+        <div className="container-fluid animation-context" style={{backgroundColor:"#34548c"}}>
 
         <div class="row">
           <div class="col-md-6">
-          <img src={BackgroundImage3}  alt="" style={{marginBottom:'100px'}}  className='mb-2'/>
+          <img src={BackgroundImage3}  alt="" style={{marginBottom:'100px'}}  className='mb-2 img-fluid'/>
           </div>
           <div class="col-md-6">
           <div class="card rounded-0 border-0" style={{marginTop:"5rem", padding:'5rem'}} >
@@ -145,7 +145,7 @@ function Animation() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className=" text-black align-items-center" style={{height:"35rem", backgroundColor:'#34548c' }}>
+              <div className=" text-black align-items-center faq" >
               <h2 class="font-weight-bold heading p-2 pt-3  pl-2">FAQs</h2>
               <p class="text-black fs-6 pr-4 " style={{textAlign:"justify"}}>
                 <ul>
