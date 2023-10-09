@@ -36,25 +36,15 @@ const Graphic = () => {
 
 
         <div className="container">
-          <div class=" offering row flex-column-reverse flex-lg-row">
+          <div class=" offering row  flex-lg-row">
             <div class="col">
-            <h2 className='text-1 text-center fw-bold'>Our Offering</h2>
-            <p className=" fs-4 fw-normal text-justify">
-             Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve your goals.
+            <h2 className='text-1 text-start fw-bold'>Our Offering</h2>
+            <p className=" fs-6 fw-normal text-justify">
+             Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve goals.
              </p>
+             <img src={ELONATECH1} alt="img-fluid rounded"  className='elona-img-1'/>
             </div>
             <div class="col">
-            <img src={ELONATECH2} alt="img-fluid rounded" className='elona-img-2'/>
-            {/* style={{height:"20rem", width:"620px"}} */}
-            </div>
-          </div>
-
-        <div class="row justify-content-center  mt-5 mb-5">
-          <div class="col-md-6 col-sm-3">
-          <img src={ELONATECH1} alt="img-fluid rounded"  className='elona-img-1'/>
-          </div>
-          <div class="col-md-6 col-sm-3">
-          <div class="container">
             <div class="row">
               <div class="col-md-6 col-sm-3">
                 <div class="services__item__icon">
@@ -85,9 +75,12 @@ const Graphic = () => {
                 <p>Cereal boxes, Makeup package, containers, Other food and item boxes, packages, etc.</p>
               </div>
             </div>
+            {/* <img src={ELONATECH2} alt="img-fluid rounded" className='elona-img-2'/> */}
+            {/* style={{height:"20rem", width:"620px"}} */}
+            </div>
           </div>
-          </div>
-        </div>
+
+      
         </div>
 
 
