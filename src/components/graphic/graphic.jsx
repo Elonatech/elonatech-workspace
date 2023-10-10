@@ -9,6 +9,8 @@ import IMAGE3 from '../graphic/img/water_softeners_2-01_720.png';
 import IMAGE4 from '../graphic/img/elonatech-monday-post_720.jpg';
 import IMAGE5 from '../graphic/img/monday-special-new-2_720.jpg';
 import IMAGE6 from '../graphic/img/mission-impossible-promo_720.png';
+import IMAGE7 from '../graphic/img/expendibles-now-showing-original_720.jpg';
+import IMAGE8 from '../graphic/img/elonatech-website-design_720.jpg';
 import ELONATECH from '../graphic/img/elonatech-graphics3.jpg'
 import ELONATECH1 from '../graphic/img/elonatech-graphics2.jpg'
 import ELONATECH2 from '../graphic/img/Graphics_1-removebg-preview (1).png'
@@ -119,6 +121,8 @@ const Graphic = () => {
         <img src={IMAGE4} class="elona-img" alt="..."/>
         <img src={IMAGE5} class="elona-img" alt="..."/>
         <img src={IMAGE6} class="elona-img" alt="..."/>
+        <img src={IMAGE7} class="elona-img" alt="..."/>
+        <img src={IMAGE8} class="elona-img" alt="..."/>
         </div>
         </div>
 
