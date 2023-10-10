@@ -3,12 +3,12 @@ import ICON1 from '../graphic/img/icon1.png';
 import ICON2 from '../graphic/img/icon2.png'
 import ICON3 from '../graphic/img/icon3.png';
 import ICON4 from '../graphic/img/packageicon.png';
-import IMAGE1 from '../img/image.jpg.jpg';
-import IMAGE2 from '../img/project-14-850x540-(1).jpg';
-import IMAGE3 from '../img/project-14-850x540-(3.jpg';
-import IMAGE4 from '../img/project-14-850x540-4.jpg';
-import IMAGE5 from '../img/project-14-850x540-5.jpg';
-import IMAGE6 from '../img/project-14-850x540-6.jpg';
+import IMAGE1 from '../graphic/img/elonatech-flash-sale-2_720.jpg';
+import IMAGE2 from '../graphic/img/safebrooks-everyday-post6_720.jpg';
+import IMAGE3 from '../graphic/img/water_softeners_2-01_720.png';
+import IMAGE4 from '../graphic/img/elonatech-monday-post_720.jpg';
+import IMAGE5 from '../graphic/img/monday-special-new-2_720.jpg';
+import IMAGE6 from '../graphic/img/mission-impossible-promo_720.png';
 import ELONATECH from '../graphic/img/elonatech-graphics3.jpg'
 import ELONATECH1 from '../graphic/img/elonatech-graphics2.jpg'
 import ELONATECH2 from '../graphic/img/Graphics_1-removebg-preview (1).png'

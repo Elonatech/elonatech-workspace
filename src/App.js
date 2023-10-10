@@ -11,10 +11,7 @@ import Motion from './components/Motion/motion';
 const Layout = () =>{
   return(
   <>
-  
-  
   <Outlet/>
-  
   </>
   )
 }
