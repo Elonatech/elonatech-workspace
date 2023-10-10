@@ -18,10 +18,31 @@ import ELONADESIGN1 from '../graphic/img/business-card3.png'
 import ELONADESIGN2 from '../graphic/img/flyer2.png'
 import ELONADESIGN3 from '../graphic/img/stationery1.png'
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import './graphics.css'
 
 
 const Graphic = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 1000,
+    cssEase: "linear"
+  };
+
+  const sliderStyle = {
+    padding: "10px", // Adjust this value to control the margin
+  };
+
+
+
     const divStyle = {
         width:'20rem' };
 
@@ -113,8 +134,8 @@ const Graphic = () => {
 
 
         <div className="  pt-5 pb-5 projects-img">
-          <h2 className='text-center fs-1'>Latest Projects</h2>
-        <div className=" container img-card pt-3 ">
+          <h2 className='text-center fs-1 pb-5'>Latest Projects</h2>
+        {/* <div className=" container img-card pt-3 ">
         <img src={IMAGE1} class="elona-img" alt="..."/>
         <img src={IMAGE2} class="elona-img" alt="..."/>
         <img src={IMAGE3} class="elona-img" alt="..."/>
@@ -123,7 +144,35 @@ const Graphic = () => {
         <img src={IMAGE6} class="elona-img" alt="..."/>
         <img src={IMAGE7} class="elona-img" alt="..."/>
         <img src={IMAGE8} class="elona-img" alt="..."/>
-        </div>
+        </div> */}
+
+        {/* slider */}
+        <Slider {...settings} style={sliderStyle}>
+                  <div>
+                    <h3><img src={IMAGE1} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE2} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE3} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE4} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE5} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE6} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE7} alt=""  className='elona-img'/></h3>
+                  </div>
+                  <div>
+                    <h3><img src={IMAGE8} alt=""  className='elona-img'/></h3>
+                  </div>
+                </Slider>
         </div>
 
         <div className="container mb-5 mt-5">
