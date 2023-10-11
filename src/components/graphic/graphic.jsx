@@ -65,13 +65,13 @@ const Graphic = () => {
             <p className=" fs-6 fw-normal text-justify">
              Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve goals.
              </p>
-             <img src={ELONATECH1} alt="img-fluid rounded"  className='elona-img-1'/>
+             <img src={ELONATECH1} alt="img-fluid rounded"  className='img-fluid '/>
             </div>
             <div class="col-md-7">
             <div class="row">
               <div class="col-md-6 col-sm-3">
                 <div class="services__item__icon ">
-                 <img src={ICON1} style={{width:"50px"}} alt="" className='icon logo-icon1' />
+                 <img src={ICON1} style={{width:"50px"}} alt="" className='icon logo-icon1 ' />
                 </div>
                 <h3> Corporate design</h3>
                 <p>Logo design, Business cards, Stationery, Business newsletters</p>
