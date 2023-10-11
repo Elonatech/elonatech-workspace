@@ -7,17 +7,17 @@ body {
   }
 
   .background{
-    background-image:url('../../components/graphic/img/graphic_design_header.png');
+    background-image:url('../../components/graphic/img/graphic_design_header-removebg-preview.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
-    position: relative;
-    color: #f0f0f0;
+    background-position: center;
+    min-height: 60vh;
   }
 
   .graphic-text{
     padding-top: 17.5rem;
   padding-left: 14rem;
+  float: left;
   }
   .projects-img{
     background-image: url('../../components/graphic/img/colorful-266993_1920.jpg');
@@ -104,8 +104,8 @@ body {
   }
 
   .elona-img-1{
-    width: 635px;
-    height: 18rem;
+    width: 525px;
+    height: 14rem;
   }
 
   .elona-img-2{
