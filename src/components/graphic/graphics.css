@@ -115,10 +115,18 @@ body {
   .offering{
    padding-top: 2rem;
   }
+  .text-p{
+    padding-right: 3rem;
+   
+  }
 
   @media(max-width:768px) {
     .background{
       min-height: 40vh;
+    }
+    .text-p{
+      padding-right: 0;
+     
     }
     .text{
       font-size: calc(1rem + 3.3vw);
@@ -152,13 +160,7 @@ body {
   
 
   }
-  @media(min-width:768px){
-    .elona-img-1{
-      width: 280px;
-      height: 15rem;
-      padding-bottom: 10px;
-    }
-  }
+ 
 
 
   /* WHAT WE DO */

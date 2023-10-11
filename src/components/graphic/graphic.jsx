@@ -62,7 +62,7 @@ const Graphic = () => {
           <div class=" offering row  flex-lg-row">
             <div class="col-md-5 container">
             <h2 className='text-1 text-start fw-bold'>Our Offering</h2>
-            <p className=" fs-6 fw-normal text-justify">
+            <p className=" fs-6 fw-normal text-justify text-p">
              Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve goals.
              </p>
              <img src={ELONATECH1} alt="img-fluid rounded"  className='img-fluid '/>
