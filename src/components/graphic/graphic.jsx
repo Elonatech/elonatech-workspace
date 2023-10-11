@@ -12,7 +12,7 @@ import IMAGE6 from '../graphic/img/mission-impossible-promo_720.png';
 import IMAGE7 from '../graphic/img/expendibles-now-showing-original_720.jpg';
 import IMAGE8 from '../graphic/img/elonatech-website-design_720.jpg';
 import ELONATECH from '../graphic/img/elonatech-graphics3.jpg'
-import ELONATECH1 from '../graphic/img/elonatech-graphics2.jpg'
+import ELONATECH1 from '../graphic/img/screenshot_2023-10-11_110556_480.png'
 import ELONATECH2 from '../graphic/img/Graphics_1-removebg-preview (1).png'
 import ELONADESIGN1 from '../graphic/img/business-card3.png'
 import ELONADESIGN2 from '../graphic/img/flyer2.png'
@@ -50,9 +50,9 @@ const Graphic = () => {
         <section>
         <div className="background">
         <div class="py-5 ">
-          <h2 class=" mt-5 text-white text-center">Graphics Design</h2>
-          <h5 class=" mt-4 text-white text-center">Offering Industry-Standard Premium Design Service</h5>
-          <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p>
+          {/* <h2 class=" mt-5 text-white text-center">Graphic Design</h2> */}
+          <h5 class=" graphic-text text-black fs-6 float-start">Offering Industry-Standard Premium Design Service</h5>
+          {/* <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p> */}
         </div>
         </div>
 
@@ -109,23 +109,24 @@ const Graphic = () => {
 
 
        <div className="" style={{background:"#F9F6EE"}} >
-        <div className="text pt-5"> <h1 className='text-center'>PRINT DESIGN</h1></div>
-        <div className="container-card">
-          <div className="content-section">
+        <div className="pt-4"> <h1 className='text-center'>PRINT DESIGN</h1></div>
+        <div className="container-card ">
+          <div className="content-section p-md-5">
             <div class="card-body">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN1} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Business cards</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-justify">This shows off all your branding essentials: The name of your business, your logo, and your tagline. It encourages people to contact you, visit your business (online or in real life) and learn more about you.</p>
             </div>
             <div class="card-body">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN2} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Flyer/Brochures</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-justify">usually used for large volume hand-outs, brochures are designed to be read and to help readers absorb important information.
+                      These are advertisement that is presented by a business for promoting their products or services</p>
             </div>
             <div class="card-body">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN3} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Stationery</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-justify ">This refers to commercially manufactured writing materials, including cut paper, envelopes, writing implements, continuous form paper, and other office supplies.</p>
             </div>
           </div>
         </div>

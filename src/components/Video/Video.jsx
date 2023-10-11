@@ -80,8 +80,8 @@ const Video = () => {
               <img src={ICON1} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold' >Movie Production</h5 >
-                <p class="card-text p-2">Movie Production is simply everything that goes into the ideation, planning and execution of a video. Historically video production involves three phases: Pre-production, Production and Post-production.</p>
-               
+                <p class="card-text p-1 text">Movie Production is simply everything that goes into the ideation, planning and execution of a video. Historically video production involves three phases: Pre-production, Production and Post-production.</p>
+                <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>
@@ -90,8 +90,8 @@ const Video = () => {
               <img src={ICON2} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Movie Directing</h5>
-                <p class="card-text p-2">Movie Directing The directing of cinematography includes both the camera shots, Camera angles, Lighting, Shot lengths, Edits, Color palettes and Music, to obtain both a particular type of effect and mood. The director also has control over the editing to create the pace, rhythm, coherence, story, and character development needed.</p>
-                
+                <p class="card-text p-1 text">Movie Directing The directing of cinematography includes both the camera shots, Camera angles, Lighting, Shot lengths, Edits, Color palettes and Music, to obtain both a particular type of effect and mood. The director also has control over the editing to create the pace, rhythm, coherence, story, and character development needed.</p>
+                <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>
