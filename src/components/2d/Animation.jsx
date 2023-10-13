@@ -79,10 +79,10 @@ function Animation() {
           <img src={BackgroundImage3}  alt="" style={{marginBottom:'100px'}}  className='mb-2 img-fluid'/>
           </div>
           <div class="col-md-6">
-          <div class="card rounded-0 border-0" style={{marginTop:"5rem", padding:'5rem'}} >
+          <div class="card rounded-0 border-0" style={{marginTop:"5rem", padding:'3rem'}} >
             <div class="card-body">
               <h5 class="card-title fs-1">We Have All You Need  For <br /> Your Animation.....</h5>
-              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, facilis asperiores sit quibusdam <br /> fuga eum veniam corrupti placeat iste. Corporis. </p>
+              <p class="card-text">When you’re ready to take your animations to the next level, discover all that you can do with Character animations. Animation is the art of bringing life to an otherwise inanimate objects, or illustrated / 3D generated characters. It is created by projecting sequenced images quickly, one after another, to create the illusion of life.</p>
             
             </div>
         </div>

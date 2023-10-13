@@ -100,8 +100,8 @@ const Video = () => {
               <img src={ICON3} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>High Quality Work</h5>
-                <p class="card-text p-2">High Quality Work Delivering high-quality work in a fast-paced environment is a key skill for any professional who wants to achieve outstanding results to impress. Well-crafted work is done with care and precision. Craftsmanship requires attention to accuracy, detail, and beauty</p>
-              
+                <p class="card-text  p-1 text">High Quality Work Delivering high-quality work in a fast-paced environment is a key skill for any professional who wants to achieve outstanding results to impress. Well-crafted work is done with care and precision. Craftsmanship requires attention to accuracy, detail, and beauty</p>
+                <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>
@@ -115,8 +115,8 @@ const Video = () => {
               <img src={ICON6} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Sound Effects</h5>
-                <p class="card-text p-2">A sound effect (or audio effect) is an artificially created or enhanced sound, or sound process used to emphasize artistic or other content of films, television shows, live performance, animation, video games, music, or other media. Bring professional depth to your audio projects.</p>
-              
+                <p class="card-text  p-1 text">A sound effect (or audio effect) is an artificially created or enhanced sound, or sound process used to emphasize artistic or other content of films, television shows, live performance, animation, video games, music, or other media. Bring professional depth to your audio projects.</p>
+                  <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>
@@ -125,8 +125,8 @@ const Video = () => {
               <img src={ICON4} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Live Streaming</h5>
-                <p class="card-text p-2">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
-              
+                <p class="card-text  p-1 text">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
+                  <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>
@@ -135,8 +135,8 @@ const Video = () => {
               <img src={ICON5} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Video Converting</h5>
-                <p class="card-text p-2">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
-             
+                <p class="card-text  p-1 text">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
+                <input type="checkbox" class="text-btn" />
               </div>
             </div>
               </div>

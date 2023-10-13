@@ -52,18 +52,20 @@ body {
   appearance: none;
   background-color:#014e78;
   color:white;
-  padding: 0.5em;
+  padding: 30px;
   cursor: pointer;
-  width: fit-content;
+  /* width: fit-content; */
   border-radius: 0.25em;
   -webkit-border-radius: 0.25em;
   -moz-border-radius: 0.25em;
   -ms-border-radius: 0.25em;
   -o-border-radius: 0.25em;
+ 
 }
 .text-btn::before {
   content: "Read More";
   text-transform: capitalize;
+  padding: 20px;
 }
 .text-btn:checked::before {
   content: "Read Less";
