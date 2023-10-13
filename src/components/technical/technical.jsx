@@ -1,7 +1,7 @@
 import React from 'react';
 import './technical.css'
-import Tech1 from '../technical/img/technical-support-concept_1284-14712-removebg-preview.png'
-import Tech2 from '../technical/img/tech-img.png'
+import Tech1 from '../technical/img/network-engineer-using-laptop-server-room_236854-41049_480.jpg'
+import Tech2 from '../technical/img/concentrated-black-workman-hardhat-orange-vest-crouching-by-server-using-flashlight-while-fixing-server-problem_274679-20191_720.jpg'
 
 const technical = () => {
   return (
@@ -16,7 +16,7 @@ const technical = () => {
 
         <div className="container ">
             <div className="">
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center pt-5 pb-5">
                 <div class="col-md-6">
                 <img src={Tech1} alt="" className='img-fluid'/>
                 </div>
@@ -32,7 +32,7 @@ const technical = () => {
             </div>
         </div>
 
-        <div className="container ">
+        <div className="container pl-5 pr-5 pb-5">
             <div className="">
             <div class="row justify-content-center flex-column-reverse flex-lg-row ">
                 <div class="col-md-6">
@@ -54,16 +54,16 @@ const technical = () => {
             </div>
         </div>
 
-        <div className="container bg-dark p-4">
+        <div className="container p-4" style={{backgroundColor:"#34548c"}}>
             <div className=" text-light">
             <h2 className='fw-bold fs-4 text-center'>What Are The Main Responsibilities?</h2>
-            <p className='text-center'>We will be right at the heart of matters as we need to deal directly with employees and customers who have technical problems such as trouble with their email accounts, forgotten passwords or viruses.</p> 
+            <p className='text-center' style={{fontSize:"18px"}}>We will be right at the heart of matters as we need to deal directly with employees and customers who have technical problems such as trouble with their email accounts, forgotten passwords or viruses.</p> 
             </div>
             <div className="text-light">
-                <h3 className='fw-bold fs-6 '>Typical Technical Support responsibilities include:</h3>
+                <h3 className='fw-bold fs-5 '>Typical Technical Support responsibilities include:</h3>
             <div class="row justify-content-center gy-5 pt-2">
                 <div class="col-md-6">
-                <ul>
+                <ul style={{fontSize:"18px"}}>
                     <li>Installation & configuration of a company’s computer hardware operating systems and applications.</li>
                     <li>Maintenance and monitoring of computer networks and systems.</li>
                     <li>Logging the queries of customers and employees.</li>
@@ -72,7 +72,7 @@ const technical = () => {
                 </ul>
                 </div>
                 <div class="col-md-6">
-                <ul>
+                <ul style={{fontSize:"17.8px"}}>
                     <li>Testing and evaluating new technology.</li>
                     <li>Performing electrical safety checks on the company’s computer equipment.</li>
                     <li>Responding to call-outs in a timely fashion.</li>
