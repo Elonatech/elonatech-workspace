@@ -54,30 +54,102 @@ const technical = () => {
             </div>
         </div>
 
-        <div className="container p-4" style={{backgroundColor:"#34548c"}}>
-            <div className=" text-light">
+        <div className="container">
             <h2 className='fw-bold fs-4 text-center'>What Are The Main Responsibilities?</h2>
-            <p className='text-center' style={{fontSize:"18px"}}>We will be right at the heart of matters as we need to deal directly with employees and customers who have technical problems such as trouble with their email accounts, forgotten passwords or viruses.</p> 
+            <p className='text-center' style={{fontSize:"18px"}}>We will be right at the heart of matters as we need to deal directly with employees and customers who have <br /> technical problems such as trouble with their email accounts, forgotten passwords or viruses.</p> 
             </div>
+        <div className="container p-1" style={{backgroundColor:"#34548c"}}>
             <div className="text-light">
-                <h3 className='fw-bold fs-5 '>Typical Technical Support responsibilities include:</h3>
-            <div class="row justify-content-center gy-5 pt-2">
+                <h3 className='fw-bold fs-5 pl-md-5 pt-3'>Typical Technical Support responsibilities include:</h3>
+            <div class="row justify-content-center gy-5 pt-4">
                 <div class="col-md-6">
-                <ul style={{fontSize:"18px"}}>
-                    <li>Installation & configuration of a company’s computer hardware operating systems and applications.</li>
-                    <li>Maintenance and monitoring of computer networks and systems.</li>
-                    <li>Logging the queries of customers and employees.</li>
-                    <li>Analysis of call logs in order to discover any underlying issues or trends.</li>
-                    <li>Diagnosing and solving hardware or software faults.</li>
+                <ul style={{fontSize:"18px", listStyle:"none"}}>
+                    <li className='pl-1'>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className=''>Installation & configuration of a company’s computer hardware operating systems and applications.</p>
+                        </div>
+                        </li>
+                    <li>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className=''>Maintenance and monitoring of computer networks and systems.</p>
+                        </div>
+                        </li>
+                    <li>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className=''>Logging the queries of customers and employees.</p>
+                        </div>
+                        </li>
+                    <li>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
+                        </div>
+                       </li>
+                       
+                       <li>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className='ml-2'>Following instructions, either written or in diagram form, in order to set up a system or fix a fault.</p>
+                        </div>
+                    </li>
+                   
                 </ul>
                 </div>
                 <div class="col-md-6">
-                <ul style={{fontSize:"17.8px"}}>
-                    <li>Testing and evaluating new technology.</li>
-                    <li>Performing electrical safety checks on the company’s computer equipment.</li>
-                    <li>Responding to call-outs in a timely fashion.</li>
-                    <li>Following instructions, either written or in diagram form, in order to set up a system or fix a fault.</li>
-                    <li>Provide after-sales support for software or equipment supplied.</li>
+                <ul style={{fontSize:"18px",listStyle:"none" }}>
+                    <li>
+                        <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className='ml-2'>Testing and evaluating new technology.</p>
+                        </div>
+                    </li>
+                    <li className=''>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className='ml-2'>Performing electrical safety checks on the company’s computer equipment.</p>
+                        </div>
+                        </li>
+                    <li className=''>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className='ml-2'>Responding to call-outs in a timely fashion.</p>
+                        </div>
+                        </li>
+                        <li>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className=''> Diagnosing and solving hardware or software faults.</p>
+                        </div>
+                       </li>
+                    <li className=''>
+                    <div className="d-flex ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                            <p className='ml-2'>Provide after-sales support for software or equipment supplied..</p>
+                        </div>
+                        </li>
                 </ul>
                 </div>
             </div>
