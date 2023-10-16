@@ -26,7 +26,7 @@ const technical = () => {
                         <h2 className='fw-bold'>Our Technical Support Team</h2>
                         <p className='text-justify p-text' >is composed of individuals that are familiar with the ins and outs of the device they are assigned to.
                             They offer user-friendly assistance for individuals having technical problems with computer/electronic devices. With this knowledge, they are able to troubleshoot most problems that a user experiences. Technical support may be provided over the phone, through email, a live-chat interface or with a remote support solution.
-                            The Technical Support personnel help maintain, manage and repair IT systems. The role also involves diagnosing software or hardware faults and solving the issues over the phone or in person. </p>
+                           <br /><br /> The Technical Support personnel help maintain, manage and repair IT systems. The role also involves diagnosing software or hardware faults and solving the issues over the phone or in person. </p>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const technical = () => {
             <div className="">
             <div class="row justify-content-center flex-column-reverse flex-lg-row ">
                 <div class="col-md-6">
-                <div className="tech-text">
+                <div className="tech-text mt-md-5">
                         <h2 className='fw-bold'>Tech Support Services Include:</h2>
                         <ul className='p-text'>
                             <li className='pt-3'>Troubleshooting problems</li>

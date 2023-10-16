@@ -71,7 +71,7 @@ const remote = () => {
                         </div>
                 </div>
                 <div class="col-md-3 mt-4">
-                    <div class="card h-100 " style={{width:"18rem"}}> mt-5
+                    <div class="card h-100 " style={{width:"18rem"}}>
                        <img src={image4} alt=""  classname="img-fluid"/>
                         <div class="card-body">
                             <h5 class="card-title">Round-the-Clock Maintainence</h5>
@@ -99,8 +99,8 @@ const remote = () => {
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={photo1} alt="" className='photo-icon'/>
               <div class="card-body">
-                <h5 className='fw-bold' >Movie Production</h5 >
-                <p class="card-text p-1 text">Movie Production is simply everything that goes into the ideation, planning and execution of a video. Historically video production involves three phases: Pre-production, Production and Post-production.</p>
+                <h5 className='fw-bold' >On-demand Remote Support</h5 >
+                <p class="card-text p-1 text">On-demand remote support for IT is the assistance technicians offer to remote customers when someone is present at the customer's end to attend the session. Technicians can either initiate a session instantly or schedule a time that's more convenient.</p>
                 <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
@@ -109,8 +109,8 @@ const remote = () => {
               <div class="card h-100" style={{width:"23rem"}} >
               <img src={photo2} alt="" className='photo-icon'/>
               <div class="card-body">
-                <h5 className='fw-bold'>Movie Directing</h5>
-                <p class="card-text p-1 text">Movie Directing The directing of cinematography includes both the camera shots, Camera angles, Lighting, Shot lengths, Edits, Color palettes and Music, to obtain both a particular type of effect and mood. The director also has control over the editing to create the pace, rhythm, coherence, story, and character development needed.</p>
+                <h5 className='fw-bold'>Screen sharing</h5>
+                <p class="card-text p-1 text">Assist enables quick and secure screen sharing so technicians can share their computer screen with remote end users. Technicians can use this feature to provide a demonstration when required.</p>
                 <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
@@ -119,8 +119,8 @@ const remote = () => {
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={photo3} alt="" className='photo-icon'/>
               <div class="card-body">
-                <h5 className='fw-bold'>High Quality Work</h5>
-                <p class="card-text  p-1 text">High Quality Work Delivering high-quality work in a fast-paced environment is a key skill for any professional who wants to achieve outstanding results to impress. Well-crafted work is done with care and precision. Craftsmanship requires attention to accuracy, detail, and beauty</p>
+                <h5 className='fw-bold'>Unattended Remote Access</h5>
+                <p class="card-text  p-1 text">Unattended remote access is access to a remote computer without an a person at the remote end. With unattended access, issue resolution, patch, software updates, and a whole lot of other activities can be achieved in a customer's idle time without asking them to take time out of their workday for the session.</p>
                 <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
