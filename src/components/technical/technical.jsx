@@ -1,5 +1,6 @@
 import React from 'react';
 import './technical.css'
+import { AiFillStar } from "react-icons/ai";
 import Tech1 from '../technical/img/network-engineer-using-laptop-server-room_236854-41049_480.jpg'
 import Tech2 from '../technical/img/concentrated-black-workman-hardhat-orange-vest-crouching-by-server-using-flashlight-while-fixing-server-problem_274679-20191_720.jpg'
 
@@ -61,47 +62,51 @@ const technical = () => {
         <div className="container p-1" style={{backgroundColor:"#34548c"}}>
             <div className="text-light">
                 <h3 className='fw-bold fs-5 pl-md-5 pt-3'>Typical Technical Support responsibilities include:</h3>
-            <div class="row justify-content-center gy-5 pt-4">
+            <div class="row justify-content-center  pt-4">
                 <div class="col-md-6">
-                <ul style={{fontSize:"18px", listStyle:"none"}}>
+                <ul style={{ listStyle:"none"}}>
                     <li className='pl-1'>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar style={{width:"20px"}}/>
                             <p className=''>Installation & configuration of a company’s computer hardware operating systems and applications.</p>
                         </div>
                         </li>
                     <li>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar style={{width:"20px"}}/>
                             <p className=''>Maintenance and monitoring of computer networks and systems.</p>
                         </div>
                         </li>
                     <li>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 mr-1" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar style={{width:"20px"}}/>
                             <p className=''>Logging the queries of customers and employees.</p>
                         </div>
                         </li>
                     <li>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar sstyle={{width:"20px"}}/>
+                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
+                        </div>
+                       </li>
+                       
+                    <li>
+                    <div className="d-flex ">
+                    <AiFillStar sstyle={{width:"20px"}}/>
+                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
+                        </div>
+                       </li>
+                       
+                    <li>
+                    <div className="d-flex ">
+                    <AiFillStar sstyle={{width:"20px"}}/>
                             <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
                         </div>
                        </li>
                        
                        <li>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar style={{width:"20px"}}/>
                             <p className='ml-2'>Following instructions, either written or in diagram form, in order to set up a system or fix a fault.</p>
                         </div>
                     </li>
@@ -109,51 +114,43 @@ const technical = () => {
                 </ul>
                 </div>
                 <div class="col-md-6">
-                <ul style={{fontSize:"18px",listStyle:"none" }}>
+                <ul >
                     <li>
                         <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
-                            <p className='ml-2'>Testing and evaluating new technology.</p>
+                        <AiFillStar/>
+                            <p className=''>Testing and evaluating new technology.</p>
                         </div>
                     </li>
                     <li className=''>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
-                            <p className='ml-2'>Performing electrical safety checks on the company’s computer equipment.</p>
+                    <AiFillStar/>
+                            <p className=''>Performing electrical safety checks on the company’s computer equipment.</p>
                         </div>
                         </li>
                     <li className=''>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
-                            <p className='ml-2'>Responding to call-outs in a timely fashion.</p>
+                    <AiFillStar/>
+                            <p className=''>Responding to call-outs in a timely fashion.</p>
                         </div>
                         </li>
                         <li>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
+                    <AiFillStar/>
                             <p className=''> Diagnosing and solving hardware or software faults.</p>
                         </div>
                        </li>
                     <li className=''>
                     <div className="d-flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-star-fill mt-1 " viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                        </svg>
-                            <p className='ml-2'>Provide after-sales support for software or equipment supplied..</p>
+                        <AiFillStar/>
+                            <p className=''>Provide after-sales support for software or equipment supplied..</p>
                         </div>
                         </li>
                 </ul>
                 </div>
             </div>
             </div>
+
+            
 
         </div>
     </section>

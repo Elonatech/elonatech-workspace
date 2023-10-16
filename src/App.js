@@ -8,6 +8,7 @@ import Product from './components/Product/product';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Motion from './components/Motion/motion';
 import Technical from './components/technical/technical'
+import Remote from './components/Remote/remote'
 
 const Layout = () =>{
   return(
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path:'/technical',
         element: <Technical/>
+      },
+      {
+        path:'/remote',
+        element: <Remote/>
       },
     ]
   },
