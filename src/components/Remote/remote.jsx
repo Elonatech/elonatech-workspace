@@ -54,8 +54,8 @@ const remote = () => {
                         <img src={image1} alt="" classname="img-fluid" />
                         <div class="card-body">
                             <h5 class="card-title">Reduced Costs</h5>
-                            <p class="card-text text">Empowering MSPs and IT technicians with remote access to computers in an organization would alleviate overhead costs of on-site visits.</p>
-                            <input type="checkbox" class="text-btn p-2 mt-5" />                        </div>
+                            <p class="card-text ">Empowering MSPs and IT technicians with remote access to computers in an organization would alleviate overhead costs of on-site visits.</p>
+                                                 </div>
                         </div>
                 </div>
                 <div class="col-md-3 mt-4"  data-aos="zoom-out-right" data-aos-duration="3000">
@@ -63,8 +63,8 @@ const remote = () => {
                         <img src={image2} alt="" classname="img-fluid" />
                         <div class="card-body">
                             <h5 class="card-title">Increased Productivity</h5>
-                            <p class="card-text text">IT issues can decrease productivity, as they distract computer users from their core job. With remote IT support software you can resolve issues faster and increase productivity.</p>
-                            <input type="checkbox" class="text-btn p-2 mt-5" />                         
+                            <p class="card-text ">IT issues can decrease productivity, as they distract computer users from their core job. With remote IT support software you can resolve issues faster and increase productivity.</p>
+                                                  
                         </div>
                         </div>
                 </div>
@@ -73,8 +73,8 @@ const remote = () => {
                        <img src={image3} alt=""  classname="img-fluid"/>
                         <div class="card-body">
                             <h5 class="card-title">Access to Experts</h5>
-                            <p class="card-text text">Handling certain issues on a computer might demand technicians with specialized expertise. With remote support software you can have technicians from anywhere in the world working on your computer.</p>
-                            <input type="checkbox" class="text-btn p-2 mt-5" />                        
+                            <p class="card-text ">Handling certain issues on a computer might demand technicians with specialized expertise. With remote support software you can have technicians from anywhere in the world working on your computer.</p>
+                                              
                         </div>
                         </div>
                 </div>
@@ -83,8 +83,8 @@ const remote = () => {
                        <img src={image4} alt=""  classname="img-fluid"/>
                         <div class="card-body">
                             <h5 class="card-title">Round-the-Clock Maintenance</h5>
-                            <p class="card-text text">With a remote support software, you can configure a computer for unattended remote access. Configured computers can be accessed by MSPs at any time for installing updates or troubleshooting.</p>
-                            <input type="checkbox" class="text-btn p-2" />                      
+                            <p class="card-text ">With a remote support software, you can configure a computer for unattended remote access. Configured computers can be accessed by MSPs at any time for installing updates or troubleshooting.</p>
+                                              
                         </div>
                         </div>
                 </div>
