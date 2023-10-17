@@ -17,6 +17,14 @@
     margin-left:20px ;
     margin-top:20px ;
   }
+  .remote-card{
+    transition: all 0.3s;
+   
+  }
+  .remote-card:hover{
+    transform: scale(1.15);
+   
+  }
 
   @media screen and (max-width:768px){
     .remote-text{
