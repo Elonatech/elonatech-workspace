@@ -48,7 +48,7 @@ const remote = () => {
             {/* BENEFITS OF USING SUPPORT */}
             <div className="container mt-3">
                 <h2 className='text-center fw-bold fs-3'  data-aos="zoom-in" data-aos-duration="3000">Benefits of Using Remote Support</h2>
-            <div class="row  justify-content-center">
+            <div class="row  justify-content-center remote-row">
                 <div class="col-md-3 mt-4" data-aos="zoom-out-right" data-aos-duration="3000">
                     <div class="card h-100 " style={{width:"18rem"}}>
                         <img src={image1} alt="" classname="img-fluid" />
@@ -101,9 +101,9 @@ const remote = () => {
       {/* TYPE OF REMOTE SUPPORT */}
       <div className="mt-5" style={{backgroundColor:"#34548c"}}>
           <div className="container pt-5">
-            <h2 className='text-center fw-bold fs-2 text-white'>Type Of Remote Support</h2>
+            <h2 className='text-center fw-bold fs-3 text-white'>Type Of Remote Support</h2>
           <div class="row">
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="1000">
               <div class="card remote-card h-100" style={{width:"23rem"}}>
               <img src={photo1} alt="" className='photo-icon'/>
               <div class="card-body">
@@ -113,7 +113,7 @@ const remote = () => {
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="2000">
               <div class="card remote-card h-100" style={{width:"23rem"}} >
               <img src={photo2} alt="" className='photo-icon'/>
               <div class="card-body">
@@ -123,7 +123,7 @@ const remote = () => {
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="3000">
               <div class="card remote-card h-100" style={{width:"23rem"}}>
               <img src={photo3} alt="" className='photo-icon'/>
               <div class="card-body">

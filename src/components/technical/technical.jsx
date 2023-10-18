@@ -3,12 +3,14 @@ import './technical.css'
 import { AiFillStar } from "react-icons/ai";
 import Tech1 from '../technical/img/network-engineer-using-laptop-server-room_236854-41049_480.jpg'
 import Tech2 from '../technical/img/concentrated-black-workman-hardhat-orange-vest-crouching-by-server-using-flashlight-while-fixing-server-problem_274679-20191_720.jpg'
+import Star from '../technical/img/star.png'
+
 
 const technical = () => {
   return (
     <section>
         <div className='technical-background'>
-            <div class="py-5 ">
+            <div class="py-5 "  data-aos="fade-up" data-aos-duration="3000">
                 <h2 class=" mt-5 text-white text-center">Tech Support</h2>
                 <h5 class="lead fw-bold text-white text-center"> To ensure that customers can effectively use products or services without facing technical hurdles.</h5>
                 <p class="  text-white text-center">We provide assistance to customers and clients who are experiencing technical issues with products, services, or equipment. <br /> offering guidance on the use of software or hardware, and resolving any issues that arise.</p>
@@ -17,11 +19,11 @@ const technical = () => {
 
         <div className="container ">
             <div className="">
-            <div class="row justify-content-center pt-5 pb-5">
-                <div class="col-md-6">
+            <div class="row justify-content-center pt-5 pb-5" >
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                 <img src={Tech1} alt="" className='img-fluid'/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                     <div className="tech-text">
                         <h2 className='fw-bold'>Our Technical Support Team</h2>
                         <p className='text-justify p-text' >is composed of individuals that are familiar with the ins and outs of the device they are assigned to.
@@ -36,7 +38,7 @@ const technical = () => {
         <div className="container pl-5 pr-5 pb-5">
             <div className="">
             <div class="row justify-content-center flex-column-reverse flex-lg-row ">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000" >
                 <div className="tech-text mt-md-5">
                         <h2 className='fw-bold'>Tech Support Services Include:</h2>
                         <ul className='p-text'>
@@ -48,101 +50,92 @@ const technical = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000" >
                 <img src={Tech2} alt="" className='img-fluid'/>
                 </div>
             </div>
             </div>
         </div>
 
-        <div className="container">
+        <div className="container" data-aos="zoom-in-down" data-aos-duration="3000">
             <h2 className='fw-bold fs-4 text-center'>What Are The Main Responsibilities?</h2>
             <p className='text-center' style={{fontSize:"18px"}}>We will be right at the heart of matters as we need to deal directly with employees and customers who have <br /> technical problems such as trouble with their email accounts, forgotten passwords or viruses.</p> 
             </div>
         <div className="container p-1" style={{backgroundColor:"#34548c"}}>
             <div className="text-light">
-                <h3 className='fw-bold fs-5 pl-md-5 pt-3'>Typical Technical Support responsibilities include:</h3>
+                <h3 className='fw-bold fs-5 pl-md-5 pt-3' data-aos="fade-right" data-aos-duration="3000">Typical Technical Support responsibilities include:</h3>
             <div class="row justify-content-center  pt-4">
-                <div class="col-md-6">
-                <ul style={{ listStyle:"none"}}>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <ul style={{ listStyle:"none"}} >
                     <li className='pl-1'>
-                    <div className="d-flex ">
-                    <AiFillStar style={{width:"20px"}}/>
-                            <p className=''>Installation & configuration of a company’s computer hardware operating systems and applications.</p>
+                        <div className="d-flex ">
+                            <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Installation & configuration of a company’s computer hardware operating systems and applications.</p>
                         </div>
-                        </li>
+                    </li>
+
                     <li>
-                    <div className="d-flex ">
-                    <AiFillStar style={{width:"20px"}}/>
-                            <p className=''>Maintenance and monitoring of computer networks and systems.</p>
+                        <div className="d-flex ">
+                            <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Maintenance and monitoring of computer networks and systems.</p>
                         </div>
-                        </li>
+                    </li>
+
                     <li>
-                    <div className="d-flex ">
-                    <AiFillStar style={{width:"20px"}}/>
-                            <p className=''>Logging the queries of customers and employees.</p>
-                        </div>
-                        </li>
-                    <li>
-                    <div className="d-flex ">
-                    <AiFillStar sstyle={{width:"20px"}}/>
-                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
-                        </div>
-                       </li>
-                       
-                    <li>
-                    <div className="d-flex ">
-                    <AiFillStar sstyle={{width:"20px"}}/>
-                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
-                        </div>
-                       </li>
-                       
-                    <li>
-                    <div className="d-flex ">
-                    <AiFillStar sstyle={{width:"20px"}}/>
-                            <p className=''> Analysis of call logs in order to discover any underlying issues or trends.</p>
-                        </div>
-                       </li>
-                       
-                       <li>
-                    <div className="d-flex ">
-                    <AiFillStar style={{width:"20px"}}/>
-                            <p className='ml-2'>Following instructions, either written or in diagram form, in order to set up a system or fix a fault.</p>
+                        <div className="d-flex ">
+                            <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Logging the queries of customers and employees.</p>
                         </div>
                     </li>
                    
-                </ul>
-                </div>
-                <div class="col-md-6">
-                <ul >
+                       
                     <li>
                         <div className="d-flex ">
-                        <AiFillStar/>
-                            <p className=''>Testing and evaluating new technology.</p>
+                            <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'> Analysis of call logs in order to discover any underlying issues or trends.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div className="d-flex ">
+                            <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Following instructions, either written or in diagram form, in order to set up a system or fix a fault.</p>
+                        </div>
+                    </li>
+                      
+                      
+                </ul>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="3000">
+                <ul style={{listStyle:"none"}}>
+                    <li>
+                        <div className="d-flex ">
+                        <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Testing and evaluating new technology.</p>
                         </div>
                     </li>
                     <li className=''>
                     <div className="d-flex ">
-                    <AiFillStar/>
-                            <p className=''>Performing electrical safety checks on the company’s computer equipment.</p>
+                    <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Performing electrical safety checks on the company’s computer equipment.</p>
                         </div>
                         </li>
                     <li className=''>
                     <div className="d-flex ">
-                    <AiFillStar/>
-                            <p className=''>Responding to call-outs in a timely fashion.</p>
+                    <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Responding to call-outs in a timely fashion.</p>
                         </div>
                         </li>
                         <li>
                     <div className="d-flex ">
-                    <AiFillStar/>
-                            <p className=''> Diagnosing and solving hardware or software faults.</p>
+                    <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'> Diagnosing and solving hardware or software faults.</p>
                         </div>
                        </li>
                     <li className=''>
                     <div className="d-flex ">
-                        <AiFillStar/>
-                            <p className=''>Provide after-sales support for software or equipment supplied..</p>
+                       <img src={Star} alt="" className='star'/>
+                            <p className='pl-2'>Provide after-sales support for software or equipment supplied..</p>
                         </div>
                         </li>
                 </ul>

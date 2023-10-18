@@ -19,7 +19,7 @@ const Video = () => {
     <>
     {/* HEADER */}
         <div style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
-            <div className="container pt-5 ">
+            <div className="container pt-5 "  data-aos="fade-down" data-aos-duration="3000">
                 <h1 className='text-center pt-5 text-white fw-bold'>VIDEO EDITING</h1>
             <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p>
             </div>
@@ -28,12 +28,12 @@ const Video = () => {
           <div className="container">
 
           <div class="container px-4 align-items-center">
-            <div class="row gx-5 mt-5">
+            <div class="row gx-md-5 mt-5">
               <div class="col">
-              <div class="p-3 "> <img src={photo2} alt=""  className="video-img" /></div>
+              <div class="p-3 " data-aos="fade-up-right" data-aos-duration="3000"> <img src={photo2} alt=""  className="video-img" /></div>
               </div>
               <div class="col">
-                <div class="p-3 "><p className=' fs-6 text-justify'>  We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.
+                <div class="p-3  " data-aos="fade-up-left" data-aos-duration="3000"><p className=' fs-6 text-justify'>  We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.
                       Aside the video coverage, there is a major aspect of the video production, which we handle perfectly at Elonatech, and its known as <span className='fs-5 fw-bold '>VIDEO EDITING</span>.
                       Editing is usually considered to be one part of the post production process. Other post-production tasks include titling, color correction, sound mixing, etc.
                       Video editing is the process of putting together, cleaning up and finalizing a video for presentation or output. It is mostly used to describe post-production work, which is the work done after all of the shots and footage have been taken and all that still needs to be done is to put them together in order to come up with the final output.
@@ -43,8 +43,8 @@ const Video = () => {
             </div>
           </div>
 
-          <div class="clearfix align-items-center">
-          <div class=" "> <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " /></div>
+          <div class="clearfix align-items-center" data-aos="fade-left" data-aos-duration="2000">
+           <div class=" "   > <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " /></div>
 
             <p className='pt-md-5 fs-6 text-justify'>    The goal of editing is to manipulate these events to bring the communication closer to the original goal or target. It is a visual art. Aside the video coverage, there is a major aspect of the video production, which we handle perfectly at Elonatech, and its known as <span className='fs-5 fw-bold'>VIDEO EDITING.</span> Editing is usually considered to be one part of the post production process. Other post-production tasks include titling, color correction, sound mixing, etc.</p>
 
@@ -52,11 +52,11 @@ const Video = () => {
           </div>
         
 
-          <div class="clearfix mt-5">
-                <img src={Photo} class="col-md-6 float-md-end mb-3 ms-md-3 video-img-1" alt="..."/>
+          <div class="clearfix mt-5" data-aos="fade-right" data-aos-duration="2000">
+                <img src={Photo} class="col-md-6 float-md-end mb-3 ms-md-3 video-img-1" alt="..." />
 
-                <h3 className='fw-bold text-danger'>The Major Tasks associated with video editing includes:</h3>
-                <ul>
+                <h3 className='fw-bold text-danger' >The Major Tasks associated with video editing includes:</h3>
+                <ul >
                     <li className='pt-2 fs-6 fw-normal'>Rearranging, adding and/or removing sections of video clips and/or audio clips</li>
                     <li  className='pt-2 fs-6 fw-normal'>Creating the flow of the narrative by arranging and rearranging scenes</li>
                     <li  className='pt-2 fs-6 fw-normal'>Adding effects, filters and additional elements such as CGI</li>
@@ -68,40 +68,40 @@ const Video = () => {
           {/* CARD */}
         <div className="container mt-5">
 
-          <div className="text-center">
+          <div className="text-center" >
             <h5 className='pt-4'>OUR SERVICE</h5>
             <h2 className=' fw-bold'>Video Production to the <br /> Next Level</h2>
           </div>
 
          <div class="container ">
             <div class="row">
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="1000">
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={ICON1} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold' >Movie Production</h5 >
                 <p class="card-text p-1 text">Movie Production is simply everything that goes into the ideation, planning and execution of a video. Historically video production involves three phases: Pre-production, Production and Post-production.</p>
-                <input type="checkbox" class="text-btn" />
+                <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="2000">
               <div class="card h-100" style={{width:"23rem"}} >
               <img src={ICON2} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Movie Directing</h5>
                 <p class="card-text p-1 text">Movie Directing The directing of cinematography includes both the camera shots, Camera angles, Lighting, Shot lengths, Edits, Color palettes and Music, to obtain both a particular type of effect and mood. The director also has control over the editing to create the pace, rhythm, coherence, story, and character development needed.</p>
-                <input type="checkbox" class="text-btn" />
+                <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="3000">
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={ICON3} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>High Quality Work</h5>
                 <p class="card-text  p-1 text">High Quality Work Delivering high-quality work in a fast-paced environment is a key skill for any professional who wants to achieve outstanding results to impress. Well-crafted work is done with care and precision. Craftsmanship requires attention to accuracy, detail, and beauty</p>
-                <input type="checkbox" class="text-btn" />
+                <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
@@ -110,33 +110,33 @@ const Video = () => {
 
         <div class="container mt-4 mb-5">
             <div class="row">
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="1000">
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={ICON6} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Sound Effects</h5>
                 <p class="card-text  p-1 text">A sound effect (or audio effect) is an artificially created or enhanced sound, or sound process used to emphasize artistic or other content of films, television shows, live performance, animation, video games, music, or other media. Bring professional depth to your audio projects.</p>
-                  <input type="checkbox" class="text-btn" />
+                  <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="2000">
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={ICON4} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Live Streaming</h5>
                 <p class="card-text  p-1 text">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
-                  <input type="checkbox" class="text-btn" />
+                  <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4" data-aos="zoom-in" data-aos-duration="3000">
               <div class="card h-100" style={{width:"23rem"}}>
               <img src={ICON5} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Video Converting</h5>
                 <p class="card-text  p-1 text">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
-                <input type="checkbox" class="text-btn" />
+                <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
               </div>
