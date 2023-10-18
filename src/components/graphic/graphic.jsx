@@ -17,6 +17,7 @@ import ELONATECH2 from '../graphic/img/Graphics_1-removebg-preview (1).png'
 import ELONADESIGN1 from '../graphic/img/business-card3.png'
 import ELONADESIGN2 from '../graphic/img/flyer2.png'
 import ELONADESIGN3 from '../graphic/img/stationery1.png'
+import Graphic1 from '../graphic/img/graphic_design_header-removebg-preview.png'
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -48,12 +49,14 @@ const Graphic = () => {
 
     return (
         <section>
-        <div className="background">
-        <div class="py-5 ">
-          {/* <h2 class=" mt-5 text-white text-center">Graphic Design</h2> */}
-          {/* <h5 class=" graphic-text text-black fs-6 float-start">Offering Industry-Standard Premium Design Service</h5> */}
-          {/* <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p> */}
-        </div>
+    
+        <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${Graphic1})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
+            <div className="container pt-5 "  data-aos="fade-down" data-aos-duration="3000">
+                <h1 className='text-center pt-5 text-white fw-bold'>Graphic Design</h1>
+                <h5 className='text-center fs-5'>Offering Industry-Standard Premium Design Service.</h5>
+                <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p> 
+            {/* <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p> */}
+            </div>
         </div>
 
 

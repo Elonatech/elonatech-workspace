@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundImage from './img/5048200.png';
+import BackgroundImage from '../Video/img/close-up-sound-engineer-studio-with-equipment_1157-47928.jpg';
 import BackgroundImage2 from './img/banner3.png';
 import Photo from './img/pexels-ron-lach-8102677.jpg';
 import photo2 from './img/417-4173625_video-editing-editing-png-hd-camera_480.png';
@@ -18,10 +18,11 @@ const Video = () => {
 
     <>
     {/* HEADER */}
-        <div style={{ backgroundImage: `url(${BackgroundImage})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
+        <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${BackgroundImage})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
             <div className="container pt-5 "  data-aos="fade-down" data-aos-duration="3000">
                 <h1 className='text-center pt-5 text-white fw-bold'>VIDEO EDITING</h1>
-            <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p>
+                <h5 className='text-center fs-5'>Putting together, cleaning up and finalizing a video output Part of the post-production process which includes merging, titling, color correction, sound mixing, etc.</h5>
+            {/* <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p> */}
             </div>
         </div>
         
@@ -46,7 +47,7 @@ const Video = () => {
           <div class="clearfix align-items-center" data-aos="fade-left" data-aos-duration="2000">
            <div class=" "   > <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " /></div>
 
-            <p className='pt-md-5 fs-6 text-justify'>    The goal of editing is to manipulate these events to bring the communication closer to the original goal or target. It is a visual art. Aside the video coverage, there is a major aspect of the video production, which we handle perfectly at Elonatech, and its known as <span className='fs-5 fw-bold'>VIDEO EDITING.</span> Editing is usually considered to be one part of the post production process. Other post-production tasks include titling, color correction, sound mixing, etc.</p>
+            <p className='pt-md-5 fs-6 text-justify'>   Creating videos often involves recording and then compiling multiple shots to create a unique video. Video editing is the post-production process, which may involve rearranging clips, creating transitions, correcting color, adding audio, and adding titles and subtitles. It is a visual art. <br /> <br /> The goal of video editing is to choose the best clips, create a cohesive flow, and add effects to tell the story you want to tell in a way that engages the viewer.  Likewise, to manipulate these events to bring the communication closer to the original goal or target.</p>
 
            
           </div>
@@ -69,7 +70,6 @@ const Video = () => {
         <div className="container mt-5">
 
           <div className="text-center" >
-            <h5 className='pt-4'>OUR SERVICE</h5>
             <h2 className=' fw-bold'>Video Production to the <br /> Next Level</h2>
           </div>
 
@@ -135,7 +135,7 @@ const Video = () => {
               <img src={ICON5} alt="" className='image-icon'/>
               <div class="card-body">
                 <h5 className='fw-bold'>Video Converting</h5>
-                <p class="card-text  p-1 text">Livestreaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.</p>
+                <p class="card-text  p-1 text">Changing one video format to another. Video conversion may imply both a change of file format or a change of medium such as from tape to disk or from SD card to DVD, in any case, a video converter is needed. A video converter is a software program that has the ability to change the file from its current state to a different state.</p>
                 <input type="checkbox" class="text-btn p-2" />
               </div>
             </div>
