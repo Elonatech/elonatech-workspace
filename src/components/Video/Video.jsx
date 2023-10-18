@@ -21,7 +21,8 @@ const Video = () => {
         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${BackgroundImage})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
             <div className="container pt-5 "  data-aos="fade-down" data-aos-duration="3000">
                 <h1 className='text-center pt-5 text-white fw-bold'>VIDEO EDITING</h1>
-                <h5 className='text-center fs-5'>Putting together, cleaning up and finalizing a video output Part of the post-production process which includes merging, titling, color correction, sound mixing, etc.</h5>
+                <h5 className='text-center fs-5'>Putting together, cleaning up and finalizing a video output </h5>
+                <p className='text-center fs-6'>Part of the post-production process which includes merging, titling, color correction, sound mixing, etc.</p>
             {/* <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p> */}
             </div>
         </div>

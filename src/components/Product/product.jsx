@@ -9,14 +9,14 @@ import UI4 from '../Product/img/ui-4.png'
 import UI5 from '../Product/img/ui-5.png'
 import UI6 from '../Product/img/ui-6.png'
 
-const product = () => {
+const Product = () => {
   return (
 <section>
         <div className="product-background">
             <div class="py-5 " data-aos="fade-up" data-aos-duration="2000">
                 <h2 class=" mt-5 text-white text-center">User Interface and User Experience</h2>
                 <h5 class=" mt-4 text-white text-center">Elevate Your Digital Experience: Unleash the Power of UI/UX</h5>
-                <p class="lead text-white text-center"> We believe in the transformative power of User Interface (UI) and User Experience (UX) design. Our UI/UX services are crafted to elevate your digital presence, <br /> captivate your audience, and drive exceptional user engagement.</p>
+                <p class="lead text-white text-center"> Crafted to elevate your digital presence, captivate your audience, and drive exceptional user engagement.</p>
             </div>
         </div>
 
@@ -101,4 +101,4 @@ const product = () => {
   )
 }
 
-export default product
+export default Product
