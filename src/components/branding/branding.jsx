@@ -42,8 +42,8 @@ const branding = () => {
   return (
    <section>
         <div className="branding-background">
-          <div className="branding-text-container">
-          <h1 class="d-flex justify-content-center" style={{color:"white"}}>Brand Identity</h1>
+          <div className="branding-text-container"  data-aos="fade-up" data-aos-duration="3000">
+          <h1 class="d-flex justify-content-center"  style={{color:"white"}}>Brand Identity</h1>
             <h3 className='branding-text text-capitalize'>“A Brand Is No Longer What We Tell The  <br /> Consumer It Is - It Is What  Consumers Tell Each <br /> Other It Is.” – <span>SCOTT COOK</span></h3>
           </div>
         </div>
@@ -89,7 +89,7 @@ const branding = () => {
 
          
           <div class="row">
-            <div className="row  mt-3">
+            <div className="row mt-3"  data-aos="fade-right" data-aos-duration="3000">
             <div class="col-md-6 col-sm-3 fs-6 text-justify">
             Brand identity is not limited to a specific mark or name. Branding can incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services.
             Any means by which the general public comes into contact with a specific brand constitutes a touch point that can affect perceptions of the corporate brand.
@@ -100,7 +100,7 @@ const branding = () => {
 
             </div>
 
-          <div className="row flex-column-reverse flex-lg-row mb-5  mt-5">
+          <div className="row flex-column-reverse flex-lg-row mb-5  mt-5"  data-aos="fade-left" data-aos-duration="3000">
           <div class="col-md-6 col-sm-3 "><img src={ELONATECH2} class="elo-img  elona" alt="" /></div>
             <div class="col-md-6 col-sm-3 fs-6 text-justify"> <span><b> Why Does Brand Identity Matter?</b></span> Brand identity matters because without it, customers are not able to recognize a brand easily. A strong brand may helps sell a company to consumers. <br />
               <br /> <span> <b>What Makes a Good Brand? </b></span>

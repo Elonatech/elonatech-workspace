@@ -10,7 +10,7 @@ function Animation() {
   return (
     <>
         <div className="branding-background">
-        <div class="container " >
+        <div class="container "  data-aos="fade-right" data-aos-duration="3000" >
         <div class="py-5 ">
                 <h2 class=" mt-5 text-white text-center">2D/3D ANIMATION</h2>
                 {/* <h5 class=" mt-4 text-white text-center">Elevate Your Digital Experience: Unleash the Power of UI/UX</h5> */}
@@ -27,7 +27,7 @@ function Animation() {
 
           <div class="container ml-4">
             <div class="row ">
-              <div class="col mt-4">
+              <div class="col mt-4" >
                <div class="card h-100" style={{width:"20rem"}}>
                     <div class="ratio ratio-4x3">
                       {/* <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe> */}
@@ -104,9 +104,9 @@ function Animation() {
             
 
             <div className="container mt-4 mb-4">
-              <h2 className='text-center text-black mb-4 fw-bold'> OUR CUSTOMERS SAY</h2>
+              <h2 className='text-center text-black mb-4 fw-bold' data-aos="fade-right" data-aos-duration="2000"> OUR CUSTOMERS SAY</h2>
             <div class="row">
-              <div class="col-sm-4 mb-4 p-2">
+              <div class="col-sm-4 mb-4 p-2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                 <div class="card h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center">Alan D.</h5>
@@ -115,7 +115,7 @@ function Animation() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 mb-4 p-2">
+              <div class="col-sm-4 mb-4 p-2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
                 <div class="card h-100">
                   <div class="card-body">
                     <h5 class="card-title text-center">Hasan H.</h5>
@@ -124,7 +124,7 @@ function Animation() {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 mb-4 p-2">
+              <div class="col-sm-4 mb-4 p-2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000">
                 <div class="card h-100">
                   <div class="card-body">
                   <h5 class="card-title text-center">John D</h5>
