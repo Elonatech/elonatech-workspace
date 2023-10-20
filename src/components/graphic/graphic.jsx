@@ -63,16 +63,16 @@ const Graphic = () => {
 
         <div className="container">
           <div class=" offering row  flex-lg-row">
-            <div class="col-md-5 container">
-            <h2 className='text-1 text-start fw-bold'>Our Offering</h2>
+            <div class="col-md-5 container" data-aos="fade-right"  data-aos-duration="3000">
+            <h2 className='text-1 text-start fw-bold' >Our Offering</h2>
             <p className=" fs-6 fw-normal text-justify text-p">
              Graphic Design is the key to capturing attention, conveying messages, and leaving lasting impressions. At Elonatech, we're committed to harnessing the limitless potential of creative design to help you stand out, connect with your audience, and achieve goals.
              </p>
              <img src={ELONATECH1} alt="img-fluid rounded"  className='img-fluid '/>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7" data-aos="fade-left"  data-aos-duration="3000">
             <div class="row">
-              <div class="col-md-6 col-sm-3">
+              <div class="col-md-6 col-sm-3" >
                 <div class="services__item__icon ">
                  <img src={ICON1} style={{width:"50px"}} alt="" className='icon logo-icon1 ' />
                 </div>
@@ -112,21 +112,21 @@ const Graphic = () => {
 
 
        <div className="" style={{background:"#F9F6EE"}} >
-        <div className="pt-4"> <h1 className='text-center'>PRINT DESIGN</h1></div>
+        <div className="pt-4"> <h1 className='text-center' data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">PRINT DESIGN</h1></div>
         <div className="container-card ">
           <div className="content-section p-md-5">
-            <div class="card-body" style={{width:"22rem"}}>
+            <div class="card-body" style={{width:"22rem"}} data-aos="zoom-in" data-aos-duration="1000">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN1} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Business cards</h5>
                   <p class="card-text text-justify">This shows off all your branding essentials: The name of your business, your logo, and your tagline. It encourages people to contact you, visit your business (online or in real life) and learn more about you.</p>
             </div>
-            <div class="card-body " style={{width:"22rem"}}>
+            <div class="card-body " style={{width:"22rem"}} data-aos="zoom-in" data-aos-duration="2000">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN2} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Flyer/Brochures</h5>
                   <p class="card-text text-justify">usually used for large volume hand-outs, brochures are designed to be read and to help readers absorb important information.
                       These are advertisement that is presented by a business for promoting their products or services</p>
             </div>
-            <div class="card-body " style={{width:"22rem"}}>
+            <div class="card-body " style={{width:"22rem"}} data-aos="zoom-in" data-aos-duration="3000">
                 <div class="p-3 mb-2  text-white"> <img src={ELONADESIGN3} style={{width:"100px"}} alt=""/></div>
                   <h5 class="card-title">Stationery</h5>
                   <p class="card-text text-justify ">This refers to commercially manufactured writing materials, including cut paper, envelopes, writing implements, continuous form paper, and other office supplies.</p>
@@ -182,11 +182,11 @@ const Graphic = () => {
         <div className="container mb-5 mt-5">
           <div className="row g-0">
             <div className="col-md-6">
-              <div className="card border-0" >
+              <div className="card border-0" data-aos="zoom-in-right"  data-aos-duration="3000">
               <img src={ELONATECH} alt="img-fluid rounded" style={{height:"24.68rem"}} />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="zoom-in-left"  data-aos-duration="3000">
               <div className="card pb-2 border-2 rounded-0" style={{borderColor:"#016193", height:"24.68rem"}}>
               <h2 class="font-weight-bold heading p-2 pt-3  pl-2">Why Choose Us?</h2>
               <p class="text-black pr-4 " style={{textAlign:"justify", height:"24.68rem"}}>

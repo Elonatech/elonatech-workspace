@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Motion from './components/Motion/motion';
 import Technical from './components/technical/technical'
 import Remote from './components/Remote/remote';
+import Uiux from './components/Uiux/uiux';
 
 
 
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path:'/remote',
         element: <Remote/>
+      },
+      {
+        path:'/uiux',
+        element: <Uiux/>
       },
     ]
   },
