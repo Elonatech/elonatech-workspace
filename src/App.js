@@ -10,6 +10,7 @@ import Motion from './components/Motion/motion';
 import Technical from './components/technical/technical'
 import Remote from './components/Remote/remote';
 import Uiux from './components/Uiux/uiux';
+import Career from './components/Career/career';
 
 
 
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path:'/uiux',
         element: <Uiux/>
+      },
+      {
+        path:'/career',
+        element: <Career/>
       },
     ]
   },
