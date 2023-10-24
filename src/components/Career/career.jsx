@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './career.css';
 import IMAGE from '../Career/img/happy-man-holding-light-bulb-symbol-removebg-preview.png';
 import ICON1 from '../Career/img/illustration.png'
@@ -31,11 +32,10 @@ const career = () => {
                     <div class="col-md-6 align-self-center"  >
                         <div className=" ">
                             <div className="">
-                                <h2 style={{fontSize:"", fontWeight:"800", color:"#34548c"}}>TURN YOUR IDEAS</h2>
-                                <h1 style={{fontSize:"", fontWeight:"", color:"#34548c"}}>TO LIVE EXPERIENCES</h1>
+                                <h2 style={{fontSize:"", fontWeight:"800", color:"#34548c"}}>BUILD A CAREER WITH US</h2>
                             </div>
                             <div className="pt-3">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vitae. Esse maiores labore dignissimos similique, deserunt aliquam veritatis harum quibusdam sit doloremque illum, cumque voluptatibus expedita excepturi magnam quam eveniet.</p>
+                                <p className='text-justify' style={{lineHeight:"2"}}>In our bid to promote operational excellence and lead in the delivery of IT solutions across Nigeria and beyond, our pursuit for the best hands is the cornerstone of our recruitment policy. Elonatech seeks people who are self-driven, strong-willed, result-oriented and performance-driven, to find brighter, smarter and innovative solutions to problems and ignite our world; People who can transform their potentials into solutions; and People who work with diverse minds to solve global issues.</p>
                             </div>
                         </div>
                     
@@ -49,7 +49,7 @@ const career = () => {
 
             <div className="pb-5" style={{backgroundColor:"#F9F8F3"}}>
                     <div className="pt-4 text-center" >
-                        <h1 style={{color:"#34548c"}}><span style={{color:"#34548c", fontWeight:"800"}}>SERVICES </span> WE ARE OFFERING</h1>
+                        <h1 style={{color:"#34548c"}}><span style={{color:"#34548c", fontWeight:"800"}}>Jobs </span>Role Applying For?</h1>
                         <p>We develop an individual integrated solution for your business and select a unique set of services for <br /> it, combining them with a single strategy and goal</p>
                     </div>
                     <div className="container">
@@ -59,9 +59,10 @@ const career = () => {
                                 <img src={ICON1} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Graphic</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <h5 class="card-title fs-5 fw-bold">Graphics Designer & Digital Marketer</h5>
+                                    <p class="card-text">Some quick example text to build on the card title .</p>
+                                    <Link to="/graphic2" class="btn btn-primary">Apply Now</Link>
+                                    {/* <a href="#" class="btn btn-primary">Apply Now</a> */}
                                 </div>
                             </div>
                         </div>
@@ -70,9 +71,9 @@ const career = () => {
                             <img src={ICON2} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Web development</h5>
+                                    <h5 class="card-title fs-5 fw-bold">Full Stack Web developer</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <Link to="/webdevelopment" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -81,9 +82,9 @@ const career = () => {
                                         <img src={ICON3} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Digital Marketing</h5>
+                                    <h5 class="card-title fs-5 fw-bold">Digital Marketing</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <Link to="/digitalpage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -96,9 +97,9 @@ const career = () => {
                                         <img src={ICON4} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Video editing</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <h5 class="card-title fs-5 fw-bold">Animations/Motion Graphics & UI/UX Graphics Designer</h5>
+                                    <p class="card-text">Some quick example text to build on the card title .</p>
+                                    <Link to="/animation2" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -107,20 +108,20 @@ const career = () => {
                                         <img src={ICON5} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Ui/Ux</h5>
+                                    <h5 class="card-title fs-5 fw-bold">Systems/Network Engineer</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <Link to="/systempage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card h-100 " >
+                            <div class="card h-100 " style={{height:"70vh"}} >
                                         <img src={ICON6} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-3 fw-bold">Branding</h5>
+                                    <h5 class="card-title fs-5 fw-bold">Marketing & Sales Rep</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Know More</a>
+                                    <Link to="/marketingpage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -130,15 +131,26 @@ const career = () => {
 
             <div className="">
         <div class="row justify-content-center pt-5">
-            <div class="col-md-4 gx-5">
+            <div class="col-md-5 align-self-center p-4">
             <img src={PHOTO} alt="" srcset="" className='img-fluid'/>
             </div>
-            <div class="col-md-5 align-self-center p-3">
-             <h1 style={{color:"#34548c"}}>CAREER</h1>
-           
-             <p className='text-justify ' style={{lineHeight:"2"}}>We have a passion for our clients, results and the solutions we provide. Our team possess a pragmatic drive for action that runs through the week, each working day, and doesn’t let up. We rally clients with our infectious energy, to make change stick.
-                And we never do it alone. We support and are supported to develop our own personal result(s) stories. We train, and get trained to further equip ourselves, so as to be abreast of imminent IT challenges.
-                We work hard, but we don’t take ourselves too seriously. We enjoy what we do and we laugh a lot… most often at ourselves.</p>
+            <div class="col-md-5 ">
+                <div className="">
+                    <h1 className='fs-4' style={{color:"#34548c"}}>Career</h1>
+                    <p className='text-justify '>We have a passion for our clients, results and the solutions we provide. Our team possess a pragmatic drive for action that runs through the week, each working day, and doesn’t let up. We rally clients with our infectious energy, to make change stick.
+                    And we never do it alone. We support and are supported to develop our own personal result(s) stories. We train, and get trained to further equip ourselves, so as to be abreast of imminent IT challenges.
+                    We work hard, but we don’t take ourselves too seriously. We enjoy what we do and we laugh a lot… most often at ourselves.</p>
+                </div>
+                <div className="">
+                <h1 className='fs-4' style={{color:"#34548c"}}>Requirements</h1>
+                <p>Prospective candidates who wish to seek employment with us must fulfill the following criteria:</p>
+                <ul>
+                    <li>Must have successfully completed (minimum) of a diploma or relevant degree in a reputable higher institution</li>
+                    <li>Must have a relevant practical, IT skill or is undergoing a training in a recognized IT training institution</li>
+                    <li>Additional professional IT certification is a plus</li>
+                    <li>Must be a Nigerian or have the necessary work permits if not a Nigerian citizen</li>
+                </ul>
+                </div>
             </div>
         </div>
      </div>

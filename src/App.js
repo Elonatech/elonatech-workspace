@@ -11,7 +11,12 @@ import Technical from './components/technical/technical'
 import Remote from './components/Remote/remote';
 import Uiux from './components/Uiux/uiux';
 import Career from './components/Career/career';
-
+import Graphic2 from './pages/Graphic-career/graphic'
+import Animation2 from './pages/AnimationPage/animation';
+import WebDevelopment from './pages/web developer/web'
+import DigitalPage from './pages/DigitalPage/digital'
+import SystemPage from './pages/SystemPage/system'
+import MarketingPage from './pages/MarketingPage/marketing'
 
 
 const Layout = () =>{
@@ -35,6 +40,7 @@ const router = createBrowserRouter([
         path:'/branding',
         element: <Branding/>
       },
+   
       {
         path:'/animation',
         element: <Animation/>
@@ -67,6 +73,30 @@ const router = createBrowserRouter([
       {
         path:'/career',
         element: <Career/>
+      },
+      {
+        path:'/graphic2',
+        element: <Graphic2/>
+      },
+      {
+        path:'/animation2',
+        element: <Animation2/>
+      },
+      {
+        path:'/webdevelopment',
+        element: <WebDevelopment/>
+      },
+      {
+        path:'/digitalpage',
+        element: <DigitalPage/>
+      },
+      {
+        path:'/systempage',
+        element: <SystemPage/>
+      },
+      {
+        path:'/marketingpage',
+        element: < MarketingPage/>
       },
     ]
   },
