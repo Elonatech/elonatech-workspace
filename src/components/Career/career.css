@@ -6,4 +6,15 @@
 
     color: #f0f0f0;
 }
+.align-self-center{
+    width: 40%;
+}
 
+@media(max-width:768px){
+    .align-self-center{
+        width: 100%;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+}
