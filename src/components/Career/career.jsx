@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './career.css';
-import IMAGE from '../Career/img/happy-man-holding-light-bulb-symbol-removebg-preview.png';
+import IMAGE from '../Career/img/indoor-shot-pleased-dark-skinned-successful-man-dressed-elegnatly-carries-documentation_273609-24445-removebg-preview.png';
 import ICON1 from '../Career/img/illustration.png'
 import ICON2 from '../Career/img/web-development.png'
 import ICON3 from '../Career/img/social-media.png'

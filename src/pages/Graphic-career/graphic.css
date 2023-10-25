@@ -1,0 +1,10 @@
+.GraphicImage{
+    background-image: url('./img/side-view-businesswoman-showing-analytical-charts-her-male-coworker.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 10px;
+
+    color: #f0f0f0;
+}
