@@ -34,17 +34,20 @@ function ApplyNow() {
               <label for="validationCustom01" class="form-label">Last name</label>
                 <input type="text"  class="form-control" placeholder="Last name" aria-label="Last name"/>
               </div>
-              <div class=" mt-2">
+              <div className="row mt-2">
+              <div class=" col">
               <label for="validationCustom01" class="form-label">Email</label>
                 <input type="text"  class="form-control" placeholder="Email" aria-label="Last name"/>
               </div>
+              <div class=" col">
+              <label for="validationCustom01" class="form-label">Phone Number</label>
+                <input type="text"  class="form-control" placeholder="080 xxxx xxxx" aria-label="Last name"/>
+              </div>
+              </div>
+            
               <div class=" mt-2">
               <label for="validationCustom01" class="form-label">Gender</label>
                 <input type="text"  class="form-control" placeholder="male" aria-label="Last name"/>
-              </div>
-              <div class=" mt-2">
-              <label for="validationCustom01" class="form-label">Phone Number</label>
-                <input type="text"  class="form-control" placeholder="080 xxxx xxxx" aria-label="Last name"/>
               </div>
               <div class=" mt-2">
               <label for="validationCustom01" class="form-label">Residence</label>
