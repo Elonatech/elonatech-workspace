@@ -8,7 +8,7 @@ const graphic = () => {
   return (
    <section>
       <div className="container">
-      <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Graphics Designer & Digital Marketer</h1>
+       <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Graphics Designer/Digital Marketer</h1>
         <div className="GraphicImage"></div>
 
         <div class="row justify-content-center mt-4">
@@ -36,9 +36,8 @@ const graphic = () => {
                 <li>Creative and self-motivating</li>
                 <li>Highly organized and detailed</li>
             </ul>
-            <p> <span style={{color:"#34548c",fontWeight:"700" }}> Method of Application:</span> Interested and qualified candidates should click the link below to apply</p>
+           
             <p> <span style={{color:"#34548c",fontWeight:"700" }}> Note:</span>  All applications will be treated in confidence and only shortlisted candidates will be contacted.</p>
-            < ApplyNow/>
           </div>
 
 
@@ -64,8 +63,14 @@ const graphic = () => {
                     <li> Work on tasks pertaining to design style, format, print production and timescales on all banners, graphics, captions, prints and designs.</li>
                     <li> Ability to deliver on deadline</li>
               </ul>
+              <p className='mt-md-5'> <span style={{color:"#34548c",fontWeight:"700" }}> Method of Application:</span> Interested and qualified candidates should click the link below to apply</p>
+              <div className="mt-md-5">
+                  < ApplyNow />
+              </div>
+       
           </div>
         </div>
+       
       </div>
    </section>
   )

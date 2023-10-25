@@ -28,7 +28,7 @@ const career = () => {
                 <p className='text-justify'>We are <span style={{color:"#34548c", fontWeight:"700"}}>Elonatech Nigeria Limited</span>, operating from Nigeria as an IT Solutions and Corporate Consultant Company but no less a premier Information and Communications Organization. We are poised to shock and reshape the industry, help clients solve their most complex Computer and Network challenges, offer Digital & Web Solutions, Computer Sales & Supply by providing strategic research, experiential and innovative solution, planning and implementation services across the Nation.</p>
             </div>
 
-            <div class="row justify-content-center mt-5 pb-5">
+            <div class="row justify-content-center mt-5 ">
                     <div class="col-md-6 align-self-center"  >
                         <div className=" ">
                             <div className="">
@@ -59,7 +59,7 @@ const career = () => {
                                 <img src={ICON1} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-5 fw-bold">Graphics Designer & Digital Marketer</h5>
+                                    <h5 class="card-title fs-5 fw-bold">Graphics Designer / Digital Marketer</h5>
                                     <p class="card-text">Some quick example text to build on the card title .</p>
                                     <Link to="/graphic2" class="btn btn-primary">Apply Now</Link>
                                     {/* <a href="#" class="btn btn-primary">Apply Now</a> */}

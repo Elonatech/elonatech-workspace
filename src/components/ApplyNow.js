@@ -10,7 +10,7 @@ function ApplyNow() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={handleShow} className='px-5'>
        Apply Now
       </Button>
 
