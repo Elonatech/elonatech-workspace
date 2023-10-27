@@ -47,7 +47,7 @@ function ApplyNow() {
               </div>
 
               <div class="row mt-2">
-                <div class="col">
+                <div class="col-4">
                   <label for="validationCustom01" class="form-label fw-bold">Gender<span>*</span> </label>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>male</option>
@@ -55,7 +55,7 @@ function ApplyNow() {
                     
                     </select>
                 </div>
-                <div class="col">
+                <div class="col-8">
                   <label for="validationCustom01" class="form-label fw-bold">Residence<span>*</span> </label>
                   <input type="text"  class="form-control" placeholder="Current residence" aria-label="Last name"/>
                 </div>
@@ -77,13 +77,13 @@ function ApplyNow() {
               <div className="mt-2">
               <label for="inputState" class="form-label fw-bold">Job Category<span>*</span> </label>
                   <select id="inputState" class="form-select">
-                    <option selected>Job Role Applying For</option>
+                    <option selected>Job Role Applying For?</option>
                     <option >Graphics Designer/Digital Marketer</option>
                     <option >Full Stack Web developer</option>
-                    <option >Digital Marketing</option>
+                    <option >Digital Marketer</option>
                     <option >Animations/Motion Graphics & UI/UX Graphics Designer</option>
                     <option >Systems/Network Engineer</option>
-                    <option >Marketing & Sales Rep</option>
+                    <option >Marketing & sales representative</option>
                   </select>
         
           
