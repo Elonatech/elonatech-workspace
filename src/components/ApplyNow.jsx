@@ -21,7 +21,7 @@ function ApplyNow() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Apply Now</Modal.Title>
+          <Modal.Title style={{color:"#34548c"}} className='fw-bold'>Apply Now</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className=" px-3">

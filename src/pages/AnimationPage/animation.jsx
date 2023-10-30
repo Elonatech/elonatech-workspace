@@ -1,5 +1,5 @@
 import React from 'react'
-import ApplyNow from '../../components/ApplyNow'
+import ApplyNow from '../../components/applynow.jsx'
 
 
 const animation = () => {
@@ -16,8 +16,7 @@ const animation = () => {
           <p className='text-justify'>This is a full-time on-site role for an Animations/Motion Graphics & UI/UX Graphics Designer. The Animations/Motion Graphics & UI/UX Graphics Designer will be responsible for creating designs and developing graphical content for a variety of online media including animations and motion videos as well as User interface designs for websites. The Animations/Motion Graphics & UI/UX Graphics Designer will work closely with the web design and development teams as well as with clients to ensure that their designs meet the client's requirements.</p>
           <p> <span style={{color:"#34548c",fontWeight:"700" }}>Location:</span> Egbeda, Lagos (Mainland) </p>
           <p> <span style={{color:"#34548c",fontWeight:"700" }}>Employment Type: </span> Full-time </p>
-          <p style={{color:"#34548c",fontWeight:"700" }}>Responsibilities:</p>
-          <p className='text-justify'>Should have Experience working in a web development environment, A strong visual and technical portfolio, an agile development process. Should have knowledge of refined graphic designs for websites, UI/UX.
+          <p className='text-justify'> <span style={{color:"#34548c",fontWeight:"700" }}> Responsibilities:</span>  Should have Experience working in a web development environment, A strong visual and technical portfolio, an agile development process. Should have knowledge of refined graphic designs for websites, UI/UX.
               A high level of proficiency using Adobe products (or equivalent tools). Knowledge of browser compatibility across multiple platforms and devices. Strong ability to design with accessibility in mind. Must have strong skills in 2D & 3D Graphics, Motion Graphics, Familiar with Animate, After effect, Premier Pro, Photoshop, Sketch, Illustrator, Corel Draw, XD, Figma, or equivalent application(s).</p>
 
               <p> <span style={{color:"#34548c",fontWeight:"700" }}>Qualifications: </span> Minimum of National Diploma in Computer Science, Design, Fine Arts, Physics, Electrical / Electronic or Telecommunications Engineering or other related discipline. </p>

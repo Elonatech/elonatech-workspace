@@ -28,7 +28,7 @@ const career = () => {
                 <p className='text-justify'>We are <span style={{color:"#34548c", fontWeight:"700"}}>Elonatech Nigeria Limited</span>, operating from Nigeria as an IT Solutions and Corporate Consultant Company but no less a premier Information and Communications Organization. We are poised to shock and reshape the industry, help clients solve their most complex Computer and Network challenges, offer Digital & Web Solutions, Computer Sales & Supply by providing strategic research, experiential and innovative solution, planning and implementation services across the Nation.</p>
             </div>
 
-            <div class="row justify-content-center mt-5 ">
+            <div class="row justify-content-center mt-5 " >
                     <div class="col-md-6 align-self-center"  >
                         <div className=" ">
                             <div className="">
