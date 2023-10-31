@@ -1,5 +1,4 @@
 import React from 'react'
-import graphicImage from './img/businessman-gesturing-talking-with-partner-outdoor-cafe_1262-19101.jpg'
 import './graphic.css';
 import ApplyNow from '../../components/applynow';
 
