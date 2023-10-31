@@ -58,7 +58,7 @@ const Applynow = () => {
                   </div>
                   <div class="col-8">
                     <label for="validationCustom01" class="form-label fw-bold">Residence<span>*</span> </label>
-                    <input type="text"  class="form-control" placeholder="Current residence" aria-label="Last name"/>
+                    <input type="text"  class="form-control" placeholder="Current residence(State,Area,Nearest B/s)" aria-label="Last name"/>
                   </div>
                 </div>
                 <div class="row mt-2">
@@ -79,12 +79,12 @@ const Applynow = () => {
                 <label for="inputState" class="form-label fw-bold">Job Category<span>*</span> </label>
                     <select id="inputState" class="form-select">
                       <option selected>Job Role Applying For?</option>
-                      <option >Graphics Designer/Digital Marketer</option>
+                      <option >Graphic Designer/Digital Marketer</option>
                       <option >Full Stack Web developer</option>
                       <option >Digital Marketer</option>
-                      <option >Animations/Motion Graphics & UI/UX Graphics Designer</option>
+                      <option >Animations/Motion Graphics & UI/UX Graphic Designer</option>
                       <option >Systems/Network Engineer</option>
-                      <option >Marketing & sales representative</option>
+                      <option >Marketing & Sales Representative</option>
                     </select>
           
             

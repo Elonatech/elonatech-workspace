@@ -50,16 +50,14 @@ const Graphic = () => {
     return (
         <section>
     
-        <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${Graphic1})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'400px', color:'white'}}>
-            <div className="container pt-5 "  data-aos="fade-down" data-aos-duration="3000">
-                <h1 className='text-center pt-5 text-white fw-bold'>Graphic Design</h1>
+        <div className='graphic-bg'>
+            <div className="container pt-md-5 "  data-aos="fade-down" data-aos-duration="3000">
+                <h1 className='text-center pt-md-5 text-white fw--bold'>Graphic Design</h1>
                 <h5 className='text-center fs-5'>Offering Industry-Standard Premium Design Service.</h5>
                 <p class="lead text-white text-center">A form of digital marketing that leverages the power of popular social media networks to achieve your marketing and branding goals.</p> 
             {/* <p className='text-center fs-6'>We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.</p> */}
             </div>
         </div>
-
-
 
         <div className="container">
           <div class=" offering row  flex-lg-row">
@@ -186,10 +184,9 @@ const Graphic = () => {
               <img src={ELONATECH} alt="img-fluid rounded" style={{height:"24.68rem"}} />
               </div>
             </div>
-            <div className="col-md-6" data-aos="zoom-in-left"  data-aos-duration="3000">
-              <div className="card pb-2 border-2 rounded-0" style={{borderColor:"#016193", height:"24.68rem"}}>
-              <h2 class="font-weight-bold heading p-2 pt-3  pl-2">Why Choose Us?</h2>
-              <p class="text-black pr-4 " style={{textAlign:"justify", height:"24.68rem"}}>
+            <div className="col-md-6 card pb-2 border-2 rounded-0" data-aos="zoom-in-left"  data-aos-duration="3000"  style={{borderColor:"#016193",}}>
+            <h2 class="font-weight-bold heading p-2 pt-3  pl-2">Why Choose Us?</h2>
+              <p class="text-black pr-4 " style={{textAlign:"justify", }}>
                 <ul>
                   <li className='pb-mb-2'> <span className='fw-bold'>Creative Excellence:</span>  Our team of talented and experienced graphic designers is passionate about creativity and driven by excellence.</li>
                   <li className='pb-mb-2'> <span className='fw-bold'>Custom Solutions:</span>  We don't believe in one-size-fits-all. Every design project is unique, and we tailor our solutions to your specific needs and objectives.</li>
@@ -198,7 +195,6 @@ const Graphic = () => {
                   <li className='pb-mb-2'> <span className='fw-bold'>Affordability:</span>  High-quality graphic design doesn't have to break the bank. We offer competitive pricing to make outstanding design accessible.</li>
                 </ul>
               </p>
-              </div>
             </div>
           </div>
         </div>
@@ -206,95 +202,6 @@ const Graphic = () => {
 
 
 
-         {/* <div className="our-latest-project" >
-          <div className="text-content-2"  >
-            <h1 className='project' >Our Latest Projects</h1>
-            <div className="line"></div>
-            <p>Nullam varius porttitor augue id rutrum. Duis vehicula magna at magna tempus rhoncus. Maecenas quis lobortis elit, nec faucibus augue., <br /> Nullam varius porttitor augue id rutrum. Duis vehicula magna at magna tempus</p>
-          </div>
-
-          <div className="">
-          <div class="container">
-            <div class="row row-cols-1 row-cols-lg-3  md-4">
-              <div class="col">
-                <div class="p-3 ">
-                <div class="card" style={divStyle}>
-                <img src={IMAGE1} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">REMABEN</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                <div class="card" style={divStyle}>
-                <img src={IMAGE2} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">SAFEBROOKS</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                    <div class="card" style={divStyle}>
-                <img src={IMAGE3} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">REMABEN</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                <div class="card" style={divStyle}>
-                <img src={IMAGE4} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">OZONE</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-
-                <div class="card" style={divStyle}>
-                <img src={IMAGE5} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">KAPPACHEM LABORATORY</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-
-                <div class="card" style={divStyle}>
-                <img src={IMAGE6} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">ELONA TECH</h5>
-                  <p class="card-text">Sed odio orci, fringilla nec dolor et, euismod auctor mauris. Curabitur semper dui diam, nec accumsan mauris consequat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nunc dui, scelerisque at purus…</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          </div>
-        </div>  */}
       </section>
     );
 }

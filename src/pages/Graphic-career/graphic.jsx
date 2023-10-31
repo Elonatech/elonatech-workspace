@@ -7,7 +7,7 @@ const graphic = () => {
   return (
    <section>
       <div className="container">
-       <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Graphics Designer/Digital Marketer</h1>
+       <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Graphic Designer/Digital Marketer</h1>
         <div className="GraphicImage"></div>
 
         <div class="row justify-content-center mt-4">

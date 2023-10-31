@@ -5,7 +5,7 @@ const marketing = () => {
   return (
     <section>
       <div className="container">
-      <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Marketer/Sales Representatives</h1>
+      <h1 className='my-4' style={{fontSize:"", fontWeight:"800",color:"#34548c" }}>Marketer/Sales Representative</h1>
         <div className="GraphicImage"></div>
         <div class="row justify-content-center mt-4">
           <div class="col-md-6">

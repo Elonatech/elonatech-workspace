@@ -49,7 +49,7 @@ const career = () => {
 
             <div className="pb-5" style={{backgroundColor:"#F9F8F3"}}>
                     <div className="pt-4 text-center" >
-                        <h1 style={{color:"#34548c"}}><span style={{color:"#34548c", fontWeight:"800"}}>Jobs </span>Role Applying For?</h1>
+                        <h1 style={{color:"#34548c"}}><span style={{color:"#34548c", fontWeight:"800"}}>Job </span>Role Applying For?</h1>
                         <p>We develop an individual integrated solution for your business and select a unique set of services for <br /> it, combining them with a single strategy and goal</p>
                     </div>
                     <div className="container">
@@ -59,8 +59,8 @@ const career = () => {
                                 <img src={ICON1} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-5 fw-bold">Graphics Designer / Digital Marketer</h5>
-                                    <p class="card-text">Some quick example text to build on the card title .</p>
+                                    <h5 class="card-title fs-5 fw-bold">Graphic Designer / Digital Marketer</h5>
+                                    <p class="card-text" style={{fontWeight:"600"}}>with at least 1 year work experience with proof of professional Graphics Design and Animations.</p>
                                     <Link to="/graphic2" class="btn btn-primary">Apply Now</Link>
                                     {/* <a href="#" class="btn btn-primary">Apply Now</a> */}
                                 </div>
@@ -72,7 +72,7 @@ const career = () => {
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
                                     <h5 class="card-title fs-5 fw-bold">Full Stack Web developer</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{fontWeight:"600"}}>Must have at least 2 years' work experience with proof of Web Development.</p>
                                     <Link to="/webdevelopment" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const career = () => {
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
                                     <h5 class="card-title fs-5 fw-bold">Digital Marketing</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{fontWeight:"600"}}>Must have at least 1 year work experience with proof of professional Digital Marketing.</p>
                                     <Link to="/digitalpage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ const career = () => {
                                         <img src={ICON4} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-5 fw-bold">Animations/Motion Graphics & UI/UX Graphics Designer</h5>
-                                    <p class="card-text">Some quick example text to build on the card title .</p>
+                                    <h5 class="card-title fs-5 fw-bold">Animations/Motion Graphics & UI/UX Graphic Designer</h5>
+                                    <p class="card-text" style={{fontWeight:"600"}}>Must be able to use Figma,Adobe XD,Photoshop etc.</p>
                                     <Link to="/animation2" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ const career = () => {
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
                                     <h5 class="card-title fs-5 fw-bold">Systems/Network Engineer</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text" style={{fontWeight:"600"}}>minimum of 2 years' experience in maintenance of computer hardware and software systems,</p>
                                     <Link to="/systempage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
@@ -119,8 +119,8 @@ const career = () => {
                                         <img src={ICON6} alt=""  style={{width:"20%", borderRadius:"10%", margin:"10px 20px"}}/>
                                 {/* <img src="..." class="card-img-top" alt="..."> */}
                                 <div class="card-body">
-                                    <h5 class="card-title fs-5 fw-bold">Marketing & Sales Rep</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title fs-5 fw-bold">Marketing & Sales Representative</h5>
+                                    <p class="card-text" style={{fontWeight:"600"}}>Previous work experience as a Marketer/Sales Representative, Basic knowledge(MS Office/excel).</p>
                                     <Link to="/marketingpage" class="btn btn-primary">Apply Now</Link>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ const career = () => {
             </div>
             <div class="col-md-5 ">
                 <div className="">
-                    <h1 className='fs-4' style={{color:"#34548c"}}>Career</h1>
+                    <h1 className='fs-4' style={{color:"#34548c"}}>Our Passion</h1>
                     <p className='text-justify '>We have a passion for our clients, results and the solutions we provide. Our team possess a pragmatic drive for action that runs through the week, each working day, and doesn’t let up. We rally clients with our infectious energy, to make change stick.
                     And we never do it alone. We support and are supported to develop our own personal result(s) stories. We train, and get trained to further equip ourselves, so as to be abreast of imminent IT challenges.
                     We work hard, but we don’t take ourselves too seriously. We enjoy what we do and we laugh a lot… most often at ourselves.</p>
