@@ -1,6 +1,6 @@
 import React from 'react'
 // import Applynow from '../../components/applynow'
-import Applynow from '../../components/ApplyNow/Applynow'
+import Applynow from '../../components/ApplyNow/Applynow';
 
 
 const animation = () => {

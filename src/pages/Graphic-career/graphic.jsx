@@ -1,6 +1,6 @@
 import React from 'react'
 import './graphic.css';
-// import ApplyNow from '../../components/applynow';
+import Applynow from '../../components/ApplyNow/Applynow';
 
 
 const graphic = () => {
@@ -64,7 +64,7 @@ const graphic = () => {
               </ul>
               <p className='mt-md-5'> <span style={{color:"#34548c",fontWeight:"700" }}> Method of Application:</span> Interested and qualified candidates should click the link below to apply</p>
               <div className="mt-md-5">
-                  {/* < ApplyNow /> */}
+                  < Applynow />
               </div>
        
           </div>

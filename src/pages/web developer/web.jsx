@@ -1,5 +1,5 @@
 import React from 'react'
-// import ApplyNow from '../../components/applynow.jsx';
+import Applynow from '../../components/ApplyNow/Applynow';
 
 const web = () => {
   return (
@@ -48,7 +48,7 @@ const web = () => {
            
            <p> <span style={{color:"#34548c",fontWeight:"700" }}>Method of Application: </span> Interested and qualified candidates should click the link below to apply </p>
              <p> <span style={{color:"#34548c",fontWeight:"700" }}> Note: </span> All applications will be treated in confidence and only shortlisted candidates will be contacted </p>
-             {/* < ApplyNow /> */}
+            < Applynow />
           </div>
         </div>
       </div>
