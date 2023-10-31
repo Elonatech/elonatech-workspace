@@ -162,8 +162,8 @@ function Animation() {
 
           <div className=""  style={{ backgroundImage: `url(${BackgroundImage2})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'300px', color:'white'}}>
             <div className="text-start pl-4">
-            <p class=" fw-bold fs-1 pl-4 pt-5 text-black" >Engage in a conversation with a specialist <br /> regarding your upcoming animation <br /> editing video</p>
-            <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
+            <p class=" fw-bold fs-md-1 fs-3 pl-4 pt-5 text-black" >Engage in a conversation with a specialist <br /> regarding your upcoming animation <br /> editing video</p>
+            <button type="button" class="btn btn-primary  fs-5 fw-bold ml-4 ml-md-4">GET IN TOUCH</button>
             </div>
          </div> 
 
