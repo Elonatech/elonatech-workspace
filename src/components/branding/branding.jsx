@@ -48,44 +48,41 @@ const branding = () => {
           </div>
         </div>
 
-      
-        {/* <div class="container overflow-hidden">
-            <div class="row gy-5 mt-5">
-                <div class="col-md-6">
-                    <div class=" pl-6">
-                        <div className="">
-                            <img src={ELONA} alt="elona-jersey" srcset="" className='cup-img' /> 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-                    <div >
-                   <p className=' '> Elonatech Nigeria Limited, in a bid to serve you better, has included <br /> Corporate branding in their services; Which includes: logo design, <br /> complimentary card, and ID card design, E-invoice & letterhead design, <br /> uniform social media handles, web design and development, unique domain <br /> names and hosting, and a wide array of services to keep you ahead of the <br /> competition. <br />
-
-                  It’s much more than a logo, Elonatech brand identity development service is <br /> actually at the intersection of strategy and design. Our development process <br /> includes defining your business goals and objectives, conducting and <br /> analyzing primary research, and launching a full visual exploration of how <br /> you see yourselves and your place in the market. <br />
-
-                  Elonatech brand professionals can manage the end-to-end process from <br /> corporate naming through marketing your brand internally and externally to <br /> multiple audiences including vendors, shareholders, consumers and <br /> employees. <br /></p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class=" pt-4 ml-2">
-                    Brand identity is not limited to a specific mark or name. Branding can <br /> incorporate multiple touch points. These touch points include; logo, <br /> customer service, treatment and training of employees, packaging, <br /> advertising, stationery, and quality of products and services. Any means by <br /> which the general public comes into contact with a specific brand <br /> constitutes a touch point that can affect perceptions of the corporate brand.
-                    </div>
-                </div>
-                <div class="col-md-6">
-                 <div class=" ml-2">
-                    <div className="">
-                     <img src={CUP} alt="elona-jersey" srcset="" className='cup-img' /> 
-                    </div>
-                 </div>
-                </div>
+        <div className="container" >
+          <div className="" style={{margin:"2rem 0"}}>
+          <div class="row justify-content-evenly gx-4 mt-5">
+              <div class=" col-md-6">
+               <p className='text-justify'> <span className='fw-bold' >Brand identity</span>   is not limited to a specific mark or name. Branding can incorporate multiple touch points. These touch points include; logo, customer service, treatment and training of employees, packaging, advertising, stationery, and quality of products and services.
+            Any means by which the general public comes into contact with a specific brand constitutes a touch point that can affect perceptions of the corporate brand.
+             <br /><br /> Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds. Brand identity is distinct from brand image. It corresponds to the intent behind the branding and the way a company does it, all to cultivate a certain image in consumers' minds.
+            It’s much more than a logo, Elonatech brand identity development service is actually at the intersection of strategy and design.</p>
+              </div>
+              <div class=" col-md-6">
+              <img src={ELONATECH1} class="elo-img" alt="" />
+              </div>
             </div>
-        </div> */}
 
+            <div class="row justify-content-evenly mt-4  flex-column-reverse flex-lg-row">
+              <div class="col-md-6">
+                <img src={ELONATECH2} class="elo-img  elona" alt="" />
+              </div>
+              <div class="col-md-6">
+                <p className='text-justify'><span><b> Why Does Brand Identity Matter?</b></span> Brand identity matters because without it, customers are not able to recognize a brand easily. A strong brand may helps sell a company to consumers. <br /> <br />
+                <span> <b>What Makes a Good Brand? </b></span>
+              A good brand has a clear focus, strong visuals, is familiar with its target audience (family versus mature audience, for example) and is easily recognizable in a sea of similar brands.
+              Our Brand Development Process Includes:
+              Defining your business goals and objectives, conducting and analyzing primary research, and launching a full visual exploration of how you see yourselves and your place in the market.
+             <br />  Elonatech brand professionals can manage the end-to-end process from corporate naming through marketing your brand internally and externally to multiple audiences including vendors, shareholders, consumers and employees.
+                </p>
+              </div>
+            </div>
+          </div>
+           
+        </div>
 
         {/* BRAND IDENTITY */}
-        <div className="container ">
-          <div className="" style={{margin:"2rem 0"}}>
+        {/* <div className="container " style={{margin:"2rem 0"}}>
+     
 
          
           <div class="row">
@@ -96,7 +93,7 @@ const branding = () => {
              <br /><br /> Brand identity is the visible elements of a brand, such as color, design, and logo, that identify and distinguish the brand in consumers' minds. Brand identity is distinct from brand image. It corresponds to the intent behind the branding and the way a company does it, all to cultivate a certain image in consumers' minds.
             It’s much more than a logo, Elonatech brand identity development service is actually at the intersection of strategy and design.
                         </div>
-            <div class="col-md-6 col-sm-3 pl-5"> <img src={ELONATECH1} class="elo-img" alt="" /></div>
+            <div class="col-md-6 col-sm-3 pl-md-5"> <img src={ELONATECH1} class="elo-img" alt="" /></div>
 
             </div>
 
@@ -115,49 +112,8 @@ const branding = () => {
 
         
 
-          </div>
-        </div>
-
-
-          {/* SLIDER */}
-        {/* <div id="carouselExampleDark" class="carousel container d-flex align-item-center carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-           <img src={IMAGE1} class="d-block" alt="" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-          <img src={IMAGE2} class="d-block" alt=""  style={{width:"50rem", height:"50vh"}}/>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <img src={IMAGE3} class="d-block" alt="" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> */}
+          
+        </div> */}
 
 
           {/* CAROUSEL */}
@@ -244,35 +200,7 @@ const branding = () => {
                 </Slider>
               </div>
 
-            {/* <div class="slider">
-              <div class="slide-track">
-                <div class="slide">
-                    <img src={Client1} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client2} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client3} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client4} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client5} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client6} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client7} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                <div class="slide">
-                    <img src={Client8} className='img-fluid mr-4' style={{height:"10px"}} alt=""/>
-                </div>
-                
-              </div>
-            </div> */}
+           
           </div>
 
           {/* FREQUENTLY ASKED QUESTION */}  

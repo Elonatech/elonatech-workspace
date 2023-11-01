@@ -23,11 +23,11 @@ const uiux = () => {
 
         <div className="container">
         <div class="row g-5 mt-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-sm-8 ">
-                <img src={ProductImg} alt=""  className='product-img rounded'/>
+            <div class="col-sm-7 ">
+                <img src={ProductImg} alt=""  className='uiux-img rounded'/>
             </div>
 
-            <div class="col-sm-4 align-self-center pt-md-4">
+            <div class="col-sm-5 align-self-center pt-md-4">
                 {/* <h2 className='fw-bold' style={{color:"rgb(52,84,140)"}}> UI/UX</h2> */}
                 <p className='text-justify fs-6' >In today's digital landscape, your online presence is often the first impression you make on your audience. It's not just about aesthetics; it's about creating a seamless, intuitive, and enjoyable experience that keeps users coming back. That's where our UI/UX design services come in. <br /> <br /> At the start of any beautiful web project is your UI/UX design. With it you can have a feel of exactly how the website will look. We'll design a prototype with an excellent User Interface (UI) & User Experience (UX) for your brand.
 <br /> <br />  After all enquiries, the next step is to build a prototype by designing the User Interface (UI) and make the website have an excellent User Experience (UX), so the clients can have a feel of exactly how the website looks.</p>

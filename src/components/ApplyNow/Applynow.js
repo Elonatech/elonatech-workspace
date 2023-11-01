@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 const Applynow = () => {
     const [show, setShow] = useState(false);
@@ -98,17 +100,25 @@ const Applynow = () => {
                       <option >Freelance</option>
                     </select>
                   </div>
-  
-                <div class="form-floating mt-3">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height:"100px"}}></textarea>
-                <label for="floatingTextarea2">Cover Letter</label>
+                  <div class=" mt-3">
+                    <label for="inputState" class="form-label fw-bold">Upload your CV (PDF) <span>*</span> </label>
+                      <input type="file" class="form-control pt-1 " id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" style={{fontSize:'12px'}}/>
+                    <p className='pt-2'>Accepted file types: pdf, Max. file size: 150 MB.</p>
+                  </div>
+
+                  <div className='col ' style={{marginBottom:"4rem"}}>
+                  <label  for="validationCustom01" class="form-label fw-bold">Cover Letter</label> 
+                  <ReactQuill theme="snow" className=''  placeholder="cover letter" style={{height:"100px",}} />
+                  </div>
+                
+                <div class="form-floating mt-3 " >
+                {/*  */}
+                {/* <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height:"100px"}}></textarea>
+                <label for="floatingTextarea2">Cover Letter</label> */}
+                 
               </div>
   
-              <div class=" mt-3">
-              <label for="inputState" class="form-label fw-bold">Upload your CV (PDF) <span>*</span> </label>
-                <input type="file" class="form-control pt-1 " id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload" style={{fontSize:'12px'}}/>
-               <p className='pt-2'>Accepted file types: pdf, Max. file size: 150 MB.</p>
-              </div>
+              
                
             </div>
           </Modal.Body>

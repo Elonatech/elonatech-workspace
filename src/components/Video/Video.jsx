@@ -29,13 +29,15 @@ const Video = () => {
         
           <div className="container">
 
-          <div class="container px-4 align-items-center">
-            <div class="row gx-md-5 mt-5">
-              <div class="col">
-              <div class="p-3 " data-aos="fade-up-right" data-aos-duration="3000"> <img src={photo2} alt=""  className="video-img" /></div>
+          <div class="container  ">
+            <div class="row  mt-5">
+              <div class="col-md-6">
+              <div class="p-md-3 " data-aos="fade-up-right" data-aos-duration="3000"> 
+                <img src={photo2} alt=""  className="video-img" /></div>
               </div>
-              <div class="col">
-                <div class="p-3  " data-aos="fade-up-left" data-aos-duration="3000"><p className=' fs-6 text-justify'>  We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.
+              <div class="col-md-6">
+                <div class="p-md-3  " data-aos="fade-up-left" data-aos-duration="3000">
+                  <p className=' fs-6 text-justify'>  We provide comprehensive video and photography solutions for events of every size, anywhere in Nigeria. Whether it’s a conference, training, presentation, exhibitions etc.
                       Aside the video coverage, there is a major aspect of the video production, which we handle perfectly at Elonatech, and its known as <span className='fs-5 fw-bold '>VIDEO EDITING</span>.
                       Editing is usually considered to be one part of the post production process. Other post-production tasks include titling, color correction, sound mixing, etc.
                       Video editing is the process of putting together, cleaning up and finalizing a video for presentation or output. It is mostly used to describe post-production work, which is the work done after all of the shots and footage have been taken and all that still needs to be done is to put them together in order to come up with the final output.
@@ -46,7 +48,9 @@ const Video = () => {
           </div>
 
           <div class="clearfix align-items-center" data-aos="fade-left" data-aos-duration="2000">
-           <div class=" "   > <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " /></div>
+           <div class=" "   > 
+              <img src={ CAMERA} alt=""class="col-md-6 float-md-end mb-3 ms-md-3 video-img " />
+            </div>
 
             <p className='pt-md-5 fs-6 text-justify'>   Creating videos often involves recording and then compiling multiple shots to create a unique video. Video editing is the post-production process, which may involve rearranging clips, creating transitions, correcting color, adding audio, and adding titles and subtitles. It is a visual art. <br /> <br /> The goal of video editing is to choose the best clips, create a cohesive flow, and add effects to tell the story you want to tell in a way that engages the viewer.  Likewise, to manipulate these events to bring the communication closer to the original goal or target.</p>
 
@@ -162,7 +166,8 @@ const Video = () => {
          </div> */}
          <div className=""  style={{ backgroundImage: `url(${BackgroundImage2})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', height:'300px', color:'white'}}>
             <div className="text-start pl-4">
-            <p class=" fw-bolder fs-2 pl-4 pt-5" style={{color:"black"}}>Engage in a conversation with a specialist <br /> regarding your upcoming video <br /> editing endeavor..</p>
+            <p class=" fw-bolder d-md-block  d-none fs-2 pl-4 pt-5 " style={{color:"black"}}>Engage in a conversation with a specialist <br /> regarding your upcoming video <br /> editing endeavor..</p>
+            <p class=" fw-bolder d-md-none  d-block fs-2 pl-4 pt-5 " style={{color:"black"}}>Engage in a conversation with a specialist  regarding your upcoming video  editing endeavor..</p>
             <button type="button" class="btn btn-primary  fs-5 fw-bold  ml-4">GET IN TOUCH</button>
             </div>
          </div>
