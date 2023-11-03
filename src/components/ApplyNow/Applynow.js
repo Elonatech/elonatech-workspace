@@ -108,7 +108,14 @@ const Applynow = () => {
 
                   <div className='col ' style={{marginBottom:"4rem"}}>
                   <label  for="validationCustom01" class="form-label fw-bold">Cover Letter</label> 
-                  <ReactQuill theme="snow" className=''  placeholder="cover letter" style={{height:"100px",}} />
+                  <ReactQuill 
+                  theme="snow"
+                   className='' 
+                    placeholder="cover letter" 
+                    style={{height:"100px",}} 
+                    // modules={App.modules}
+                    // formats={App.formats}
+                    />
                   </div>
                 
                 <div class="form-floating mt-3 " >
@@ -132,5 +139,32 @@ const Applynow = () => {
       </>
     );
 }
+
+// App.modules = {
+//   toolbar:[
+//     [{header:"1"}, { header:"2"},{header:[3,4,5,6]}],
+//     [{size:[]}],
+//     ["bold", "italic", "underline", "strike" ],
+//     [{list: "ordered"}, {list:"bullet"}],
+//   ],
+// };
+
+// App.formats=[
+//   "header",
+//   "font",
+//   "size",
+//   "bold",
+//   "italic",
+//   "underline",
+//   "strike",
+//   "blackquote",
+//   "list",
+//   "bullet",
+//   "link",
+//   "image",
+//   "video",
+//   "code-block",
+//   "",
+// ];
 
 export default Applynow
