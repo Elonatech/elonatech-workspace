@@ -9,9 +9,9 @@ const videoconferencing = () => {
  <section>
     <div className="vid-background">
         <div className="container pt-5">
-            <h2 className='text-center pt-md-5 text-white fw--bold'>Video Conferencing</h2>
+            <h2 className='text-center pt-md-5 text-white fw--bold'>Videoconferencing</h2>
             {/* <h5 class="lead fw-bold text-white text-center"> To ensure that customers can effectively use products or services without facing technical hurdles.</h5> */}
-            <p class="  text-white text-center">As we adjust to the new normal, everyone is moving their social life online. Happy hours, concerts, events, seminars, <br /> late night talk shows, etc.—all digital right now.</p>
+            <p class="  text-white text-center">This is an online technology that allows users in different locations to hold face-to-face meetings without having to move to a single location together</p>
         
         </div>
     </div>
@@ -23,10 +23,10 @@ const videoconferencing = () => {
           </div>
           <div class="col-md-6 pt-3 ">
             <div className="float-center">
-              <h4 className='text-black fw-bold'>Videoconferencing</h4>
-              <p className='text-justify'>Video conferencing is an online technology that allows users in different locations to hold face-to-face meetings without having to move to a single location together. This technology is particularly convenient for business users in different cities or even different countries because it saves time, expenses, and hassles associated with business travel. <br /> </p>
-              <p className='text-justify'>Videoconferencing uses includes holding routine meetings, organizing seminars/conferences, negotiating business deals, and interviewing job candidates. <br /></p>
-              <p className='text-justify'>The main purpose of video conferencing is to help people connect, regardless of where they’re located.</p>
+              <h4 className=' fw-bold' style={{color:"#34548c"}}>Videoconferencing</h4>
+              <p className=''>Videoconferencing is an online technology that allows users in different locations to hold face-to-face meetings without having to move to a single location together. This technology is particularly convenient for business users in different cities or even different countries because it saves time, expenses, and hassles associated with business travel. <br /> </p>
+              <p className=''>Videoconferencing uses includes holding routine meetings, organizing seminars/conferences, negotiating business deals, and interviewing job candidates. <br /></p>
+              <p className=''>The main purpose of video conferencing is to help people connect, regardless of where they’re located.</p>
             </div>
            </div>
         </div>
@@ -36,7 +36,7 @@ const videoconferencing = () => {
         <div className="container">
         <div class="row justify-content-center py-5">
           <div class="col-md-6">
-            <h2 className='text-black fw-bold'>What Kind of Video Conferencing Equipment is Needed?</h2>
+            <h2 className='text-black fw-bold'>What Kind of Videoconferencing Equipment is Needed?</h2>
             <ul className='text-black '>
               <li>Displays: laptop, desktop monitor, television screen</li>
               <li>Microphones and cameras: built-in microphones and webcams, USB microphones and webcams</li>
@@ -56,14 +56,14 @@ const videoconferencing = () => {
       <div className="container" >
           <div class="row align-items-center my-5">
             <div class="col-md-4">
-              <p className='text-justify'> <span className='fw-bold' style={{color:"#34548c"}}>Video conferencing</span> is live, visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection.
+              <p className=''> <span className='fw-bold' style={{color:"#34548c"}}>Videoconferencing solutions</span>, visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection.
               Our cutting-edge videoconference solutions provide unparalleled clarity for your conference room video setup.</p>
             </div>
             <div class="col-md-4">
               <img src={img2} alt="" className='img-fluid'/>
             </div>
             <div class="col-md-4">
-             <p className='text-justify'> Experience a unique 180° field of view, astounding sound, and real-time whiteboarding. Discover the future of smarter video collaboration for small to medium meeting rooms. Transform your workplace with our comprehensive conference room camera and microphone options. Video your way with our recommended wireless conference room solutions today. </p>
+             <p className=''> Experience a unique 180° field of view, astounding sound, and real-time whiteboarding. Discover the future of smarter video collaboration for small to medium meeting rooms. Transform your workplace with our comprehensive conference room camera and microphone options. Video your way with our recommended wireless conference room solutions today. </p>
             </div>
           </div>
       </div>
