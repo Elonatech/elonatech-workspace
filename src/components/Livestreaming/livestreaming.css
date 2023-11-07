@@ -1,0 +1,8 @@
+.live-background{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../components/Livestreaming/img/young-man-filming-podcast-episode-camera-studio-live-broadcasting-online-discussion-create-social-media-content-male-influencer-vlogging-show-with-livestream-equipment_482257-47438.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    position: relative;
+    color: #f0f0f0;
+}

@@ -18,6 +18,7 @@ import DigitalPage from './pages/DigitalPage/digital'
 import SystemPage from './pages/SystemPage/system'
 import MarketingPage from './pages/MarketingPage/marketing'
 import Videoconferencing from './components/VideoConferencing/videoconferencing';
+import Livestreaming from './components/Livestreaming/livestreaming';
 
 
 const Layout = () =>{
@@ -102,6 +103,10 @@ const router = createBrowserRouter([
       {
         path:'/videoconferencing',
         element: < Videoconferencing/>
+      },
+      {
+        path:'/livestreaming',
+        element: < Livestreaming/>
       },
     ]
   },

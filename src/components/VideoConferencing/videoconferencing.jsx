@@ -1,7 +1,7 @@
 import React from 'react'
 import './videoconferencing.css'
-import img from "../VideoConferencing/img/Screenshot 2023-11-06 111826.png"
-import img2 from "../VideoConferencing/img/Screenshot 2023-11-06 111949.png"
+import img from "../VideoConferencing/img/meeting-room-2-1030x687.jpg"
+import img2 from "../VideoConferencing/img/office-worker-attending-business-meeting-videocall-conference-with-webcam-network-connection-talking-colleagues-remote-video-teleconference-telework-working-late-night2_482257-51732.jpg"
 import img3 from '../VideoConferencing/img/african-american-vlogger-using-camera-record-video_482257-26747.jpg'
 
 const videoconferencing = () => {
@@ -18,19 +18,10 @@ const videoconferencing = () => {
 
     <div className="container position-relative">
         <div class="row justify-content-center mt-4 mb-4">
-          <div class="col-md-7 position-relative"  style={{ position: 'relative' }}>
-
-              <div className="d-none d-md-flex">
-                <div  style={{ position: 'absolute', top: '50%', left: '50%' }}> <img src={img2} alt=""  className='img-fluid' style={{width:"300px", height:"150px"}}/> </div>
-                <div  style={{ position: 'absolute', bottom: '50%', right: '50%' }}> <img src={img} alt=""  className='img-fluid' style={{width:"300px", height:"150px"}}/> </div>
-              </div>
-             
-             <div className="d-md-none d-flex">
-              <img src={img} alt="" className='img-fluid'/>
-             </div>
-           
+          <div class="col-md-6" >
+          <img src={img} alt="" className='img-fluid ' style={{width:"600px", height:"320px"}}/>
           </div>
-          <div class="col-md-5 pt-3 ">
+          <div class="col-md-6 pt-3 ">
             <div className="float-center">
               <h4 className='text-black fw-bold'>Videoconferencing</h4>
               <p className='text-justify'>Video conferencing is an online technology that allows users in different locations to hold face-to-face meetings without having to move to a single location together. This technology is particularly convenient for business users in different cities or even different countries because it saves time, expenses, and hassles associated with business travel. <br /> </p>
@@ -61,6 +52,21 @@ const videoconferencing = () => {
         </div>
       </div>
            
+
+      <div className="container" >
+          <div class="row align-items-center my-5">
+            <div class="col-md-4">
+              <p className='text-justify'> <span className='fw-bold' style={{color:"#34548c"}}>Video conferencing</span> is live, visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection.
+              Our cutting-edge videoconference solutions provide unparalleled clarity for your conference room video setup.</p>
+            </div>
+            <div class="col-md-4">
+              <img src={img2} alt="" className='img-fluid'/>
+            </div>
+            <div class="col-md-4">
+             <p className='text-justify'> Experience a unique 180° field of view, astounding sound, and real-time whiteboarding. Discover the future of smarter video collaboration for small to medium meeting rooms. Transform your workplace with our comprehensive conference room camera and microphone options. Video your way with our recommended wireless conference room solutions today. </p>
+            </div>
+          </div>
+      </div>
  </section>
   )
 }
