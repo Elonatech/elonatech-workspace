@@ -56,8 +56,8 @@ const videoconferencing = () => {
       <div className="container" >
           <div class="row align-items-center my-5">
             <div class="col-md-4">
-              <p className=''> <span className='fw-bold' style={{color:"#34548c"}}>Videoconferencing solutions</span>, visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection.
-              Our cutting-edge videoconference solutions provide unparalleled clarity for your conference room video setup.</p>
+              <h5  className='fw-bold' style={{color:"#34548c"}}>Videoconferencing solutions</h5>
+              <p className=''>Live visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection. Our cutting-edge videoconference solutions provide unparalleled clarity for your conference room video setup.</p>
             </div>
             <div class="col-md-4">
               <img src={img2} alt="" className='img-fluid'/>

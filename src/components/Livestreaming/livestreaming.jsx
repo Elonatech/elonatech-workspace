@@ -33,12 +33,18 @@ const livestreaming = () => {
          </div>
 
          <div className="container">
-         <div class="row justify-content-center mt-3">
+         
+         <div class="row justify-content-center mt-3 flex-column-reverse flex-lg-row">
                 <div class="col-md-6">
-                <img src={img2} alt="" className='img-fluid' style={{width:"600px", height:"350px"}}/>
+                     <img src={img2} alt="" className='img-fluid mt-0 mt-md-5' style={{width:"600px", height:"350px"}}/>
                 </div>
                 <div class="col-md-6">
-                One of two columns
+                    <h5 className='fw-bold fs-3 ' style={{color:"#34548c"}}>Our Livestreaming Service</h5>
+                    <ul>
+                        <li>Elonatech provides professional and quality live streaming solutions. we seamlessly integrate multiple camera angles, multi-source input channels into live-streamed events. our professionally switched video will have smooth multi-camera transitions, multimedia integration, and varieties of graphical effects and overlays, including digital watermarks, titling, branding slates, lower-third graphics and sponsor messaging. <br /> <br /></li>
+                        <li>Our live streams are delivered on CDN, adaptive bit rates and responsive multi-device player which make people all over the world be able to watch your events live via mobile phones and all internet-enabled devices. <br /> <br /></li>
+                        <li>Our Livestreaming service covers the following events: Church’s live service broadcasting, conferences and events live broadcast, rally and campaign broadcast, weddings, birthdays, etc. <br /> <br /></li>
+                    </ul>
                 </div>
             </div>
          </div>
