@@ -2,6 +2,8 @@ import React from 'react';
 import './livestreaming.css';
 import img from './img/Supreme-Image-1030x579.jpg';
 import img2 from './img/video-live-streaming-service-1B.jpg';
+import img3 from './img/img-3.jpg';
+
 
 const livestreaming = () => {
   return (
@@ -48,6 +50,32 @@ const livestreaming = () => {
                 </div>
             </div>
          </div>
+
+         <div className="" style={{backgroundColor:"#34548c", marginTop:"5rem"}}>
+        <div className="container">
+        <div class="row justify-content-center py-5">
+          <div class="col-md-6">
+            <h2 className='text-black fw-bold'>Our Livestreaming Features</h2>
+            <ul className='text-black '>
+              <h5 className='fw-bold'>Countdown Timer</h5>
+                 <li>Add a countdown timer if the live stream hasn't started yet. This builds anticipation and lets viewers know when the event will begin.</li>
+              <h5 className='fw-bold'>Live Video Player:</h5>
+                 <li>Embed the live video player prominently on the page. Ensure it's easily accessible and works seamlessly.</li>
+              <h5 className='fw-bold'>Chat and Comment Section:</h5>
+                 <li>Include a live chat or comment section for viewers to interact with you and other viewers in real-time.</li>
+              <h5 className='fw-bold'>Upcoming Live Streams:</h5>
+                 <li>If applicable, list upcoming live streams or events to keep viewers informed about what's coming next.</li>
+              <h5 className='fw-bold'>Social Media Links:</h5>
+                 <li>Provide links to your social media profiles to encourage viewers to follow you for updates and future streams.</li>
+              
+            </ul>
+          </div>
+          <div class="col-md-6">
+             <img src={img3} alt="" className='img-fluid pt-md-4 pt-0'/>
+          </div>
+        </div>
+        </div>
+      </div>
 
    </section>
   )
