@@ -11,6 +11,7 @@ const videoconferencing = () => {
         <div className="container pt-5">
             <h2 className='text-center pt-md-5 text-white fw--bold'>Videoconferencing</h2>
             {/* <h5 class="lead fw-bold text-white text-center"> To ensure that customers can effectively use products or services without facing technical hurdles.</h5> */}
+            <h5 className='text-center fs-5'> Helping People Connect, Regardless of Where They’re Located.</h5>
             <p class="  text-white text-center">This is an online technology that allows users in different locations to hold face-to-face meetings without having to move to a single location together</p>
         
         </div>
