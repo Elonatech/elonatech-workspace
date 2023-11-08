@@ -19,7 +19,7 @@ const livestreaming = () => {
 
          <div className="container">
             <div class="row justify-content-center my-5 gx-4">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <div className="float-center">
                     <h4 className=' fw-bold' style={{color:"#34548c"}}>Livestreaming</h4>
                         <p className='text-justify'>Live streaming technology lets you watch, create and share videos in real-time, a bit like live TV. All you need to be able to live stream is an internet-enabled device and a platform. Current popular live-streaming apps include Facebook Live, YouTube Live, Instagram Live stories, etc.  </p>
@@ -40,7 +40,7 @@ const livestreaming = () => {
                 <div class="col-md-6">
                      <img src={img2} alt="" className='img-fluid mt-0 mt-md-5' style={{width:"600px", height:"350px"}}/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <h5 className='fw-bold fs-3 ' style={{color:"#34548c"}}>Our Livestreaming Service</h5>
                     <ul>
                         <li>Elonatech provides professional and quality live streaming solutions. we seamlessly integrate multiple camera angles, multi-source input channels into live-streamed events. our professionally switched video will have smooth multi-camera transitions, multimedia integration, and varieties of graphical effects and overlays, including digital watermarks, titling, branding slates, lower-third graphics and sponsor messaging. <br /> <br /></li>
@@ -53,7 +53,7 @@ const livestreaming = () => {
 
          <div className="" style={{backgroundColor:"#34548c", marginTop:"5rem"}}>
         <div className="container">
-        <div class="row justify-content-center py-5">
+        <div class="row justify-content-center py-5" data-aos="fade-up">
           <div class="col-md-6">
             <h2 className='text-black fw-bold'>Our Livestreaming Features</h2>
             <ul className='text-black '>
@@ -67,7 +67,6 @@ const livestreaming = () => {
                  <li>If applicable, list upcoming live streams or events to keep viewers informed about what's coming next.</li>
               <h5 className='fw-bold'>Social Media Links:</h5>
                  <li>Provide links to your social media profiles to encourage viewers to follow you for updates and future streams.</li>
-              
             </ul>
           </div>
           <div class="col-md-6">

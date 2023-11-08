@@ -18,7 +18,7 @@ const videoconferencing = () => {
 
     <div className="container position-relative">
         <div class="row justify-content-center mt-4 mb-4">
-          <div class="col-md-6" >
+          <div class="col-md-6" data-aos="fade-up">
           <img src={img} alt="" className='img-fluid ' style={{width:"600px", height:"320px"}}/>
           </div>
           <div class="col-md-6 pt-3 ">
@@ -45,7 +45,7 @@ const videoconferencing = () => {
               <li>Video Conferencing Software: video conferencing tools and apps</li>
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up">
              <img src={img3} alt="" className='img-fluid pt-2 pt-md-0'/>
           </div>
         </div>
@@ -59,7 +59,7 @@ const videoconferencing = () => {
               <h5  className='fw-bold' style={{color:"#34548c"}}>Videoconferencing solutions</h5>
               <p className=''>Live visual connection between two or more remote parties over the internet that simulates a face-to-face meeting. Video conferencing is important because it joins people who would not normally be able to form a face-to-face connection. Our cutting-edge videoconference solutions provide unparalleled clarity for your conference room video setup.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <img src={img2} alt="" className='img-fluid'/>
             </div>
             <div class="col-md-4">
