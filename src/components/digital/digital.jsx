@@ -165,7 +165,7 @@ modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
 spaceBetween={50} 
 slidesPerView={1}
 pagination={true}
-autoplay={{delay: 3000}}
+autoplay={{delay: 5000}}
 
 >
 
@@ -175,7 +175,7 @@ autoplay={{delay: 3000}}
     <div className="col-md-4" >
       <div className=" mt-5">
         <div className="text-center">
-       <img src="	https://elonatech.com.ng/wp-content/uploads/2021/09/Gabriel-Osondu.jpeg" alt="" style={{height:"20rem", borderRadius:'50%'}}/>
+       <img src="	https://elonatech.com.ng/wp-content/uploads/2021/09/Gabriel-Osondu.jpeg" alt="" style={{height:"15rem", borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
@@ -218,7 +218,7 @@ autoplay={{delay: 3000}}
     <div className="col-md-4">
       <div className=" mt-5">
         <div className="text-center">
-       <img src="https://elonatech.com.ng/wp-content/uploads/2021/06/Mary-Ephraim-Egbas.jpeg" alt=""  style={{height:"20rem", borderRadius:'50%'}}/>
+       <img src="https://elonatech.com.ng/wp-content/uploads/2021/06/Mary-Ephraim-Egbas.jpeg" alt=""  style={{height:"15rem", borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
@@ -260,7 +260,7 @@ autoplay={{delay: 3000}}
     <div className="col-md-4">
       <div className=" mt-5">
         <div className="text-center">
-       <img src='https://elonatech.com.ng/wp-content/uploads/2021/06/Abayomi-Kakanfo.jpg' alt=""  style={{height:"20rem", borderRadius:'50%'}}/>
+       <img src='https://elonatech.com.ng/wp-content/uploads/2021/06/Abayomi-Kakanfo.jpg' alt=""  style={{height:"15rem", borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
@@ -301,7 +301,7 @@ autoplay={{delay: 3000}}
     <div className="col-md-4">
       <div className=" mt-5">
         <div className="text-center">
-       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Remeben-MD-1.png' alt="" style={{height:"20rem",width:'20rem', borderRadius:'50%'}}/>
+       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Remeben-MD-1.png' alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
@@ -341,7 +341,7 @@ autoplay={{delay: 3000}}
     <div className="col-md-4" >
       <div className=" mt-5">
         <div className="text-center">
-       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Chunyere-Nganwuchu.jpg' alt="" style={{height:"20rem",width:'20rem', borderRadius:'50%'}}/>
+       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Chunyere-Nganwuchu.jpg' alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
