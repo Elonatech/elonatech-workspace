@@ -87,7 +87,7 @@ const Digital = () => {
   <div className="row g-0" style={{marginBottom:"4rem", marginTop:"4rem"}}>
     <div className="col-md-5">
       <div className="card border-0">
-        <img src={business} alt="" />
+        <img src="https://img.freepik.com/free-photo/marketing-strategy-connting-digital-devices-concept_53876-23053.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais" alt="" />
       </div>
     </div>
     <div className="col-md-7 "  style={{background:"#f8f8f8" ,height:"24rem"}}>
@@ -113,9 +113,9 @@ const Digital = () => {
 </div>
 
 {/* disruptive */}
-<div className="container mt-5 mb-5">
-  <div className="row g-0">
-    <div className="col-md-7 "  style={{background:"#f8f8f8"}}>
+<div className="container mt-5 mb-5" style={{background:"#f8f8f8"}}>
+  <div className="row g-0" >
+    <div className="col-md-7 "  >
       {/* <div className="card border-0" style={{background:"#f8f8f8"}}>
       <div className="p-3 text-end">
     <h2 className=' fw-bold pt-5'>The Disruptive Difference</h2>
@@ -153,7 +153,7 @@ const Digital = () => {
     </div>
     <div className="col-md-5">
       <div className="card border-0">
-        <img src={disruptive} alt="" />
+        <img src='https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' alt="" />
       </div>
     </div>
   </div>
