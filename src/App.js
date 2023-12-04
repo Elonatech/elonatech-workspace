@@ -19,6 +19,9 @@ import SystemPage from './pages/SystemPage/system'
 import MarketingPage from './pages/MarketingPage/marketing'
 import Videoconferencing from './components/VideoConferencing/videoconferencing';
 import Livestreaming from './components/Livestreaming/livestreaming';
+import Blog from './components/blog/blog'
+import Blogwrite from './components/blogWrite/blogWrite'
+import Digital from './components/digital/digital'
 
 
 const Layout = () =>{
@@ -34,6 +37,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout/>,
     children:[
+      {
+        path:'/blogwrite',
+        element: <Blogwrite/>
+      },
       {
         path:'/graphic',
         element: <Graphic/>
@@ -52,6 +59,14 @@ const router = createBrowserRouter([
         element: <Video/>
       },
      
+      {
+        path:'/blog',
+        element: <Blog/>
+      },
+      {
+        path:'/digital',
+        element: <Digital/>
+      },
       {
         path:'/motion',
         element: <Motion/>

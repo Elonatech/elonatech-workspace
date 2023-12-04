@@ -1,0 +1,685 @@
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+
+import { Swiper, SwiperSlide  } from 'swiper/react';
+
+// Swiper styles
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+// Import Swiper styles
+import 'swiper/css';
+
+import business from './captions/Solutions-Phoaato.webp';
+import  disruptive from './captions/Solutions-Photo-1.webp';
+import master from './captions/Master-Muffler.webp';
+import quoteRight from './captions/quote-right.webp';
+import quoteLeft from './captions/quote-left.webp';
+
+import security from './captions/Security-National.webp';
+import revenue from './captions/Revenue-Cycle-Coding-Strategies.webp';
+import ptc from './captions/PTC.webp';
+import liquid from './captions/Liquidfish.webp';
+
+import star from './captions/Star-Rating-Icon.webp';
+import employee from './captions/Employees-Icon.webp';
+import shake from './captions/90.webp';
+import inc from './captions/Inc-500-1.webp';
+import ad from './captions/Ad-Spend-Icon.webp';
+
+// ads 
+
+import seo from './captions/Ads/SEO-Icon-2.webp';
+import google from './captions/Ads/Google-Ads-Icon-2.webp';
+import social from './captions/Ads/Social-Media-Ads-Icon-2.webp';
+import youtube from './captions/Ads/YouTube-Ads-Icon-2.webp';
+import amazon from './captions/Ads/Amazon-Icon-2.webp';
+import facebook from './captions/Ads/Facebook-Ads-Icon-2.webp';
+import ticktok from './captions/Ads/TikTok-Ads-Icon-1.webp';
+import linkedin from './captions/Ads/Linkedin-Ads-Icon-1.webp';
+import snap from './captions/Ads/Snapchat-Ads-Icon-1.webp'; 
+import bing from './captions/Ads/Bing-Ads-Icon-1.webp';
+import twitter from './captions/Ads/twitter-x-logo-577BCAE525-seeklogo.com.png';
+import shopping from './captions/Ads/Google-Shopping-Icon-1.webp';
+import motion from './captions/Ads/Motion-Ads-Icon-1.webp';
+import landing from './captions/Ads/Landing-Pages-Icon-1.webp';
+import email from './captions/Ads/Email-Management-Icon-1.webp'
+import lead from './captions/Ads/Lead-Nurture-Icon-1.webp'
+import creative from './captions/Ads/Creative-Strategy-Icon-1.webp'
+import site from './captions/Ads/Website-Optimization-Icon-1 (1).webp'
+
+import Gen from './captions/Ads/Lead-Gen-Marketing2.webp';
+import commerce from './captions/Ads/Ecommerce-Marketing.webp';
+
+// services
+
+import seoS from './captions/services/seo.png';
+import socialM from './captions/services/social media.png';
+import ppc from './captions/services/ppc.png';
+import contentS from './captions/services/content.png';
+import Email from './captions/services/email.png';
+import affiliate from './captions/services/affiliate.png';
+import Background from './captions/notebook-with-words-digital-marketing_1134-434.jpg'
+
+
+ 
+
+
+
+
+
+import './digital.css'
+
+
+const Digital = () => {
+    return (
+
+<>
+{/* header */}
+<div class="container-fluid bg-secondary py-5 " style={{height:"500px" , marginBottom:"10px" , backgroundImage:`linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${Background})`, backgroundRepeat:"no-repeat" , backgroundPosition:"center", backgroundSize:"cover"}}>
+ <div class="py-5 mt-5 ">
+   <h2 class=" mt-5 text-white text-center">Digital Marketing</h2>
+   <h5 class=" mt-4 text-white text-center">Controls Access Physically and Virtually Except with Authentication Credentials</h5>
+   <p class="lead text-white text-center">An essential element of security that determines who is allowed to access certain data, apps, and resources and in what circumstances</p>
+ </div>
+ </div>
+{/* business */}
+<div className="container mt-5 mb-5">
+  <div className="row g-0" style={{marginBottom:"4rem", marginTop:"4rem"}}>
+    <div className="col-md-5">
+      <div className="card border-0">
+        <img src={business} alt="" />
+      </div>
+    </div>
+    <div className="col-md-7 "  style={{background:"#f8f8f8" ,height:"24rem"}}>
+      <div className="p-3 ml-4">
+        {/* <h2 className="fw-bold pt-3">We help good businesses become GREAT.</h2> */}
+        <h2 className="fw-bold pt- ">Our digital marketing services help your business grow online leads, calls, and revenue.</h2>
+        <div className="mt-2" style={{  width:"90px", height:"3px" , background:"#f00"}}></div>
+
+        <p className="pt-3 pb-5 fs-5" style={{textAlign:"justify"}}>
+        With Digital marketing, we have successfully changed the way brands and businesses use technology for marketing. Digital platforms are 
+        increasingly incorporated into marketing plans and everyday life, and with the high rise in the use of digital devices 
+        instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient.
+         
+         <br />
+         <br />
+        We achieve this aim by working closely with you to craft and deliver successful and bottom-lined oriented online 
+        marketing strategies which integrate customer needs, 
+        business objectives, and technology. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* disruptive */}
+<div className="container mt-5 mb-5">
+  <div className="row g-0">
+    <div className="col-md-7 "  style={{background:"#f8f8f8"}}>
+      {/* <div className="card border-0" style={{background:"#f8f8f8"}}>
+      <div className="p-3 text-end">
+    <h2 className=' fw-bold pt-5'>The Disruptive Difference</h2>
+
+    <div className='d-flex justify-content-end'>
+    <div className="mt-4" style={{  width:"90px", height:"3px" ,margin:"" , background:"#f00"}}></div>
+    </div>
+        <p className="pt-3 pb-5 fs-5" style={{textAlign:"justify"}}>
+        We have a passion for people fueled by purpose. The brands and organizations we work with are supported to be world-changers by working with our innovative and empowered marketers. 
+        Businesses can truly make a positive impact by bringing unique solutions to the world. We've built an environment where employees and clients are empowered to learn, grow, and win.
+        </p>
+      </div>
+    </div> */}
+      <div className="card border-0" style={{background:"#f8f8f8" , height:"22rem"}}>
+      <div className="p-3 text-end">
+    
+        <p className="pt- pb- fs-5 mr-4" style={{textAlign:"justify"}}>
+        Developing effective digital marketing in any market is a tough, demanding, and technical undertaking. Hence the need to work with a Nigerian
+        internet marketing agency with the experience, network, tools and know-how needed to achieve market success.
+  
+         <br />
+         <br />
+    
+        Our encyclopedic knowledge of the Nigerian business environment, in-house pool of stellar associates, and strategic working alliance with outstanding
+        outside business experts provide us with the capability and 
+        expertise needed to help you achieve your desired business objectives.
+        <br />
+        <br />
+        Whatever your goals,  to improve existing marketing campaigns or design your comprehensive online media strategy from scratch, we can be of help.
+
+
+        </p>
+      </div>
+    </div>
+    </div>
+    <div className="col-md-5">
+      <div className="card border-0">
+        <img src={disruptive} alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+{/* carousel */}
+<div className="container-fluid"  style={{background:"#f8f8f8"}}>
+<Swiper  
+modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} 
+spaceBetween={50} 
+slidesPerView={1}
+pagination={true}
+autoplay={{delay: 3000}}
+
+>
+
+<SwiperSlide>
+<div className="container mb-" >
+  <div className="row ">
+    <div className="col-md-4" >
+      <div className=" mt-5">
+        <div className="text-center">
+       <img src="	https://elonatech.com.ng/wp-content/uploads/2021/09/Gabriel-Osondu.jpeg" alt="" style={{height:"20rem", borderRadius:'50%'}}/>
+        </div>
+      </div>
+    </div>
+    
+    <div className="col-md-8">
+      <div className="d-flex pt-5">
+      <img src={quoteLeft} className='img-fluid   me-5' style={{height:"3rem"}}   alt="" /> 
+      
+      <h1 className=' fw-bold pt-2'>They'll move mountains for us.</h1>
+     </div>
+
+      <p className="pt-3 pb-3 fs-5" style={{textAlign:"justify"}}>
+     
+      "Safebrooks Nigeria Limited" relies on Elonatech for it's digital marketing and web development expertise, with a particular focus on the area of social media marketing and digital advertising. Elonatech provides the best advice and is superbly knowledgeable as well as being fully committed and responsive to our needs and supporting the ideas and initiatives we have presented.
+      Oreva and all of the team at Elonatech have become invaluable partners for our company in creating brand awareness and being instrumental in generating new business ideas. 
+      </p>
+
+      <div className='d-flex justify-content-between pb-5'>
+        <div className="">
+        <p className='fs-5 text-uppercase pt-3 '>
+        Gabriel Osondu
+        </p>
+       
+        <span class="elementor-testimonial__title fs-6">COO/Water Specialist, Safebrooks Nig. Ltd.</span>
+        
+        </div>
+  
+        <img src={quoteRight} className='img-fluid' style={{height:"3rem"}}   alt="" />
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+</SwiperSlide>
+
+<SwiperSlide>
+<div className="container mb-" >
+  <div className="row ">
+    <div className="col-md-4">
+      <div className=" mt-5">
+        <div className="text-center">
+       <img src="https://elonatech.com.ng/wp-content/uploads/2021/06/Mary-Ephraim-Egbas.jpeg" alt=""  style={{height:"20rem", borderRadius:'50%'}}/>
+        </div>
+      </div>
+    </div>
+
+    <div className="col-md-8">
+      <div className="d-flex pt-5">
+      <img src={quoteLeft} className='img-fluid   me-5' style={{height:"3rem"}}   alt="" /> 
+      
+      <h1 className=' fw-bold pt-2'>A great partner to us.</h1>
+     </div>
+
+      <p className="pt-3 pb-3 fs-5" style={{textAlign:"justify"}}>
+      
+"The challenge we face is that we are big enough to need a network with specific functionality, but not necessarily requiring a full-time IT staff person. Elonatech Nigeria Ltd. provided the perfect solution; they have the technical expertise and mindshare we needed coupled with flexibility in the level of support. They are really responsive, prioritizing important issues that arise and dealing with them quickly and effectively. I also appreciate their detailed follow-up and preventive maintenance; more than once this has helped us avoid a major problem with our network. A lot of companies these days make claims about customer service and looking out for the best interest of their clients, but Elonatech can be trusted to do what they say—and for a competitive price." 
+      </p>
+
+      <div className='d-flex justify-content-between pb-5'>
+        <div className="">
+        <p className='fs-5 text-uppercase pt-3 '>
+      Mary Ephraim-Egbas
+      </p>
+        <span class="elementor-testimonial__title">CEO, Okhma Consult</span>
+        
+        </div>
+        
+        <img src={quoteRight} className='img-fluid' style={{height:"3rem"}}   alt="" />
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+</SwiperSlide>
+
+
+<SwiperSlide>
+<div className="container mb-" >
+  <div className="row ">
+    <div className="col-md-4">
+      <div className=" mt-5">
+        <div className="text-center">
+       <img src='https://elonatech.com.ng/wp-content/uploads/2021/06/Abayomi-Kakanfo.jpg' alt=""  style={{height:"20rem", borderRadius:'50%'}}/>
+        </div>
+      </div>
+    </div>
+
+    <div className="col-md-8" >
+      <div className="d-flex pt-5">
+      <img src={quoteLeft} className='img-fluid   me-5' style={{height:"3rem"}}   alt="" /> 
+      
+      <h1 className=' fw-bold pt-2'>Not a typical agency.</h1>
+     </div>
+
+      <p className="pt-3 pb-3 fs-5" style={{textAlign:"justify"}}>
+     
+  "I have worked with other web designers before but was never satisfied with the end result. From start to finish my interaction with the team at Elonatech was professional, stress-free and I had complete trust in their ability to deliver. Their difference is: They took the time to listen to what I wanted but also brought their own ideas, experience and creativity so that the end design was more rounded. They understood that I needed to see things in a visual context and have some flexibility to 'play' around with a few ideas. All of this was done face to face at their office making the process highly personal." 
+      </p>
+
+      <div className='d-flex justify-content-between pb-5'>
+        <div className="">
+          <p className='fs-5 text-uppercase pt-3 '>
+          Abayomi Kakanfo
+          </p>
+          <span class="elementor-testimonial__title">Business Dev. Manager, Hyperthread Ventures Limited</span>
+        </div>
+      
+        <img src={quoteRight} className='img-fluid' style={{height:"3rem"}}   alt="" />
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+</SwiperSlide>
+
+
+<SwiperSlide>
+<div className="container mb-" >
+  <div className="row ">
+    <div className="col-md-4">
+      <div className=" mt-5">
+        <div className="text-center">
+       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Remeben-MD-1.png' alt="" style={{height:"20rem",width:'20rem', borderRadius:'50%'}}/>
+        </div>
+      </div>
+    </div>
+
+    <div className="col-md-8" >
+      <div className="d-flex pt-5">
+      <img src={quoteLeft} className='img-fluid   me-5' style={{height:"3rem"}}   alt="" /> 
+      
+      <h1 className=' fw-bold pt-2'>You can rely on their guidance.</h1>
+     </div>
+
+      <p className="pt-3 pb-3 fs-5" style={{textAlign:"justify"}}>
+     
+      "In the past, I've been 'held hostage' by techie people who talk over my head. I clicked with Elonatech Nigeria Ltd. from the start because they are so down to earth and more than willing to do a great job for their clients. Elonatech Nigeria Ltd. is a professional company with a real commitment to provide excellent technical expertise and incredibly good customer service. I haven't found this from many other providers." .
+      </p>
+
+      <div className='d-flex justify-content-between pb-5'>
+        <div className="">
+          <p className='fs-5 text-uppercase pt-3 '>
+          —Benjamin Miachi
+          </p>
+          <span class="elementor-testimonial__title">CEO/Chief Analyst, Remaben Scientific Services Ltd.</span>
+        </div>
+        
+        <img src={quoteRight} className='img-fluid' style={{height:"3rem"}}   alt="" />
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+</SwiperSlide>
+
+<SwiperSlide>
+<div className="container mb-5" >
+  <div className="row ">
+    <div className="col-md-4" >
+      <div className=" mt-5">
+        <div className="text-center">
+       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Chunyere-Nganwuchu.jpg' alt="" style={{height:"20rem",width:'20rem', borderRadius:'50%'}}/>
+        </div>
+      </div>
+    </div>
+
+    <div className="col-md-8">
+      <div className="d-flex pt-5">
+      <img src={quoteLeft} className='img-fluid   me-5' style={{height:"3rem"}}   alt="" /> 
+      
+      <h1 className=' fw-bold pt-2'>Impressed with  attention to detail.</h1>
+     </div>
+
+      <p className="pt-3 pb-3 fs-5" style={{textAlign:"justify"}}>
+      
+      “We really needed a company that could handle the computer issues we no longer had the time or experience to deal with. Elonatech Nigeria Ltd.is a perfect solution for us because we have the same IT Professional with us every week who is very familiar with our network, and we don’t have to worry about dealing with computer problems on our own anymore. The fact that Elonatech Nigeria Ltd uses Microsoft best practices is very important to us, too. We are confident that if someone else had to manage our network down the road, it would be easy to do because of the systems that are in place.” 
+      </p>
+
+      <div className='d-flex justify-content-between pb-5'>
+        <div className="">
+          <p className='fs-5 text-uppercase pt-3 '>
+          —Chinyere Iziogu, </p>
+          <span class="elementor-testimonial__title">Admin Manager, Shepherd Specialist Hospital</span>
+        </div>
+       
+        <img src={quoteRight} className='img-fluid' style={{height:"3rem"}}   alt="" />
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+</SwiperSlide>
+
+</Swiper> 
+</div> 
+
+{/* our process */}
+<div className="container">
+  <h2 className='fw-bold text-center pt-4'>Our Proven Process</h2>
+<ul className='d-flex row pt-5 g-3 justify-content-between list-unstyled'>
+
+  <li className='col-6 col-md-4 col-lg-2 pt-5' >
+   <div className="pt- pb-5">
+   <div className="text-center">
+  <img src='https://img.freepik.com/free-vector/seo-background-design_1378-119.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle' style={{height:"180px" , cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>Search Engine Optimization</h3>
+  <p>We use advanced methods to rank...</p>
+  </div> 
+   </div> 
+  </li>
+  <li className='col-6 col-md-4  col-lg-2'>
+  <div className="">
+  <div className="text-center">
+  <img src='https://img.freepik.com/free-photo/pile-3d-popular-social-media-logos_1379-881.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>Social Media Marketing</h3>
+  <p>Most large and small business owners...</p>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-5'>
+  <div className="">
+  <div className="text-center">
+  <img src='https://img.freepik.com/premium-photo/pay-per-click-ppc-modern-method-promoting-advertising-internet_102583-4950.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>PPC (pay-per-click)</h3>
+  <p>We use advanced methods to direct traffic...</p>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-2'>
+  <div className="">
+  <div className="text-center">
+  <img src='https://img.freepik.com/premium-photo/content-marketing-modish-online-business-ecommerce-marketing-strategy_31965-204823.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>Content Marketing</h3>
+  <p>We create unique and useful content...</p>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-5'>
+  <div className="">
+  <div className="text-center">
+  <img src='https://img.freepik.com/free-photo/message-online-chat-social-text-concept_53876-122734.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle ty' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>Email Marketing</h3>
+  <p>We help you connect to your prospects...</p>
+  </div> 
+  </div>
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-5'>
+  <div className="">
+  <div className="text-center">
+  <img src='https://img.freepik.com/premium-vector/affiliate-marketing-concept-illustration-idea-internet-ppc-business_613284-2009.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle ty' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <h3 className='pt-4' style={{cursor:"pointer"}}>Affiliate marketing</h3>
+  <p>We have the tools to enable your website...</p>
+  </div> 
+  </div>
+  </li>
+</ul>
+</div>
+
+{/* Magenetic marketing */}
+<div className="container-fluid" style={{background:"#f00"}}>
+<div className='pt-5 pb-5'>
+<p className='fs-3 text-center text-white'>We Have A Passion For </p>
+<p className='text-center text-white pt-2 fw-bold fs-1'>
+Ready to discuss your project?
+</p>
+<div className="text-center">
+<button className='btn btn-dark p- fs-4 rounded-0' >Get a Quote<i class="bi bi-chevron-right ms-3"></i></button>
+</div>
+</div>
+</div>
+
+{/* company rating */}
+<div className="container-fluid mb-0" style={{background:'#34548c'}}>
+<div className="container pt-5 pb-4 ">
+
+<ul className='d-flex row  justify-content-between list-unstyled'>
+
+  <li className='col-6 col-md-4 col-lg-2 pt-4'>
+   <div className="">
+   <div className="text-center">
+  <img src={star} className='img-fluid' alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>4.8</h1>
+  <h6 className='text-white'>Average rating from 300 reviews on Clutch</h6>
+  </div> 
+   </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2'>
+  <div className="">
+  <div className="text-center">
+  <img src={employee} className='img-fluid' style={{width:"6rem"}} alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>90+</h1>
+  <h6 className='text-white'>Clients with us for 4 years or more</h6>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-2'>
+  <div className="">
+  <div className="text-center">
+  <img src={shake} className='img-fluid' style={{width:"6rem"}} alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>160+</h1>
+  <h6 className='text-white'>Employees aligned with our mission</h6>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2 pt-2'>
+  <div className="">
+  <div className="text-center">
+  <img src={inc} className='img-fluid' style={{width:"5rem"}} alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>#145</h1>
+  <h6 className='text-white'>On the Inc. 500</h6>
+  </div> 
+  </div> 
+  </li>
+  <li className='col-6 col-md-4 col-lg-2'>
+  <div className="">
+  <div className="text-center">
+  <img src={ad} className='img-fluid' style={{width:"6rem"}} alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>$450M+</h1>
+  <h6 className='text-white'>In annual ad-spend managed for clients</h6>
+  </div> 
+  </div>
+  </li>
+</ul>
+
+  </div>
+</div>
+
+{/* Irresistable*/}
+<div className="container mt-5 mb-5">
+  <div className="row">
+    <div className="col-6  col-md-2 p-3 ">
+      <div className="text-center">
+        <img src={seo} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>SEO</h6>
+      </div>
+    </div>
+    <div className="col-6  col-md-2 p-3 ">
+    <div className="text-center">
+        <img src={google} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Google Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3 ">
+    <div className="text-center">
+        <img src={social} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Social Ads</h6>
+      </div>
+    </div>
+    <div className="col-6  col-md-2 p-3 ">
+    <div className="text-center">
+        <img src={youtube} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Youtube Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3 ">
+    <div className="text-center">
+        <img src={amazon} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Amazon</h6>
+      </div>
+    </div>
+    <div className="col-6  col-md-2 p-3 ">
+    <div className="text-center">
+        <img src={facebook} className='img-fluid' style={{width:"15px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Facebook Ads</h6>
+      </div>
+    </div>
+
+
+    {/*  */}
+    <div className="col-6 col-md-2 p-3 mt-4">
+    <div className="text-center">
+        <img src={ticktok} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Tiktok Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3  mt-4">
+    <div className="text-center">
+        <img src={linkedin} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Linkedin Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3  mt-4">
+    <div className="text-center">
+        <img src={snap} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Snapschat Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3  mt-4">
+    <div className="text-center">
+        <img src={bing} className='img-fluid' style={{width:"20px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Bing Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 p-3  mt-4">
+    <div className="text-center">
+        <img src={twitter} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>X Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2  p-3 mt-4">
+    <div className="text-center">
+        <img src={shopping} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Shopping</h6>
+      </div>
+    </div>
+  {/*  */}
+    {/*  */}
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={motion} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Motion Ads</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={landing} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Landing Pages</h6>
+      </div>
+    </div>
+
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={email} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Email</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={lead} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Lead Nurture</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={creative} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Creative</h6>
+      </div>
+    </div>
+    <div className="col-6 col-md-2 mt-4">
+    <div className="text-center">
+        <img src={site} className='img-fluid' style={{width:"25px"}} alt="" />
+        <h6 className='pt-4 fs-4'>Optimization</h6>
+      </div>
+    </div>
+  {/*  */}
+  </div>
+</div>
+
+{/* e-commerce marketing */}
+<div className="container ">
+  <div className="row">
+    <div className="col-md-6">
+      <div className="card border-0">
+        <img src={Gen} className='img-fluid' alt="" />
+      </div>
+    </div>
+    <div className="col-md-6">
+      <div className="">
+      <h2 className='pb-5 fw-bold pt-2'>Lead Gen Marketing</h2>
+      <p className='fs-5 pb-5'>
+      Lead generation has changed a lot over the years. Getting people interested in your business isn't as simple as it once was. 
+      Our marketing experts create modern, leading-edge marketing strategies producing the results your business needs now and in the long term.
+      </p>
+      <div className="">
+
+      <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="container mb-5">
+  <div className="row">
+    <div className="col-md-6">
+      <div className="pt-3">
+      <div className="">
+      <h2 className='pb-5 fw-bold'>E-Commerce Marketing</h2>
+      <p className='fs-5 pb-5'>
+      eCommerce has changed the way people shop and consume products and services. There's a lot of competition in the eCommerce space, 
+      so it's crucial to have a partner who keeps your business goals top of mind and has the expertise to create a competitive marketing strategy.
+      </p>
+      <div className="">
+
+      <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div className="col-md-6">
+      <div className="card pt-3 border-0">
+      <img src={commerce} className='img-fluid' alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+</>
+      );
+}
+
+export default Digital;
