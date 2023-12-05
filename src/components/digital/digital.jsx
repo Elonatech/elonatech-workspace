@@ -23,7 +23,7 @@ import liquid from './captions/Liquidfish.webp';
 import star from './captions/Star-Rating-Icon.webp';
 import employee from './captions/Employees-Icon.webp';
 import shake from './captions/90.webp';
-import inc from './captions/Inc-500-1.webp';
+import inc from './captions/medal.1.png';
 import ad from './captions/Ad-Spend-Icon.webp';
 
 // ads 
@@ -83,16 +83,16 @@ const Digital = () => {
  </div>
  </div>
 {/* business */}
-<div className="container mt-5 mb-5">
+{/* <div className="container mt-5 mb-5">
   <div className="row g-0" style={{marginBottom:"4rem", marginTop:"4rem"}}>
     <div className="col-md-5">
       <div className="card border-0">
-        <img src="https://img.freepik.com/free-photo/marketing-strategy-connting-digital-devices-concept_53876-23053.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais" alt="" />
+        <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8983.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=sph" alt="" />
       </div>
     </div>
     <div className="col-md-7 "  style={{background:"#f8f8f8" ,height:"24rem"}}>
       <div className="p-3 ml-4">
-        {/* <h2 className="fw-bold pt-3">We help good businesses become GREAT.</h2> */}
+      
         <h2 className="fw-bold pt- ">Our digital marketing services help your business grow online leads, calls, and revenue.</h2>
         <div className="mt-2" style={{  width:"90px", height:"3px" , background:"#f00"}}></div>
 
@@ -110,29 +110,44 @@ const Digital = () => {
       </div>
     </div>
   </div>
+</div> */}
+
+<div className="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+    <div className="card border-0">
+        <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8983.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=sph" alt="" />
+      </div>
+     </div>
+    <div class="col-md-7">
+    <div className=" ml-md-4 my-md-0 my-3">
+        
+        <h2 className="fw-bold  ">Our digital marketing services help your business grow online leads, calls, and revenue.</h2>
+    
+        <p className="  fs-5" style={{textAlign:"justify"}}>
+        With Digital marketing, we have successfully changed the way brands and businesses use technology for marketing. Digital platforms are 
+        increasingly incorporated into marketing plans and everyday life, and with the high rise in the use of digital devices 
+        instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient.
+         
+         <br />
+         <br />
+        We achieve this aim by working closely with you to craft and deliver successful and bottom-lined oriented online 
+        marketing strategies which integrate customer needs, 
+        business objectives, and technology. 
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 {/* disruptive */}
-<div className="container mt-5 mb-5" style={{background:"#f8f8f8"}}>
-  <div className="row g-0" >
-    <div className="col-md-7 "  >
-      {/* <div className="card border-0" style={{background:"#f8f8f8"}}>
-      <div className="p-3 text-end">
-    <h2 className=' fw-bold pt-5'>The Disruptive Difference</h2>
-
-    <div className='d-flex justify-content-end'>
-    <div className="mt-4" style={{  width:"90px", height:"3px" ,margin:"" , background:"#f00"}}></div>
-    </div>
-        <p className="pt-3 pb-5 fs-5" style={{textAlign:"justify"}}>
-        We have a passion for people fueled by purpose. The brands and organizations we work with are supported to be world-changers by working with our innovative and empowered marketers. 
-        Businesses can truly make a positive impact by bringing unique solutions to the world. We've built an environment where employees and clients are empowered to learn, grow, and win.
-        </p>
-      </div>
-    </div> */}
-      <div className="card border-0" style={{background:"#f8f8f8" , height:"22rem"}}>
-      <div className="p-3 text-end">
+<div className="container">
+  <div class="row justify-content-center mt-md-5  flex-column-reverse flex-lg-row">
+    <div class="col-md-7">
+    <div className="card border-0" >
+      <div className=" text-end">
     
-        <p className="pt- pb- fs-5 mr-4" style={{textAlign:"justify"}}>
+        <p className=" fs-5 " style={{textAlign:"justify"}}>
         Developing effective digital marketing in any market is a tough, demanding, and technical undertaking. Hence the need to work with a Nigerian
         internet marketing agency with the experience, network, tools and know-how needed to achieve market success.
   
@@ -150,14 +165,17 @@ const Digital = () => {
         </p>
       </div>
     </div>
-    </div>
-    <div className="col-md-5">
-      <div className="card border-0">
-        <img src='https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' alt="" />
+     </div>
+    <div class="col-md-5">
+    <div className="card border-0">
+        <img src=' https://img.freepik.com/premium-photo/3d-social-media-digital-marketing-megpahone-with-blue-background_438535-129.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=sph' alt="" />
       </div>
     </div>
   </div>
 </div>
+
+
+
 {/* carousel */}
 <div className="container-fluid"  style={{background:"#f8f8f8"}}>
 <Swiper  
@@ -403,7 +421,7 @@ autoplay={{delay: 5000}}
   <li className='col-6 col-md-4 col-lg-2 pt-5'>
   <div className="">
   <div className="text-center">
-  <img src='https://img.freepik.com/premium-photo/pay-per-click-ppc-modern-method-promoting-advertising-internet_102583-4950.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid rounded-circle' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
+  <img src='https://img.freepik.com/free-vector/ppc-pay-per-click-flat-isometric_126523-1899.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=sph' className='img-fluid rounded-circle' style={{height:"180px", cursor:"pointer"}}  alt="" /> 
   <h3 className='pt-4' style={{cursor:"pointer"}}>PPC (pay-per-click)</h3>
   <p>We use advanced methods to direct traffic...</p>
   </div> 
@@ -463,7 +481,7 @@ Ready to discuss your project?
    <div className="text-center">
   <img src={star} className='img-fluid' alt="" /> 
   <h1 className='fs-1 fw-bold text-white pt-4'>4.8</h1>
-  <h6 className='text-white'>Average rating from 300 reviews on Clutch</h6>
+  <h6 className='text-white'>Average rating from 300 reviews </h6>
   </div> 
    </div> 
   </li>
@@ -471,7 +489,7 @@ Ready to discuss your project?
   <div className="">
   <div className="text-center">
   <img src={employee} className='img-fluid' style={{width:"6rem"}} alt="" /> 
-  <h1 className='fs-1 fw-bold text-white pt-4'>90+</h1>
+  <h1 className='fs-1 fw-bold text-white pt-4'>40+</h1>
   <h6 className='text-white'>Clients with us for 4 years or more</h6>
   </div> 
   </div> 
@@ -480,7 +498,7 @@ Ready to discuss your project?
   <div className="">
   <div className="text-center">
   <img src={shake} className='img-fluid' style={{width:"6rem"}} alt="" /> 
-  <h1 className='fs-1 fw-bold text-white pt-4'>160+</h1>
+  <h1 className='fs-1 fw-bold text-white pt-4'>20+</h1>
   <h6 className='text-white'>Employees aligned with our mission</h6>
   </div> 
   </div> 
@@ -488,13 +506,13 @@ Ready to discuss your project?
   <li className='col-6 col-md-4 col-lg-2 pt-2'>
   <div className="">
   <div className="text-center">
-  <img src={inc} className='img-fluid' style={{width:"5rem"}} alt="" /> 
-  <h1 className='fs-1 fw-bold text-white pt-4'>#145</h1>
-  <h6 className='text-white'>On the Inc. 500</h6>
+  <img src={inc} className='img-fluid text-white' style={{width:"5rem"}} alt="" /> 
+  <h1 className='fs-1 fw-bold text-white pt-4'>#5</h1>
+  <h6 className='text-white'>Industry Awards and Recognition</h6>
   </div> 
   </div> 
   </li>
-  <li className='col-6 col-md-4 col-lg-2'>
+  {/* <li className='col-6 col-md-4 col-lg-2'>
   <div className="">
   <div className="text-center">
   <img src={ad} className='img-fluid' style={{width:"6rem"}} alt="" /> 
@@ -502,7 +520,7 @@ Ready to discuss your project?
   <h6 className='text-white'>In annual ad-spend managed for clients</h6>
   </div> 
   </div>
-  </li>
+  </li> */}
 </ul>
 
   </div>
@@ -631,22 +649,31 @@ Ready to discuss your project?
 
 {/* e-commerce marketing */}
 <div className="container ">
-  <div className="row">
+  <div className="row mb-5">
     <div className="col-md-6">
       <div className="card border-0">
-        <img src={Gen} className='img-fluid' alt="" />
+        <img src='https://img.freepik.com/premium-photo/words-with-arrows-pointing-funnel_1205-344.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid' alt="" />
       </div>
     </div>
     <div className="col-md-6">
       <div className="">
-      <h2 className='pb-5 fw-bold pt-2'>Lead Gen Marketing</h2>
-      <p className='fs-5 pb-5'>
+      <h2 className='pb-3 fw-bold pt-2'>Lead Generation Marketing</h2>
+      <p className='fs-5 '>
       Lead generation has changed a lot over the years. Getting people interested in your business isn't as simple as it once was. 
       Our marketing experts create modern, leading-edge marketing strategies producing the results your business needs now and in the long term.
       </p>
+      <br />
+      <p className='fs-5 '>Here are key elements and strategies involved in lead generation marketing:</p>
+      <ul>
+        <li>Content Marketing</li>
+        <li>Search Engine Optimization (SEO)</li>
+        <li>Social Media Marketing</li>
+        <li>Email Marketing</li>
+        <li>Landing Pages</li>
+      </ul>
       <div className="">
 
-      <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button>
+      {/* <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button> */}
       </div>
       </div>
     </div>
@@ -654,25 +681,33 @@ Ready to discuss your project?
 </div>
 
 <div className="container mb-5">
-  <div className="row">
+  <div className="row flex-column-reverse flex-lg-row">
     <div className="col-md-6">
       <div className="pt-3">
       <div className="">
-      <h2 className='pb-5 fw-bold'>E-Commerce Marketing</h2>
-      <p className='fs-5 pb-5'>
+      <h2 className='pb-3 fw-bold'>E-Commerce Marketing</h2>
+      <p className='fs-5 '>
       eCommerce has changed the way people shop and consume products and services. There's a lot of competition in the eCommerce space, 
       so it's crucial to have a partner who keeps your business goals top of mind and has the expertise to create a competitive marketing strategy.
       </p>
+      <p className='fs-5 '>Here are key elements and strategies commonly used in e-commerce marketing</p>
+      <ul>
+        <li>Pay-Per-Click (PPC) Advertising</li>
+        <li>Influencer Marketing</li>
+        <li>Affiliate Marketing</li>
+        <li>Flash Sales and Promotions</li>
+        <li>Product Reviews and Ratings</li>
+      </ul>
       <div className="">
 
-      <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button>
+      {/* <button className='btn btn-dark  fs-5 ' style={{background:"#34548c", borderRadius:"5px"}}>TELL ME MORE <i class="bi bi-chevron-right ms-1"></i></button> */}
       </div>
       </div>
       </div>
     </div>
     <div className="col-md-6">
       <div className="card pt-3 border-0">
-      <img src={commerce} className='img-fluid' alt="" />
+      <img src='https://img.freepik.com/premium-photo/people-internet-bank-online-shopping-technology-e-money-concept-happy-african-american-young-woman-lying-floor-with-laptop-computer-credit-card-home-internet-icons_380164-100647.jpg?size=626&ext=jpg&ga=GA1.1.1903931542.1694762473&semt=ais' className='img-fluid' alt="" />
       </div>
     </div>
   </div>
