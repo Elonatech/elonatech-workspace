@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 // Import Swiper styles
 import 'swiper/css';
 
-import business from './captions/Solutions-Phoaato.webp';
+import rema from './captions/rema_360.jpg';
 import  disruptive from './captions/Solutions-Photo-1.webp';
 import master from './captions/Master-Muffler.webp';
 import quoteRight from './captions/quote-right.webp';
@@ -359,7 +359,7 @@ autoplay={{delay: 5000}}
     <div className="col-md-4" >
       <div className=" mt-5">
         <div className="text-center">
-       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Chunyere-Nganwuchu.jpg' alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
+       <img src= {rema} alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
         </div>
       </div>
     </div>
@@ -460,7 +460,7 @@ autoplay={{delay: 5000}}
 {/* Magenetic marketing */}
 <div className="container-fluid" style={{background:"#f00"}}>
 <div className='pt-5 pb-5'>
-<p className='fs-3 text-center text-white'>We Have A Passion For </p>
+<p className='fs-3 text-center text-white'>We Have A Passion For Our Clients</p>
 <p className='text-center text-white pt-2 fw-bold fs-1'>
 Ready to discuss your project?
 </p>
