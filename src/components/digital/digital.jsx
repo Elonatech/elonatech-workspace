@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css';
 
 import rema from './captions/rema_360.jpg';
-import  disruptive from './captions/Solutions-Photo-1.webp';
+import  remaben from './captions/remaben_480.jpg';
 import master from './captions/Master-Muffler.webp';
 import quoteRight from './captions/quote-right.webp';
 import quoteLeft from './captions/quote-left.webp';
@@ -319,7 +319,7 @@ autoplay={{delay: 5000}}
     <div className="col-md-4">
       <div className=" mt-5">
         <div className="text-center">
-       <img src='	https://elonatech.com.ng/wp-content/uploads/2021/08/Remeben-MD-1.png' alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
+       <img src={remaben} alt="" style={{height:"15rem",width:'15rem', borderRadius:'50%'}}/>
         </div>
       </div>
     </div>

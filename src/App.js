@@ -22,6 +22,7 @@ import Livestreaming from './components/Livestreaming/livestreaming';
 import Blog from './components/blog/blog'
 import Blogwrite from './components/blogWrite/blogWrite'
 import Digital from './components/digital/digital'
+import Login from './components/loginpage'
 
 
 const Layout = () =>{
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element: <Blog/>
+      },
+      {
+        path:'/login',
+        element: <Login/>
       },
       {
         path:'/digital',

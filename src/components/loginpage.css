@@ -1,0 +1,13 @@
+.input-password:focus {
+    outline: none;
+    border: none; /* Optional: removes the default border */
+  }
+  .input-password{
+    border: none;
+  }
+
+  .form{
+    background: #34548c;
+    padding: 5rem 2rem;
+    border-radius: 10px;
+  }
